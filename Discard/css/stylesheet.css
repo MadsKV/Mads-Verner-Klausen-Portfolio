@@ -1,0 +1,42 @@
+.userList{
+    margin-right: 10px;
+    padding: 5px;
+    float: right;
+    height: 750px;
+    width: 80px;
+    background-color: darkgray;
+    color: darkgray;
+}
+.roomList{
+    margin-left: 10px;
+    padding: 5px;
+    float: left;
+    height: 750px;
+    width: 80px;
+    background-color: darkgray;
+    color: darkgray;
+}
+.chatBox{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    height: 750px;
+    width: 1700px;
+    background-color: darkgray;
+    color: darkgray;
+}
+.logo{
+    padding: 5px;
+    font-size: 20px;
+}
+.msgBox{
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    height: 85px;
+    width: 1700px;
+    background-color: darkgray;
+    color: darkgray;
+}
