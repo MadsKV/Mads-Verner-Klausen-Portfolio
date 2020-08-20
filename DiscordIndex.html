@@ -27,28 +27,36 @@
 
     <div class="roomList">
         <nav class="nav">
-            <a class="nav-link active" href="#"><u>"H1 Tosserne"</u></a>
-            <a class="nav-link" href="#">"Gutterne"</a>
-            <a class="nav-link" href="#">"NSFW"</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">#Banned</a>
+            <button style="border-radius: 25px;" type="button" class="btn btn-primary">
+                "#H1-Tosserne" <span class="badge badge-light">2</span>
+            </button>
+            <button style="border-radius: 25px;" type="button" class="btn btn-primary">
+                "#Gutterne" <span class="badge badge-light">69</span>
+            </button>
+            <button style="border-radius: 25px;" type="button" class="btn btn-primary">
+                "#NSFW" <span class="badge badge-light">9</span>
+            </button>
+            <button style="border-radius: 25px; background-color: red;" type="button" class="btn btn-primary">
+                "BANNED" <span class="badge badge-light">X</span>
+            </button>
         </nav>
     </div>
 
     <div class="users">
         <div class="userList">
             <p>
-                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
-                    aria-expanded="false" aria-controls="multiCollapseExample1">Michael #6969</a><br>
-                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                <a style="border-radius: 25px;" class="btn btn-primary" data-toggle="collapse"
+                    href="#multiCollapseExample1" role="button" aria-expanded="false"
+                    aria-controls="multiCollapseExample1">Michael #6969</a><br>
+                <button style="border-radius: 25px;" class="btn btn-primary" type="button" data-toggle="collapse"
                     data-target="#multiCollapseExample1" aria-expanded="false"
                     aria-controls="multiCollapseExample1">Jack #1207</button>
-                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                <button style="border-radius: 25px;" class="btn btn-primary" type="button" data-toggle="collapse"
                     data-target="#multiCollapseExample1" aria-expanded="false"
                     aria-controls="mmultiCollapseExample1">benjamin #0839</button>
-                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                <button style="border-radius: 25px;" class="btn btn-primary" type="button" data-toggle="collapse"
                     data-target="#multiCollapseExample1" aria-expanded="false"
                     aria-controls="multiCollapseExample1">Simon #2716</button>
-
             </p>
             <div class="row">
                 <div class="col">
@@ -57,7 +65,7 @@
                             <u>Message:</u><br>
                             <u>Call:</u><br>
                             <u>Video Call:</u><br>
-                            <u>Report:</u><br>
+                            <u style="color: red;">Report:</u><br>
                         </div>
                     </div>
                 </div>
@@ -89,10 +97,12 @@
 
         <div id="sentMsgs">
             <div class="firstMsg">
-                <strong style="color: black;">13:32</strong> <em style="color: black;">Mads Verner Klausen :<br></em> Jeg vil gerne have en besked her god damhit <br>
+                <strong style="color: black;">Today 13:32</strong> <em style="color: black;"><u>Mads Verner Klausen
+                        :</u><br></em> Jeg vil gerne have en besked her god damhit <br>
             </div>
             <div class="secondMsg">
-                <strong style="color: black;">13:36</strong> <em style="color: black;">Stankelben Jack :<br></em> Jamen det får du da bare <br>
+                <strong style="color: black;">Today 13:36</strong> <em style="color: black;"><u>Stankelben Jack
+                        :</u><br></em> Jamen det får du da bare <br>
             </div>
         </div>
     </div>
@@ -103,7 +113,7 @@
     <div class="sendMsg">
         <div class="input">
             <form action="DiscordIndex.html" method="POST">
-                <div class="form-group" >
+                <div class="form-group">
                     <input style="margin-top: 2px; border-radius: 25px;" type="text" class="form-control"
                         placeholder="Message to #H1-Tosserne" id="exampleInputEmail1" aria-describedby="emailHelp">
                     <small id="emailHelp" style="float: right;" class="form-text text-muted"><strong>Type your message

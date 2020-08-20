@@ -17,7 +17,6 @@
     margin-top: 8px;
     float: right;
     color: darkgray;
-    background-color: rgb(235, 235, 235);
     height: 650px;
     width: 150px;
 }
@@ -25,7 +24,7 @@
     background-color: darkgray;
     color: rgb(65, 65, 65);
     border: black solid 2px;
-    
+    border-radius: 25px;
 }
 .msgBox{
     padding: 15px;
