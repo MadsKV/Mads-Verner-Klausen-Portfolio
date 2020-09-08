@@ -10,6 +10,7 @@
     width: 80px;
     background-color: darkgray;
     color: darkgray;
+    text-align: left;
 }
 .roomList{
     margin-left: 10px;
