@@ -24,7 +24,15 @@ namespace Discard__message_
                 Console.ForegroundColor
                 = ConsoleColor.DarkGray;
                 MessagesMethods.SelectAllMessage();
-                Console.WriteLine("Press 1 :Insert Message.\nPress 2 :Delete Message.\nPress 3 :Update Message.\nPress 4 :Show Message from user.\n\nPress 5 :Insert new Author.\nPress 6 :Delete Author.\nPress 7 :Update Author.\nPress 8 :Show Message from Author.\n");
+                Console.WriteLine("" +
+                    "Press 1 :Insert Message.\n" +
+                    "Press 2 :Delete Message.\n" +
+                    "Press 3 :Update Message.\n" +
+                    "Press 4 :Show Message from user.\n\n" +
+                    "Press 5 :Insert new Author.\n" +
+                    "Press 6 :Delete Author.\n" +
+                    "Press 7 :Update Author.\n" +
+                    "Press 8 :Show Message from Author.\n");
 
                 ConsoleKey pressedKey = PressedKey();
 
