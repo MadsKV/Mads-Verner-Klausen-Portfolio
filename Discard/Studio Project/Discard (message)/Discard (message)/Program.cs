@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Dynamic;
 using TECHCOOL;
 
 namespace Discard__message_
@@ -8,7 +10,20 @@ namespace Discard__message_
         static void Main(string[] args)
         {
             SQLet.ConnectSqlServer("Discard", @"MADS-V-KLAUSEN\MSSQLSERVER01");
+            Database.SetupSQLServer();
 
+            Database.GetMessages();
+            List<Message> beskeder = Database.GetMessages();
+            string beskedHTML = HTML_Generator.generateMessage(beskeder);
+            Console.WriteLine(beskedHTML);
+            List<Users> user = Database.GetUsers();
+            string userList = HTML_Generator.generateUser(user);
+            Console.WriteLine(user);
+            string userHTML = HTML_Generator.generateUser(user);
+            string index = HTML_Generator.generateIndex(beskeder, user);
+            Console.WriteLine(index);
+            System.IO.File.WriteAllText("C:/Users/MadsV/OneDrive/Dokumenter/GitHub/Mads-Verner-Klausen-Portfolio/Discard/Studio Project/Discard (message)/Discard (message)/HTML/test.html", index);
+            Console.ReadKey();
             const ConsoleKey keyInfo1 = ConsoleKey.D1;
             const ConsoleKey keyInfo2 = ConsoleKey.D2;
             const ConsoleKey keyInfo3 = ConsoleKey.D3;
@@ -20,7 +35,7 @@ namespace Discard__message_
 
             while (true)
             {
-                Console.Clear();
+                //Console.Clear();
                 Console.ForegroundColor
                 = ConsoleColor.DarkGray;
                 MessagesMethods.SelectAllMessage();
@@ -43,7 +58,10 @@ namespace Discard__message_
                         = ConsoleColor.Blue;
                         Console.Write("Enter new message > ");
                         string input = Console.ReadLine();
-                        MessagesMethods.insertMessage(input, 1);
+                        Console.Write("What author ID is this message connected to? > ");
+                        
+                        int messagesauthor = int.Parse(Console.ReadLine());
+                        MessagesMethods.insertMessage(input, messagesauthor);
                         break;
 
                     case keyInfo2:

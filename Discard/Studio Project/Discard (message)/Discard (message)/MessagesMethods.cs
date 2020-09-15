@@ -12,7 +12,7 @@ namespace Discard__message_
             string sql = @"
             INSERT INTO Messages (Message_text, Message_Author_ID, Message_Date)
             VALUES ('{0}', {1}, '{2}')";
-            string formatted = string.Format(sql, message, author, DateTime.Now);
+            string formatted = string.Format(sql, message, author, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             //Console.WriteLine(formatted);
             SQLet.Execute(formatted);
 
