@@ -27,17 +27,23 @@ namespace Discard__message_
                     ON DELETE Cascade
                     ON Update Cascade
                 )");
-            }
+            
+            SQLet.Execute(@"CREATE VIEW Discard_Info AS 
+                SELECT Message_Text, Message_ID, Message_Author_ID, Message_Date, Author.Author_Name 
+                FROM Messages 
+                INNER JOIN Author 
+                    ON Messages.Message_Author_ID=Author.Author_ID");
+             }
             catch(Microsoft.Data.SqlClient.SqlException)
             {
 
             }
-            
+
         }
         public static List<Message> GetMessages()
         {
             List<Message> messages = new List<Message>();
-            Result result = SQLet.GetResult("SELECT Message_Text, Message_ID, Message_Author_ID, Message_Date FROM Messages");
+            Result result = SQLet.GetResult(@"SELECT * FROM Discard_Info");
             int number = 0;
             foreach (var row in result)
             {
@@ -46,6 +52,10 @@ namespace Discard__message_
                 msg.Message_Date = DateTime.Parse(row["Message_Date"]); //Sætter Datoen på instansen til samme dato som fra databasen
                 int.TryParse(row["Message_ID"], out number); //Parser teksten fra MessageId om til et tal og lægger det i number
                 msg.Message_ID = number; //Putter tallet fra number over i MessageId på instansen
+
+                // Sæt propertien Users til en bruger instans
+                int.TryParse(row["Message_Author_ID"], out number);
+                msg.User = new Users(number, row["Author_Name"]);
 
                 //Tilføj instansen til listen
                 messages.Add(msg);

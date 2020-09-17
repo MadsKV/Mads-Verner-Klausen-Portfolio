@@ -9,18 +9,18 @@ namespace Discard__message_
     {
         static void Main(string[] args)
         {
-            SQLet.ConnectSqlServer("Discard", @"MADS-V-KLAUSEN\MSSQLSERVER01");
+            SQLet.ConnectSqlServer("Discard", @"MADS-V-KLAUSEN\MSSQLSERVER01", "SA", "Muskel-Jack");
             Database.SetupSQLServer();
 
             Database.GetMessages();
             List<Message> beskeder = Database.GetMessages();
-            string beskedHTML = HTML_Generator.generateMessage(beskeder);
+            string beskedHTML = HTML_Generator.GenerateMessage(beskeder);
             Console.WriteLine(beskedHTML);
             List<Users> user = Database.GetUsers();
-            string userList = HTML_Generator.generateUser(user);
+            string userList = HTML_Generator.GenerateUser(user);
             Console.WriteLine(user);
-            string userHTML = HTML_Generator.generateUser(user);
-            string index = HTML_Generator.generateIndex(beskeder, user);
+            string userHTML = HTML_Generator.GenerateUser(user);
+            string index = HTML_Generator.GenerateIndex(beskeder, user);
             Console.WriteLine(index);
             System.IO.File.WriteAllText("C:/Users/MadsV/OneDrive/Dokumenter/GitHub/Mads-Verner-Klausen-Portfolio/Discard/Studio Project/Discard (message)/Discard (message)/HTML/test.html", index);
             Console.ReadKey();
@@ -35,7 +35,7 @@ namespace Discard__message_
 
             while (true)
             {
-                //Console.Clear();
+                Console.Clear();
                 Console.ForegroundColor
                 = ConsoleColor.DarkGray;
                 MessagesMethods.SelectAllMessage();

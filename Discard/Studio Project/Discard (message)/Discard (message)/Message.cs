@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 
 namespace Discard__message_
@@ -10,7 +11,7 @@ namespace Discard__message_
         public int Message_Author_ID { get; set; }
         public string Message_Text { get; set; }
         public DateTime Message_Date { get; set; }
-
+        public Users User { get; set; }
 
         public Message(string message_Text, int message_Author_ID)
         {

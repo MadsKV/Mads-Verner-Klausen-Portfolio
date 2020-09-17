@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Discard (message)": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

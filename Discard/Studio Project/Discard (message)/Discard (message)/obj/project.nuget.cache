@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/RDZ8H4b6h2WEULippTfysHb3q01KaeNzY7opfnj6KVGBow7S32Y+NYqovUmENtU8rhokqEK+BQv2RJ83/p4qw==",
+  "dgSpecHash": "ljOOubEM0zkLzePm7XjFRR++aBajkCE0WMG3/QFH4rPeK2bLM7U8NF8kJm4Z1paanYiRbKeRefk/pPKapPizvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard (message)\\Discard (message)\\Discard (message).csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.6.0\\microsoft.identitymodel.tokens.5.6.0.nupkg.sha512",
     "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\MadsV\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
