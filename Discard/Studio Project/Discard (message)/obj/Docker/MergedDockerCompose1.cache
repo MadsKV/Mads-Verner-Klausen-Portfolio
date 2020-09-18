@@ -1,0 +1,29 @@
+services:
+  discardmessage:
+    build:
+      context: C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio
+        Project\Discard (message)
+      dockerfile: Discard (message)/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Discard (message)
+      target: base
+    container_name: Discard__message_
+    entrypoint: tail -f /dev/null
+    environment:
+      NUGET_FALLBACK_PACKAGES: ''
+    image: discardmessage:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/netcoreapp3.1/Discard
+        (message).dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    tty: true
+    volumes:
+    - C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio
+      Project\Discard (message)\Discard (message):/app:rw
+    - C:\Users\MadsV\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\MadsV\.nuget\packages:/root/.nuget/packages:ro
+version: '3.4'

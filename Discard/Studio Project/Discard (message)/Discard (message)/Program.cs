@@ -9,6 +9,13 @@ namespace Discard__message_
     {
         static void Main(string[] args)
         {
+            SQLet.ConnectSqlServer("Discard", @"MADS-V-KLAUSEN\MSSQLSERVER01");
+            RequestHandler requestHandler = new RequestHandler();
+            requestHandler.Start();
+            Console.Read();
+        }
+        static void Main_(string[] args)
+        {
             SQLet.ConnectSqlServer("Discard", @"MADS-V-KLAUSEN\MSSQLSERVER01", "SA", "Muskel-Jack");
             Database.SetupSQLServer();
 

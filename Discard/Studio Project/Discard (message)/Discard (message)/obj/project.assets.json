@@ -1434,7 +1434,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "TECHCOOL/1.0.2": {
+      "TECHCOOL/1.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.0",
@@ -5464,15 +5464,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "TECHCOOL/1.0.2": {
-      "sha512": "HWi98vTeuuZkq4ftltk1A55iengCq9tpsxRItC/eAOqePoylSq9fNIsrHNR5x7PM2PdGZsezvAKnJ2FmZDoTLw==",
+    "TECHCOOL/1.0.4": {
+      "sha512": "fUatXjj2Pz8QtS7FG2IOdzbSZ29jbqswsrPkOM84F/nIl+XOQ3H/6/pvqan+CWihZBUjSC7L+b/kdOGy5tolEA==",
       "type": "package",
-      "path": "techcool/1.0.2",
+      "path": "techcool/1.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netcoreapp3.1/TECHCOOL.dll",
-        "techcool.1.0.2.nupkg.sha512",
+        "techcool.1.0.4.nupkg.sha512",
         "techcool.nuspec"
       ]
     }
@@ -5480,7 +5480,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
-      "TECHCOOL >= 1.0.2"
+      "TECHCOOL >= 1.0.4"
     ]
   },
   "packageFolders": {
@@ -5526,7 +5526,7 @@
           },
           "TECHCOOL": {
             "target": "Package",
-            "version": "[1.0.2, )"
+            "version": "[1.0.4, )"
           }
         },
         "imports": [

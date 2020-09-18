@@ -61,3 +61,5 @@ C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\obj\Debug\netcoreapp3.1\Discard (message).dll
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\obj\Debug\netcoreapp3.1\Discard (message).pdb
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\obj\Debug\netcoreapp3.1\Discard (message).genruntimeconfig.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\obj\Debug\netcoreapp3.1\Discard (message).csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\bin\Debug\netcoreapp3.1\HTML\stylesheet.css

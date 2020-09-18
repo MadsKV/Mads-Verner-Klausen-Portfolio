@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ljOOubEM0zkLzePm7XjFRR++aBajkCE0WMG3/QFH4rPeK2bLM7U8NF8kJm4Z1paanYiRbKeRefk/pPKapPizvw==",
+  "dgSpecHash": "54ByNuTfJZNfTtPBIyrUIiljW49Lap+4C6zzhyfJ0zVegzfeNUB5UdV5q0tT0lDehr5MfN5i5U0veFL7sLjW2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard (message)\\Discard (message)\\Discard (message).csproj",
   "expectedPackageFiles": [
@@ -90,7 +90,7 @@
     "C:\\Users\\MadsV\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\MadsV\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\MadsV\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\MadsV\\.nuget\\packages\\techcool\\1.0.2\\techcool.1.0.2.nupkg.sha512"
+    "C:\\Users\\MadsV\\.nuget\\packages\\techcool\\1.0.4\\techcool.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }
