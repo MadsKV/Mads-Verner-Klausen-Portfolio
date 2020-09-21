@@ -1,8 +1,0 @@
-services:
-  discardmessage:
-    build:
-      context: C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio
-        Project\Discard (message)
-      dockerfile: Discard (message)/Dockerfile
-    image: discardmessage
-version: '3.4'

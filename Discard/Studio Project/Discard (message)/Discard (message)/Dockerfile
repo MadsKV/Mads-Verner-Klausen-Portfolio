@@ -17,4 +17,4 @@ RUN dotnet publish "Discard (message).csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Discard (message).dll"]
+ENTRYPOINT ["dotnet", "Discard (message).dll, "http://localhost:8080/"]

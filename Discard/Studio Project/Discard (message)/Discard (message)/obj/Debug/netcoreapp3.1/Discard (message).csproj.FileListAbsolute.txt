@@ -1,5 +1,4 @@
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\bin\Debug\netcoreapp3.1\Discard (message).exe
-C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\obj\Debug\netcoreapp3.1\Discard (message).csprojAssemblyReference.cache
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\obj\Debug\netcoreapp3.1\Discard (message).AssemblyInfoInputs.cache
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\obj\Debug\netcoreapp3.1\Discard (message).AssemblyInfo.cs
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Discard\Studio Project\Discard (message)\Discard (message)\bin\Debug\netcoreapp3.1\Discard (message).deps.json
