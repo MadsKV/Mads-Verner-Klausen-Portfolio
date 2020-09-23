@@ -17,4 +17,4 @@ RUN dotnet publish "Discard.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Discard.dll", "http://localhost:8080"]
+ENTRYPOINT ["dotnet", "Discard.dll", "http://localhost:80"]
