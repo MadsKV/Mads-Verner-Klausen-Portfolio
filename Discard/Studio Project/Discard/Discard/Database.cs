@@ -29,10 +29,12 @@ namespace Discard__message_
                 )");
             
             SQLet.Execute(@"CREATE VIEW Discard_Info AS 
-                SELECT Message_Text, Message_ID, Message_Author_ID, Message_Date, Author.Author_Name 
+                SELECT Message_Text, Message_ID, Message_Author_ID, Message_Date, sender.Author_Name, Recipient_ID, Recipient.Author_Name AS Recipient
                 FROM Messages 
                 INNER JOIN Author 
-                    ON Messages.Message_Author_ID=Author.Author_ID");
+                    AS sender ON Messages.Message_Author_ID=sender.Author_ID
+                    LEFT JOIN Author AS Recipient ON messages.Recipient_ID = Recipient.Author_ID
+                    ");
              }
             catch(Microsoft.Data.SqlClient.SqlException)
             {
@@ -43,7 +45,10 @@ namespace Discard__message_
         public static List<Message> GetMessages()
         {
             List<Message> messages = new List<Message>();
-            Result result = SQLet.GetResult(@"SELECT * FROM Discard_Info");
+            Result result = SQLet.GetResult(@$"SELECT * FROM Discard_Info
+                                              WHERE (Recipient_ID = 0 || Recipient_ID IS NULL
+                                              OR Recipient_ID == {Users.CurrentUserId}
+                                              OR Author_ID == {Users.CurrentUserId}");
             int number = 0;
             foreach (var row in result)
             {
@@ -55,7 +60,11 @@ namespace Discard__message_
 
                 // Sæt propertien Users til en bruger instans
                 int.TryParse(row["Message_Author_ID"], out number);
-                msg.User = new Users(number, row["Author_Name"]);
+                msg.Sender = new Users(number, row["Author_Name"]);
+
+
+                int.TryParse(row["Recipient_ID"], out number);
+                msg.recipient = new Users(number, row["Recipient"]);
 
                 //Tilføj instansen til listen
                 messages.Add(msg);
@@ -77,6 +86,44 @@ namespace Discard__message_
             }
 
             return users;
+        }
+        public static Users GetUserByLogin(string username)
+        {
+
+            Result result;
+
+            string sql = "";
+            username = username.Replace("'", "\'");
+            sql = string.Format("SELECT Author_ID, Author_Name FROM Author WHERE Author_Name = '{0}'", username);
+            try
+            {
+                result = SQLet.GetResult(sql);
+            }
+            catch (Microsoft.Data.SqlClient.SqlException e)
+            {
+                Logger.WriteToFile(e);
+                return null;
+            }
+
+            if (result.Count == 0)
+            {
+                return null;
+            }
+            Users user = new Users(int.Parse(result[0]["Author_ID"]), result[0]["Author_Name"]);
+            return user;
+        }
+
+        public static Users GetUser(int userID)
+        {
+            string sql = "";
+            sql = string.Format("SELECT Author_ID, Author_Name FROM Author WHERE Author_ID = '{0}'", userID);
+            Result result = SQLet.GetResult(sql);
+            if (result.Count == 0)
+            {
+                return null;
+            }
+            Users user = new Users(int.Parse(result[0]["Author_ID"]), result[0]["Author_Name"]);
+            return user;
         }
     }
 }

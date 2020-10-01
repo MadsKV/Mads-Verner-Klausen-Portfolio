@@ -54,55 +54,15 @@
                     </span>
                 </div>
                 <div id="sentMsgs" style="overflow-y: scroll ; height:90%">
-                    {{MessageWindow}}
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-            <div class="users">
-                <div class="userList" id="userList" style="overflow-y: scroll ; height:90%">
-                    <p>
-                        {{UserWindow}}
-                    </p>
-                    <div class="row">
-                        <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                <div class="card card-body">
-                                    <u>Message:</u><br>
-                                    <u>Call:</u><br>
-                                    <u>Video Call:</u><br>
-                                    <u style="color: red;">Report:</u><br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <form action="/" method="post">
+                        <input type="text" name="Author_Name" placeholder="Intast Brugernavn" />
+                        <input type="text" name="Password" placeholder="Intast Kodeord" />
+                        <input type="submit" value="Log Ind" />
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="sendMsg">
-        <div class="input">
-            <form action="/" method="POST"onsubmit="document.getElementById('Recipient_ID').value = document.location.hash.substr(1)">
-                <div class="form-group">
-                    <input name="msg" style="margin-top: 2px; border-radius: 25px; width: 90%; display: inline-block;" type="text"
-                           class="form-control" placeholder="Message to #H1-Tosserne" id="exampleInputEmail1"
-                           aria-describedby="emailHelp">
-                     <input hidden="hidden" name="Author_ID" value="{{USERID}}" >
-                     <input type="hidden" name="Recipient_ID" value="" id="Recipient_ID" />
-                    <button style="border-radius: 25px;" type="submit" class="btn btn-primary">Submit</button>
-                    <small id="emailHelp" style="float: left;" class="form-text text-muted">
-                        <strong>
-                            Type your message
-                            here.
-                            Please make sure to always use swear words in your text, especially if you wanna make your
-                            statements clear.
-                        </strong>
-                    </small>
-                </div>
-            </form>
-        </div>
-    </div>
-
     <div class="sendMsgBtn">
 
 
@@ -112,14 +72,14 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"></script>
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 
     <script>
         var objDiv = document.getElementById("sentMsgs");

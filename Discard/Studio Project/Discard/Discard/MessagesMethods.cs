@@ -7,12 +7,12 @@ namespace Discard__message_
 {
     class MessagesMethods
     {
-        public static void insertMessage(string message, int author)
+        public static void insertMessage(string message, int author, int recipientId = 0)
         {
             string sql = @"
-            INSERT INTO Messages (Message_text, Message_Author_ID, Message_Date)
-            VALUES ('{0}', {1}, '{2}')";
-            string formatted = string.Format(sql, message, author, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+            INSERT INTO Messages (Message_text, Message_Author_ID, Message_Date, Recipient_ID)
+            VALUES ('{0}', {1}, '{2}', '{3}')";
+            string formatted = string.Format(sql, message, author, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), recipientId);
             //Console.WriteLine(formatted);
             SQLet.Execute(formatted);
 
@@ -57,7 +57,7 @@ namespace Discard__message_
             SELECT * FROM Messages
             ORDER BY Message_ID DESC";
 
-
+            
             string formatted = string.Format(sql);
             //Console.WriteLine(formatted);
             Result result = SQLet.GetResult(formatted);

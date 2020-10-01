@@ -33,7 +33,7 @@ namespace Discard__message_
             string userList = HTML_Generator.GenerateUser(user);
             Console.WriteLine(user);
             string userHTML = HTML_Generator.GenerateUser(user);
-            string index = HTML_Generator.GenerateIndex(beskeder, user);
+            string index = HTML_Generator.GenerateIndex(beskeder, user, 0);
             Console.WriteLine(index);
             System.IO.File.WriteAllText("C:/Users/MadsV/OneDrive/Dokumenter/GitHub/Mads-Verner-Klausen-Portfolio/Discard/Studio Project/Discard (message)/Discard (message)/HTML/test.html", index);
             Console.ReadKey();
