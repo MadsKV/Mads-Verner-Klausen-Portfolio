@@ -56,7 +56,7 @@ namespace Discard__message_
             string sql = @"
             SELECT * FROM Messages
             ORDER BY Message_ID DESC";
-
+            
             
             string formatted = string.Format(sql);
             //Console.WriteLine(formatted);
