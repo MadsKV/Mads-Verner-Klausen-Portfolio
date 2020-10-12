@@ -20,7 +20,7 @@ namespace Discard__message_
             httplistener.Route("^[/]$", requestRoot);
             httplistener.Start();
         }
-        //Brugeren request localhost:8080
+        //Brugeren requester localhost:8080
         string requestRoot(Request r)
         {
             Users user = null;

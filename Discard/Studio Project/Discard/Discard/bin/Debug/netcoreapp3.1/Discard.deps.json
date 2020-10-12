@@ -9,7 +9,7 @@
       "Discard/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
-          "TECHCOOL": "1.0.4"
+          "TECHCOOL": "1.0.5"
         },
         "runtime": {
           "Discard.dll": {}
@@ -1004,15 +1004,15 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "TECHCOOL/1.0.4": {
+      "TECHCOOL/1.0.5": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.0",
           "Microsoft.Data.Sqlite": "3.1.7"
         },
         "runtime": {
           "lib/netcoreapp3.1/TECHCOOL.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
           }
         }
       }
@@ -1626,12 +1626,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "TECHCOOL/1.0.4": {
+    "TECHCOOL/1.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fUatXjj2Pz8QtS7FG2IOdzbSZ29jbqswsrPkOM84F/nIl+XOQ3H/6/pvqan+CWihZBUjSC7L+b/kdOGy5tolEA==",
-      "path": "techcool/1.0.4",
-      "hashPath": "techcool.1.0.4.nupkg.sha512"
+      "sha512": "sha512-CQMWKtqXNWLoEHWB5DrOkljeVmEJ2qLoDVB1dk3bhkwUZbZWWMdM6/h4UvZJ+7ciC6GZPumqbepOUiDLCoBotw==",
+      "path": "techcool/1.0.5",
+      "hashPath": "techcool.1.0.5.nupkg.sha512"
     }
   }
 }

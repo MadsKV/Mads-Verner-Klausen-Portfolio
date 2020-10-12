@@ -1434,7 +1434,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "TECHCOOL/1.0.4": {
+      "TECHCOOL/1.0.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.0",
@@ -5464,15 +5464,16 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "TECHCOOL/1.0.4": {
-      "sha512": "fUatXjj2Pz8QtS7FG2IOdzbSZ29jbqswsrPkOM84F/nIl+XOQ3H/6/pvqan+CWihZBUjSC7L+b/kdOGy5tolEA==",
+    "TECHCOOL/1.0.5": {
+      "sha512": "CQMWKtqXNWLoEHWB5DrOkljeVmEJ2qLoDVB1dk3bhkwUZbZWWMdM6/h4UvZJ+7ciC6GZPumqbepOUiDLCoBotw==",
       "type": "package",
-      "path": "techcool/1.0.4",
+      "path": "techcool/1.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "images/TECHCOOL.png",
         "lib/netcoreapp3.1/TECHCOOL.dll",
-        "techcool.1.0.4.nupkg.sha512",
+        "techcool.1.0.5.nupkg.sha512",
         "techcool.nuspec"
       ]
     }
@@ -5480,23 +5481,23 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
-      "TECHCOOL >= 1.0.4"
+      "TECHCOOL >= 1.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mads\\.nuget\\packages\\": {}
+    "C:\\Users\\MadsV\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj",
+      "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj",
       "projectName": "Discard",
-      "projectPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj",
-      "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Discard\\Studio Project\\Discard\\Discard\\obj\\",
+      "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj",
+      "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard\\Discard\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5526,7 +5527,7 @@
           },
           "TECHCOOL": {
             "target": "Package",
-            "version": "[1.0.4, )"
+            "version": "[1.0.5, )"
           }
         },
         "imports": [
@@ -5544,7 +5545,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

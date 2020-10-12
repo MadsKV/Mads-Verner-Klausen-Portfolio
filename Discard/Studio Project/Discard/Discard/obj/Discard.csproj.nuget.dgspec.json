@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj": {}
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj": {
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj",
         "projectName": "Discard",
-        "projectPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj",
-        "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Discard\\Studio Project\\Discard\\Discard\\obj\\",
+        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard\\Discard\\Discard.csproj",
+        "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Discard\\Studio Project\\Discard\\Discard\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,7 +44,7 @@
             },
             "TECHCOOL": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.5, )"
             }
           },
           "imports": [
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

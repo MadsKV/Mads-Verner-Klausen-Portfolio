@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+}
+
+/*Backgrounds billeder*/
+header.index{
+    background-image: url(https://images.unsplash.com/photo-1484041413168-4489d86c022c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80);
+    height: 105vh;
+    background-size: cover;
+    background-position: center;
+}
+/*Profil billede (Forside)*/
+.Image{
+    margin-left: 100px;
+    margin-top: 75px;
+}
+/*Portfolio/Navn*/
+.intro  h1{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: rgb(255, 251, 251);
+}
+.intro  h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: lightgray;
+}
+.inledning{
+    background-image: url(https://images.unsplash.com/photo-1594474716318-9c4d3bacf94b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+    background-color: rgb(187, 67, 67);
+    color: rgb(252, 191, 79);
+    background-size: cover;
+    background-position: center;
+}
+.evnerList{
+    margin: 0;
+}
+.evnerList li{
+    padding: 5px;
+}
+.udledning{
+    background-image: url(https://images.unsplash.com/photo-1574212379864-a593ba7019e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-color: rgb(10, 60, 124);
+    color: rgb(252, 191, 79);
+    background-size: cover;
+    background-position: center;
+}
+.udledning li{
+    padding: 5px;
+}
+.udledning h2{
+    margin: 0;
+    padding: 10px;
+}
+.uddanelse h2{
+    margin: 0;
+    padding: 10px;
+}
+
+
+/*Personlige oplysninger*/
+.pInfo{
+    text-align: center;
+    color: rgb(252, 191, 79);
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 15px;
+}
+.outro {
+    background-color: lightgray;
+}
+.outro a{
+    margin: 0;
+}
+.outro p{
+    margin: 0;
+}
+.quote{
+    color: rgb(252, 191, 79);
+}
+
+
+
+/* Buttons only */
+
+.button{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.hjem-button{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.btn-one{
+    background-color: rgb(121, 121, 121);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    transition: 2s;
+}
+
+.btn-two{
+    background-color: rgb(121, 121, 121);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    transition: 2s;
+}
+
+.btn-three{
+    background-color: rgb(121, 121, 121);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navigations Menu */
+.navMenu{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 950px;
+    padding: 10px;
+    position: fixed;
+}
+.navMenu li{
+    display: inline-block;
+}
+.navMenu li a{
+    color: lightgray;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.navMenu li.active a{
+    border: 2px solid lightgray;
+}
+.navMenu li a:hover {
+    border: 2px solid lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+*/
+
