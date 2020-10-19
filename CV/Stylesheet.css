@@ -9,6 +9,20 @@ header.index{
     background-size: cover;
     background-position: center;
 }
+.inledning{
+    background-image: url(https://images.unsplash.com/photo-1594474716318-9c4d3bacf94b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+    background-color: rgb(187, 67, 67);
+    color: rgb(252, 191, 79);
+    background-size: cover;
+    background-position: center;
+}
+.udledning{
+    background-image: url(https://images.unsplash.com/photo-1574212379864-a593ba7019e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-color: rgb(10, 60, 124);
+    color: rgb(252, 191, 79);
+    background-size: cover;
+    background-position: center;
+}
 /*Profil billede (Forside)*/
 .Image{
     margin-left: 100px;
@@ -28,25 +42,11 @@ header.index{
     margin-bottom: 10px;
     color: lightgray;
 }
-.inledning{
-    background-image: url(https://images.unsplash.com/photo-1594474716318-9c4d3bacf94b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
-    background-color: rgb(187, 67, 67);
-    color: rgb(252, 191, 79);
-    background-size: cover;
-    background-position: center;
-}
 .evnerList{
     margin: 0;
 }
 .evnerList li{
     padding: 5px;
-}
-.udledning{
-    background-image: url(https://images.unsplash.com/photo-1574212379864-a593ba7019e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-    background-color: rgb(10, 60, 124);
-    color: rgb(252, 191, 79);
-    background-size: cover;
-    background-position: center;
 }
 .udledning li{
     padding: 5px;
@@ -180,7 +180,7 @@ header.index{
 
 
 
-/*
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -205,5 +205,5 @@ header.index{
     clear: both;
     display: table;
   }
-*/
+
 

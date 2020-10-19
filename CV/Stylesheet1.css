@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+}
+
+/*Backgrounds billeder*/
+header.index{
+    background-image: url(https://images.unsplash.com/photo-1484041413168-4489d86c022c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80);
+    height: 105vh;
+    background-size: cover;
+    background-position: center;
+}
+footer#kontakt{
+    background-image: url(https://images.unsplash.com/photo-1597171174445-076222b9e3aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    height: 105vh;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    margin: 0;
+}
+/*Navigations Menu */
+.navMenu{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 950px;
+    padding: 10px;
+    position: fixed;
+}
+.navMenu li{
+    display: inline-block;
+}
+.navMenu li a{
+    color: lightgray;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.navMenu li.active a{
+    border: 2px solid lightgray;
+}
+.navMenu li a:hover {
+    border: 2px solid lightgray;
+}
+/*Profil billede (Forside)*/
+.Image{
+    margin-left: 60px;
+    margin-top: 45px;
+}
+/*Portfolio/Navn*/
+.intro  h1{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: rgb(255, 251, 251);
+}
+.intro  h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: lightgray;
+}
+/*Personlige oplysninger*/
+.pInfo{
+    text-align: center;
+    color: rgb(252, 191, 79);
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+/*Quote*/
+.quote{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.quote2{
+    margin: 0px;
+    color: rgb(252, 191, 79);
+}
+.outro p{
+    margin: 0px;
+}
+.border-left{
+    border: gray;
+    background-color: rgb(73, 73, 73);
+    color: lightgray;
+    width: 400px;
+    height: 105vh;
+    float: left;
+    margin-right: 20px;
+}
+.border-right{
+    border: gray;
+    background-color: rgb(73, 73, 73);
+    color: lightgray;
+    width: 400px;
+    height: 105vh;
+    float: right;
+    margin-left: 20px;
+    
+}
+.fritid a{
+    text-decoration: none;
+    color: blue;
+}
+.fritid ul{
+    display: inline;
+    margin: 10px;
+
+}
+.uddanelse h2{
+    margin: 0;
+}
+.uddanelse{
+    margin-left: 200px;
+}
+
+.inledning{
+    background-color: rgb(49, 49, 49);
+    color: white;
+
+}
+
+
+
+/* Buttons only */
+
+.button{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.hjem-button{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn-one{
+    background-color: rgb(121, 121, 121);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    transition: 2s;
+}
+
+.btn-two{
+    background-color: rgb(121, 121, 121);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    transition: 2s;
+}
+
+.btn-three{
+    background-color: rgb(121, 121, 121);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    transition: 2s;
+}
