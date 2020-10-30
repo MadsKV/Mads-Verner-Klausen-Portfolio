@@ -8,9 +8,7 @@ class Player {
     }
     jump() {
         if (this.y == height - this.r){
-            this.v = -50;
-            translate (width/2, height/2);
-            rotate(PI / 3.0);
+            this.v = -40;
         }
     }
 
@@ -25,7 +23,7 @@ class Player {
 
 
     show() {
-        fill(139,0,139);
+        fill(33, 150, 243);
         noStroke();
         //translate (width/2, height/2);
         //rotate(PI / 3.0);

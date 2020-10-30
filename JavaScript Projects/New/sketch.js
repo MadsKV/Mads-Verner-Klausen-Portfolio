@@ -17,7 +17,7 @@ function keyPressed() {
 
 function draw() {
   
-  background(119,136,153);
+  background(3, 19, 33);
   if (random(1) < 0.010) {
     temp = new Obstacle()
     obstacles.push(temp);
@@ -28,8 +28,9 @@ function draw() {
     i.show_obs();
     i.move_obs();
     if (player.hits(i)) {
-      background(230, 0, 0);
+      background(0, 0, 0);
       console.log("Game Over");
+      document.getElementById('restartBtn');
       noLoop();
     }
   }
