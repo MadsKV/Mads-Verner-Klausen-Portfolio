@@ -8,7 +8,12 @@ class Player {
     }
     jump() {
         if (this.y == height - this.r){
-            this.v = -40;
+            this.v = -50;
+            translate (width/2, height/2);
+            rotate(PI / 3.0);
+            var score = document.getElementById("p").textContent
+            score++
+            document.getElementById("p").innerHTML = score
         }
     }
 
@@ -25,9 +30,11 @@ class Player {
     show() {
         fill(33, 150, 243);
         noStroke();
-        //translate (width/2, height/2);
+        //translate(width / 2, height / 2);
         //rotate(PI / 3.0);
-        
+        //rect(-26, -26, 52, 52);
+
         rect(this.x, this.y, this.r, this.r);
+        
    }
 }

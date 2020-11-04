@@ -1,7 +1,12 @@
 let player;
 let obstacles = []
-
 let restartButton;
+var audio = new Audio('Gamesound.mp3');
+
+function preload() {
+  audio.play();
+  
+}
 
 function setup() {
   createCanvas(1535, 600);
@@ -30,12 +35,17 @@ function draw() {
     if (player.hits(i)) {
       background(0, 0, 0);
       console.log("Game Over");
+      audio.pause();
+      audio.currentTime = 0;
       document.getElementById('restartBtn');
       noLoop();
     }
   }
   player.show();
   player.move();
+}
 
+function gameOver() {
+  audio.currentTime = 0;
 
 }

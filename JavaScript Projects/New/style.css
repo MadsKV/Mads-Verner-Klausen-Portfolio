@@ -24,13 +24,14 @@ canvas
 /*ScoreBoard(Counter)*/
 #p
 {
-    font-size: 30px;
+    font-size: 50px;
     position: absolute;
-    right: 90px;
     top: 40px;
     text-transform: uppercase;
-    color: white;
+    color: #2196f3;
+    margin: 30px;
 }
+
 
 
 /*Restart Button (Neon Feature*/
