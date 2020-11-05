@@ -1,11 +1,13 @@
 let player;
 let obstacles = []
 let restartButton;
+let isJumping = false;
 var audio = new Audio('Gamesound.mp3');
+var endAudio = new Audio('EndSound.mp3');
+let backgroundclr = background(3, 19, 33);
 
 function preload() {
   audio.play();
-  
 }
 
 function setup() {
@@ -16,12 +18,12 @@ function setup() {
 
 function keyPressed() {
   if (key == ' ') {
+    player.isPlayerJumping();
     player.jump();
   }
 }
 
 function draw() {
-  
   background(3, 19, 33);
   if (random(1) < 0.010) {
     temp = new Obstacle()
@@ -37,6 +39,7 @@ function draw() {
       console.log("Game Over");
       audio.pause();
       audio.currentTime = 0;
+      endAudio.play();
       document.getElementById('restartBtn');
       noLoop();
     }
@@ -47,5 +50,4 @@ function draw() {
 
 function gameOver() {
   audio.currentTime = 0;
-
 }

@@ -1,23 +1,30 @@
 class Player {
+    
     constructor() {
         this.r = 40;
         this.x = 170;
         this.y = height - this.r;
         this.v = 0;
         this.gravity = 8.5;
+        let isJumping = false;
     }
-    rotate() {
+    animation() {
         translate (width / 2, height / 2);
         rotate(PI / 3.0);
     }
 
     jump() {
-        if (this.y == height - this.r){
-            this.v = -50;
-            console.log("Hop");
-            var score = document.getElementById("p").textContent
-            score++
+        isJumping = true;
+        var score = document.getElementById("p").textContent
+            score++;
             document.getElementById("p").innerHTML = score
+    }
+
+    isPlayerJumping() {
+        if (this.y == height - this.r)
+        {
+            this.v = -50;
+            
         }
     }
 
@@ -29,7 +36,6 @@ class Player {
         this.v += this.gravity;
         this.y =constrain(this.y, 0, height - this.r);
     }
-
 
     show() {
         fill(33, 150, 243);
