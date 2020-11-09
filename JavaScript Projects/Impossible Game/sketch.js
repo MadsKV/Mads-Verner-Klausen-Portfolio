@@ -2,10 +2,10 @@ let player;
 let obstacles = []
 let restartButton;
 let isJumping = false;
-//var audio = new Audio('Ninjaneers -I just wanna smile.mp3');
-//var audio2 = new Audio('Syn Cole - Feel Good.mp3');
 var endAudio = new Audio('EndSound.mp3');
 const audio = document.querySelector("#music_list audio");
+//var audio = new Audio('Ninjaneers -I just wanna smile.mp3');
+//var audio2 = new Audio('Syn Cole - Feel Good.mp3');
 
 function startGame() {
   document.getElementById("StartBtn").style.display="none";
