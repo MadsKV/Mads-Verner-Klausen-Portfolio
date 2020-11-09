@@ -10,7 +10,7 @@ class Obstacle {
     }
 
     show_obs() {
-        fill(90);
+        fill(180);
         //rotate(HALF_PI / 3.0);
         rect(this.x, this.y, this.r, this.r);
     }

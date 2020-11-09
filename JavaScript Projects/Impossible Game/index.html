@@ -10,6 +10,7 @@
 
   <script src="libraries/p5.min.js"></script>
   <script src="libraries/p5.sound.min.js"></script>
+  <script src="libraries/p5.dom.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>
 </head>
 
@@ -17,24 +18,33 @@
   <div id="intro">
     <h1><em>Impossible Game (On a budget)</em></h1>
   </div>
+  <div id="music_list">
+    <audio controls autoplay></audio>
+  </div>
   <div id="score">
     <p id="p">0</p>
   </div>
-  <a href=" ">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    Restart
+  <div id="btnContainer">
+    <button id="startBtn">Start Game</button>
+  </div>
+  <div id="restartBtn">
+    <a href=" ">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Restart
+  </div>
   </a>
   <script>
-    
+
 
   </script>
   <script src="sketch.js"></script>
   <script src="player.js"></script>
   <script src="obstacle.js"></script>
   <script src="scoreBoard.js"></script>
+
 </body>
 
 </html>

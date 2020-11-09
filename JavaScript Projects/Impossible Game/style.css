@@ -1,0 +1,363 @@
+html, body 
+{
+    background: black;
+  margin: 0;
+  padding: 0;
+}
+
+canvas 
+{
+  display: block;
+}
+
+@keyframes animateC
+{
+    0%
+    {
+        filter: hue-rotate(360deg);
+    }
+    100%
+    {
+        filter: hue-rotate(0deg);
+    }
+}
+/*Audio List*/
+#music_list{
+    display: none;
+}
+/*Game Title*/
+#intro h1
+{
+  position: absolute;
+  text-align: center;
+  border: 5px #2196f3 solid;
+  background-color: #015eaa;
+  margin-left: 630px;
+  margin-right: 630px;
+  font-family: cursive;
+  text-shadow: 0 0 50px #2196f3,
+                 0 0 100px #2196f3,
+                 0 0 150px #2196f3,
+                 0 0 200px #2196f3,
+                 0 0 250px #2196f3;
+  animation: animate 0.5s linear infinite;
+}
+
+@keyframes animateH
+{
+    0%
+    {
+        filter: hue-rotate(360deg);
+    }
+    100%
+    {
+        filter: hue-rotate(0deg);
+    }
+}
+/*ScoreBoard(Counter)*/
+#p
+{
+    font-size: 50px;
+    position: absolute;
+    text-transform: uppercase;
+    color: #2196f3;
+    margin: 30px;
+    text-shadow: 0 0 50px #2196f3,
+                 0 0 100px #2196f3,
+                 0 0 150px #2196f3,
+                 0 0 200px #2196f3,
+                 0 0 250px #2196f3;
+
+    animation: animate 0.5s linear infinite;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        filter: hue-rotate(360deg);
+    }
+    100%
+    {
+        filter: hue-rotate(0deg);
+    }
+}
+
+#startBtn{
+    margin-left: 670px;
+    margin-right: 630px;
+    margin-top: 300px;
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: 4px solid;
+    color: #3498db;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 22px;
+    position: absolute;
+
+
+    text-shadow: 0 0 50px #2196f3,
+    0 0 100px #2196f3,
+    0 0 150px #2196f3,
+    0 0 200px #2196f3,
+    0 0 250px #2196f3;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #2196f3);
+    animation: animates 0.5s linear infinite;
+  }
+  
+  #startBtn::before,#startBtn::after{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #353b48;
+    transform: skewX(50deg);
+    
+    transition: .3s linear;
+  }
+  
+  #startBtn::before{
+    top: -4px;
+    left: 10%;
+  }
+  
+  #startBtn::after{
+    bottom: -4px;
+    right: 10%;
+  }
+  
+  #startBtn:hover::before{
+    left: 80%;
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.2s;
+    animation: animateH 2s linear infinite;
+  }
+  
+  #startBtn:hover::after{
+    right: 80%;
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.2s;
+    animation: animateH 2s linear infinite;
+  }
+  @keyframes animateH
+{
+    0%
+    {
+        filter: hue-rotate(160deg);
+    }
+    100%
+    {
+        filter: hue-rotate(30deg);
+    }
+}
+
+/*Start Button (Neon Feature)*/
+
+/*b
+{
+  position: absolute;
+  margin-left: 630px;
+  margin-right: 630px;
+  margin-top: 150px;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 74px;
+  overflow: hidden;
+  transition: 0.2;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  animation: animates 5s linear infinite;
+}
+b:hover {
+  color: #255784;
+  background: #2196f3;
+  cursor: pointer;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1.4s;
+}
+b span 
+{
+    position: absolute;
+    display: block;
+}
+b span:nth-child(1)
+{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+}
+b:hover span:nth-child(1)
+{
+    left: 100%;
+    transition: 2s;
+}
+b span:nth-child(2)
+{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);
+}
+b:hover span:nth-child(2)
+{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+b span:nth-child(3)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+}
+b:hover span:nth-child(3)
+{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 1s;
+}
+b span:nth-child(4)
+{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #2196f3);
+}
+b:hover span:nth-child(4)
+{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+@keyframes animates
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+*/
+/*Restart Button (Neon Feature)*/
+
+#restartBtn {
+    display: none;
+    
+
+}
+a 
+{
+  position: absolute;
+  margin-left: 560px;
+  margin-right: 630px;
+  margin-top: 150px;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 74px;
+  overflow: hidden;
+  transition: 0.2;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  animation: animates 5s linear infinite;
+}
+a:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1.4s;
+}
+a span 
+{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1)
+{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+}
+a:hover span:nth-child(1)
+{
+    left: 100%;
+    transition: 2s;
+}
+a span:nth-child(2)
+{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);
+}
+a:hover span:nth-child(2)
+{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+a span:nth-child(3)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+}
+a:hover span:nth-child(3)
+{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 1s;
+}
+a span:nth-child(4)
+{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #2196f3);
+}
+a:hover span:nth-child(4)
+{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+@keyframes animates
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}

@@ -1,5 +1,6 @@
 class Player {
     
+
     constructor() {
         this.r = 40;
         this.x = 170;
@@ -23,9 +24,8 @@ class Player {
     isPlayerJumping() {
         if (this.y == height - this.r)
         {
-            this.v = -50;
-            
         }
+        this.v = -50;  
     }
 
     hits(obstacles) {
@@ -38,6 +38,9 @@ class Player {
     }
 
     show() {
+        let style = color(33, 150, 143);
+
+
         fill(33, 150, 243);
         noStroke();
         rect(this.x, this.y, this.r, this.r);
