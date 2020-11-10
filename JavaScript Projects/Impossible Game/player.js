@@ -21,7 +21,8 @@ class Player {
 
   isPlayerJumping() {
     if (this.y == height - this.r) {
-      this.v = -50;
+        this.v = -50;
+        this.v ++;
     }
   }
 
