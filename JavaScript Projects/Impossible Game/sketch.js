@@ -14,6 +14,7 @@ function startGame() {
 //Creates the array of gamesounds(songs).
 function setupAudio() {
   var audioFiles = [
+    "Caramella Girls - Caramelldansen Swedish Original (Official.mp3)",
     "Fox Stevenson - Go Like (D&B Mix).mp3",
     "Ninjaneers -I just wanna smile.mp3",
     "Syn Cole - Feel Good.mp3",
