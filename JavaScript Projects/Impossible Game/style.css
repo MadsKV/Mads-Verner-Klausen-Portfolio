@@ -9,14 +9,7 @@ canvas {
   display: block;
 }
 
-@keyframes animateC {
-  0% {
-    filter: hue-rotate(360deg);
-  }
-  100% {
-    filter: hue-rotate(0deg);
-  }
-}
+
 
 /*Audio List*/
 #music_list {
@@ -37,14 +30,7 @@ canvas {
   animation: animate 0.5s linear infinite;
 }
 
-@keyframes animateH {
-  0% {
-    filter: hue-rotate(360deg);
-  }
-  100% {
-    filter: hue-rotate(0deg);
-  }
-}
+
 
 /*ScoreBoard(Counter)*/
 #p {
@@ -90,7 +76,6 @@ canvas {
   animation: animates 0.5s linear infinite;
 }
 
-#startBtn::before,
 #startBtn::after {
   content: "";
   position: absolute;
