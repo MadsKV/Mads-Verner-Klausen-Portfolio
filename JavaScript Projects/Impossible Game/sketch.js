@@ -4,12 +4,11 @@ let restartButton;
 let isJumping = false;
 var endAudio = new Audio("EndSound.mp3");
 const audio = document.querySelector("#music_list audio");
-//var audio = new Audio('Ninjaneers -I just wanna smile.mp3');
-//var audio2 = new Audio('Syn Cole - Feel Good.mp3');
 
-//Gives the player the "Start Button" to activate the game/sound files/obstacles.
+//Gives the player the "Start Button" to activate the game.
 function startGame() {
   document.getElementById("StartBtn").style.display = "none";
+  document.getElementById("StartBtn").onclick.display = "none";
 }
 //Creates the array of gamesounds(songs).
 function setupAudio() {
@@ -46,6 +45,7 @@ function setupAudio() {
 }
 //Preloads the songs when opening the browser.
 function preload() {
+  startGame();
   setupAudio();
   next();
 }
