@@ -45,9 +45,9 @@ function setupAudio() {
 }
 //Preloads the songs when opening the browser.
 function preload() {
-  startGame();
   setupAudio();
   next();
+  startGame();
 }
 //creates the canvas and declares the classes.
 function setup() {

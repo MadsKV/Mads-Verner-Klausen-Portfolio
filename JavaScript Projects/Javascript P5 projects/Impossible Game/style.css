@@ -55,6 +55,15 @@ canvas {
 }
 
 /*Start button, animation featured*/
+
+.hide{
+  display:none;
+  }
+  
+  .show{
+  display:block;
+  }
+
 #startBtn {
   margin-left: 670px;
   margin-right: 630px;
@@ -75,7 +84,54 @@ canvas {
   -webkit-box-reflect: below 1px linear-gradient(transparent, #2196f3);
   animation: animates 0.5s linear infinite;
 }
+#startBtn{
+  width: 200px;
+  height: 60px;
+  background: none;
+  border: 4px solid;
+  color: #3498db;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+}
 
+#startBtn::before,#startBtn::after{
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 4px;
+  background: #353b48;
+  transform: skewX(50deg);
+  transition: 0.3s linear;
+}
+
+#startBtn::before{
+  top: -4px;
+  left: 10%;
+}
+
+#startBtn::after{
+  bottom: -4px;
+  right: 10%;
+}
+
+#startBtn:hover::before{
+  left: 80%;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0.2s;
+  animation: animateH 2s linear infinite;
+}
+
+#startBtn:hover::after{
+  right: 80%;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0.2s;
+  animation: animateH 2s linear infinite;
+}
+
+/*
 #startBtn::after {
   content: "";
   position: absolute;
@@ -114,6 +170,7 @@ canvas {
   transition-delay: 0.2s;
   animation: animateH 2s linear infinite;
 }
+*/
 @keyframes animateH {
   0% {
     filter: hue-rotate(160deg);
@@ -216,10 +273,3 @@ a:hover span:nth-child(4) {
 
 
 
-.hide{
-  display:none;
-  }
-  
-  .show{
-  display:block;
-  }
