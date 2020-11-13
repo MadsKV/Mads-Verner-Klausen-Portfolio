@@ -59,19 +59,19 @@ let GameManager = {
       classType.toLowerCase() +
       '.png" class="img-avatar"><div><h3>' +
       classType +
-      "</h3><p>health: " +
+      "</h3><p>Health: " +
       player.health +
-      "</p><p>mana: " +
+      "</p><p>Mana: " +
       player.mana +
-      "</p><p>strength: " +
+      "</p><p>Strength: " +
       player.strength +
-      "</p><p>agility: " +
+      "</p><p>Agility: " +
       player.agility +
-      "</p><p>speed: " +
+      "</p><p>Speed: " +
       player.speed +
-      "</p><p>stamina: " +
+      "</p><p>Stamina: " +
       player.stamina +
-      "</p><p>charge: " +
+      "</p><p>Charge: " +
       player.charge +
       "</p></div>";
   },
@@ -98,7 +98,6 @@ let GameManager = {
     let enemy05 = new Enemy("Night Elver", 90, 150, 80, 60, 100, 100, 100);
     let enemy06 = new Enemy("Orc", 200, 50, 80, 40, 110, 100, 100);
     let enemy07 = new Enemy("Tauren", 350, 80, 40, 60, 80, 100, 100);
-    let enemy08 = new Enemy("Warewolf", 165, 110, 80, 150, 120, 100, 100);
     let enemy08 = new Enemy("Warewolf", 165, 110, 80, 150, 120, 100, 100);
     let enemy09 = new Enemy("Fire Elemental", 180, 110, 65, 95, 120, 100, 100);
 
@@ -139,12 +138,13 @@ let GameManager = {
     getHeader.innerHTML = "<p>Task: Choose your move</p>";
     getActions.innerHTML =
       '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack</a>';
+
     getEnemy.innerHTML =
-      '<img src="images/enemies/' +
+      '<img src="images/Enemies/' +
       enemy.enemyType.toLowerCase() +
-      '.png" alt="' +
+      '.jpg" alt="' +
       enemy.enemyType +
-      '"class="img-avatar><div><h3>' +
+      '" class="img-avatar"><div><h3>' +
       enemy.enemyType +
       '</h3><p class="health-enemy">Health: ' +
       enemy.health +
@@ -156,6 +156,10 @@ let GameManager = {
       enemy.agility +
       "</p><p>Speed: " +
       enemy.speed +
+      "</p><p>Stamina: " +
+      enemy.stamina +
+      "</p><p>Charge: " +
+      enemy.charge +
       "</p></div>";
   },
 };
