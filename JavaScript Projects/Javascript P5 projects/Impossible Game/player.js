@@ -7,10 +7,6 @@ class Player {
     this.gravity = 8.5;
     let isJumping = false;
   }
-  animation() {
-    translate(width / 2, height / 2);
-    rotate(PI / 3.0);
-  }
 
   jump() {
     isJumping = true;
@@ -21,8 +17,19 @@ class Player {
 
   isPlayerJumping() {
     if (this.y == height - this.r) {
-        this.v = -50;
-        this.v ++;
+    }
+    this.v = -50;
+  }
+  animation() {
+    this.playerAnimation;
+  }
+  playerAnimation() {
+    if (isJumping == true) {
+      console.log("Jump");
+      translate(width / 2, height / 2);
+      rotate(PI / 3.0);
+
+      isJumping = IsPlayerJumping();
     }
   }
 

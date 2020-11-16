@@ -2,23 +2,21 @@ let player;
 let obstacles = [];
 let restartButton;
 let isJumping = false;
-var endAudio = new Audio("EndSound.mp3");
+var endAudio = new Audio("audio/EndSound.mp3");
 const audio = document.querySelector("#music_list audio");
 
 //Gives the player the "Start Button" to activate the game.
 function startGame() {
-  document.getElementById("StartBtn").style.display = "none";
-  document.getElementById("StartBtn").onclick.display = "none";
 }
 //Creates the array of gamesounds(songs).
 function setupAudio() {
   var audioFiles = [
-    "Caramella Girls - Caramelldansen Swedish Original (Official).mp3",
-    "Fox Stevenson - Go Like (D&B Mix).mp3",
-    "Ninjaneers -I just wanna smile.mp3",
-    "Syn Cole - Feel Good.mp3",
-    "Alan Walker - Spectre.mp3",
-    "DEAF KEV - Invincible.mp3",
+    "audio/Syn Cole - Feel Good.mp3",
+    "audio/DEAF KEV - Invincible.mp3",
+    "audio/Fox Stevenson - Go Like (D&B Mix).mp3",
+    "audio/Caramella Girls - Caramelldansen Swedish Original (Official).mp3",
+    "audio/Ninjaneers -I just wanna smile.mp3",
+    "audio/Alan Walker - Spectre.mp3",
   ];
 
   var i = 0;
@@ -46,7 +44,6 @@ function setupAudio() {
 //Preloads the songs when opening the browser.
 function preload() {
   setupAudio();
-  next();
   startGame();
 }
 //creates the canvas and declares the classes.
@@ -60,6 +57,7 @@ function keyPressed() {
   if (key == " ") {
     player.isPlayerJumping();
     player.jump();
+    player.animation();
   }
 }
 //Draws the background, player and obstacles. The obstacles are spawning in randomly every 10% of the time.
@@ -75,7 +73,7 @@ function draw() {
 
   gameOver();
 }
-//checks if the player have hit one of the obstacles. If he have, stop the game, audio and start playing the end-song also shows the restart button.
+//checks if the player have hit one of the obstacles. If it have, stop the game, audio and start playing the end-song also shows the restart button.
 function gameOver() {
   for (let i of obstacles) {
     i.show_obs();
