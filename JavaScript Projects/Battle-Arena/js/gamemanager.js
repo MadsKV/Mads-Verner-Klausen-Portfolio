@@ -59,7 +59,7 @@ let GameManager = {
       classType.toLowerCase() +
       '.png" class="img-avatar"><div><h3>' +
       classType +
-      "</h3><p>Health: " +
+      "</h3><p class='health-player'>Health: " +
       player.health +
       "</p><p>Mana: " +
       player.mana +
