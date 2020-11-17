@@ -10,8 +10,11 @@ class Obstacle {
   }
 
   show_obs() {
-    fill(180);
-    //rotate(HALF_PI / 3.0);
+    push();
+    translate(20, 15);
     rect(this.x, this.y, this.r, this.r);
+    fill(180);
+    pop();
+    //rotate(HALF_PI / 3.0);
   }
 }

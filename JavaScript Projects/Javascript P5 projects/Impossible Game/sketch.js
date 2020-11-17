@@ -1,9 +1,9 @@
 let player;
 let obstacles = [];
 let restartButton;
-let isJumping = false;
 var endAudio = new Audio("audio/EndSound.mp3");
 const audio = document.querySelector("#music_list audio");
+
 
 //Gives the player the "Start Button" to activate the game.
 function startGame() {
@@ -45,6 +45,7 @@ function setupAudio() {
 function preload() {
   setupAudio();
   startGame();
+  
 }
 //creates the canvas and declares the classes.
 function setup() {
@@ -54,22 +55,22 @@ function setup() {
 }
 //Makes the spacebar the jump function, also uses the "player" class to check if the player is currently jumping.
 function keyPressed() {
-  if (key == " ") {
-    player.isPlayerJumping();
+  if (key == " " && player.isPlayerJumping()) {
     player.jump();
-    player.animation();
   }
 }
 //Draws the background, player and obstacles. The obstacles are spawning in randomly every 10% of the time.
 function draw() {
   background(3, 19, 33);
+  rectMode(CENTER);
   if (random(1) < 0.01) {
     temp = new Obstacle();
     obstacles.push(temp);
     console.log(temp);
   }
-  player.show();
   player.move();
+  player.show();
+  player.animation();
 
   gameOver();
 }
