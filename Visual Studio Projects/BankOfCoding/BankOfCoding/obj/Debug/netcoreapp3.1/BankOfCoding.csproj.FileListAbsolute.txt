@@ -1,0 +1,13 @@
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\bin\Debug\netcoreapp3.1\BankOfCoding.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\bin\Debug\netcoreapp3.1\BankOfCoding.deps.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\bin\Debug\netcoreapp3.1\BankOfCoding.runtimeconfig.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\bin\Debug\netcoreapp3.1\BankOfCoding.runtimeconfig.dev.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\bin\Debug\netcoreapp3.1\BankOfCoding.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\bin\Debug\netcoreapp3.1\BankOfCoding.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\obj\Debug\netcoreapp3.1\BankOfCoding.csprojAssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\obj\Debug\netcoreapp3.1\BankOfCoding.AssemblyInfoInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\obj\Debug\netcoreapp3.1\BankOfCoding.AssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\obj\Debug\netcoreapp3.1\BankOfCoding.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\obj\Debug\netcoreapp3.1\BankOfCoding.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\obj\Debug\netcoreapp3.1\BankOfCoding.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\BankOfCoding\BankOfCoding\obj\Debug\netcoreapp3.1\BankOfCoding.genruntimeconfig.cache
