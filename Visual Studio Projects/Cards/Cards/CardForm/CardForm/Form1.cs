@@ -18,6 +18,22 @@ namespace CardForm
         {
             InitializeComponent();
         }
+        public static SqlConnection Connection()
+        {
+            SqlConnectionStringBuilder builder =
+            new SqlConnectionStringBuilder();
+
+            //Finds and Uses the correct Database
+            builder.DataSource = @"MADS-V-KLAUSEN\MSSQLSERVER01";
+            //builder.DataSource = @"DESKTOP-CHHJASV\SQLEXPRESS";
+            builder.InitialCatalog = "Cards";
+            builder.IntegratedSecurity = true;
+
+            //Opens the database's connection
+            SqlConnection connection = new SqlConnection(builder.ConnectionString);
+            connection.Open();
+            return connection;
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -35,12 +51,13 @@ namespace CardForm
             deck.FillDeck();
             deck.PrintDeck();
 
+            string newLine = Environment.NewLine;
+
             textWindow.Text = deck.PrintDeck();
-
-
-
-
-
+            
+            
+            
+            
 
 
 
@@ -105,18 +122,10 @@ namespace CardForm
             textWindow.ScrollBars = ScrollBars.Vertical;
         }
 
+
         public void Database_Click(object sender, EventArgs e)
         {
-            SqlConnectionStringBuilder builder =
-            new SqlConnectionStringBuilder();
-
-            builder.DataSource = @"MADS-V-KLAUSEN\MSSQLSERVER01";
-            builder.InitialCatalog = "Cards";
-            builder.IntegratedSecurity = true;
-
-            SqlConnection connection = new SqlConnection(builder.ConnectionString);
-            connection.Open();
-
+            SqlConnection connection = Connection();
             string c = (Console.ReadLine());
             string t = (Console.ReadLine());
             string o = (Console.ReadLine());

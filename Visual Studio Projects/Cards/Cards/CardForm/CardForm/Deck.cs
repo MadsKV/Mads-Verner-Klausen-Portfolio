@@ -1,10 +1,11 @@
-﻿using CardForm;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace CardForm
 {
-
     public class Card
 	{
 		public enum Suites
@@ -75,26 +76,22 @@ public class Deck
 	public List<Card> Cards = new List<Card>();
 	public void FillDeck()
 	{
-		int val = 0;
+		//Can use a single loop utilising the mod operator % and Math.Floor
+		//Using divition based on 13 cards in a suited
 		for (int i = 0; i < 52; i++)
 		{
 			Card.Suites suite = (Card.Suites)(Math.Floor((decimal)i / 13));
-			val = i % 13 + 2;
+			//Add 2 to value as a cards start a 2
+			int val = i % 13 + 2;
 			Cards.Add(new Card(val, suite));
 		}
 	}
 
-	public string PrintDeck()
+	public void PrintDeck()
 	{
-		string s = "";
-		string newline = Environment.NewLine;
-		Console.WriteLine(Cards.Count);
 		foreach (Card card in this.Cards)
-        {
-            s += card.Name + newline;
-			Console.WriteLine(s);
-        }
-	
-		return s;
+		{
+			Console.WriteLine(card.Name);
+		}
 	}
 }
