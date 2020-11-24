@@ -114,6 +114,9 @@ namespace CardForm
 
         private void exit_Click(object sender, EventArgs e)
         {
+            const string message = "Are you sure that you would like to close the form?";
+            const string caption = "Form Closing";
+            var result = MessageBox.Show(message, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
             Close();
         }
 
@@ -130,9 +133,11 @@ namespace CardForm
             string t = (Console.ReadLine());
             string o = (Console.ReadLine());
             Cards cards = new Cards();
-
-
             cards.InsertCards(c, t, o, connection);
+
+            const string message = "The deck have been saved.";
+            const string caption = "Form Closing";
+            var result = MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }

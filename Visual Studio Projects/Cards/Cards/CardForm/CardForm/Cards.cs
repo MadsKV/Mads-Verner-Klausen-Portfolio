@@ -15,6 +15,7 @@ namespace CardForm
                 string formatted = string.Format(sql, cards, types, colors);
                 SqlCommand command = new SqlCommand(formatted, connection);
 
+                
                 command.ExecuteNonQuery();
             }
         }
