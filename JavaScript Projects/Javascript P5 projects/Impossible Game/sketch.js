@@ -13,8 +13,8 @@ function setupAudio() {
   var audioFiles = [
     "audio/Syn Cole - Feel Good.mp3",
     "audio/DEAF KEV - Invincible.mp3",
-    "audio/Fox Stevenson - Go Like (D&B Mix).mp3",
     "audio/Caramella Girls - Caramelldansen Swedish Original (Official).mp3",
+    "audio/Fox Stevenson - Go Like (D&B Mix).mp3",
     "audio/Ninjaneers -I just wanna smile.mp3",
     "audio/Alan Walker - Spectre.mp3",
   ];
