@@ -7,6 +7,7 @@ namespace CardForm
 
     public class Card
 	{
+		//stores the 4 different suits starting from Heart ends with Spades.
 		public enum Suites
 		{
 			Hearts = 0,
@@ -31,6 +32,7 @@ namespace CardForm
 		{
 			get
 			{
+				//Makes sure that every 11-14 card in each suit is turned into a picture card.
 				string name = string.Empty;
 				switch (Value)
 				{
@@ -55,6 +57,7 @@ namespace CardForm
 			}
 		}
 
+		//Prints fx "4 of hearts" into the textbox when called in 'PrintDeck'.
 		public string Name
 		{
 			get
@@ -72,10 +75,12 @@ namespace CardForm
 }
 public class Deck
 {
+	//Fills the deck starting from Hearts to Spades (See Enum "Suites").
 	public List<Card> Cards = new List<Card>();
 	public void FillDeck()
 	{
 		int val = 0;
+		//Checks through 52 cards starting from 1 and increments by 1 everytime
 		for (int i = 0; i < 52; i++)
 		{
 			Card.Suites suite = (Card.Suites)(Math.Floor((decimal)i / 13));
@@ -84,9 +89,11 @@ public class Deck
 		}
 	}
 
+	//Prints the deck when called in "Form1" to the textbox
 	public string PrintDeck()
 	{
 		string s = "";
+		//Makes sure to create a new line after every card #LookPretty.
 		string newline = Environment.NewLine;
 		Console.WriteLine(Cards.Count);
 		foreach (Card card in this.Cards)
@@ -97,4 +104,25 @@ public class Deck
 	
 		return s;
 	}
+
+	
+	//....RIP
+	public void PrintToDB()
+    {
+        foreach (Card card in this.Cards)
+        {
+
+            foreach (var item in collection)
+            {
+                foreach (var item in collection)
+                {
+                    foreach (var item in collection)
+                    {
+
+                    }
+                }
+            }
+        }
+    }
+	
 }

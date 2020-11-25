@@ -45,6 +45,7 @@ namespace CardForm
 
         }
 
+        //Generates the deck, sorts it out in Value, Suit and color and afterwards prints it to the textbox.
         private void generateDeck_Click(object sender, EventArgs e)
         {
             Deck deck = new Deck();
@@ -54,49 +55,8 @@ namespace CardForm
             string newLine = Environment.NewLine;
 
             textWindow.Text = deck.PrintDeck();
-            
-            
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-            /*var rnd = new Random();
-            var randomNumbers = new List<int>();
-            string newLine = Environment.NewLine;
-
-            //randomNumbers[0].ToString;
-            randomNumbers = Enumerable.Range(1, 54).OrderBy(q => rnd.Next()).Take(54).ToList();
-            foreach (var item in randomNumbers)
-            {
-
-                textWindow.Text = textWindow.Text + item + newLine;
-                randomNumbers.Sort();
-                    break;
-            }
-            
-
-            Random rnd = new Random();
-            string newLine = Environment.NewLine;
-            int nums = rnd.Next(1, 55);
-            textWindow.Text = nums.ToString();
-            List<int> list = new List<int>();
-
-            for (int i = 1; i <= 54; i++)
-            {
-                list.Add(nums = rnd.Next(0, 54));
-                textWindow.Text = textWindow.Text + newLine + nums.ToString();
-                list.Sort();
-            }*/
         }
+        //Choose if you want to modify the deck your about to create.
         private void chooseDeck_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -112,9 +72,10 @@ namespace CardForm
 
         }
 
+        //Asks for confirmation and terminates the application.
         private void exit_Click(object sender, EventArgs e)
         {
-            const string message = "Are you sure that you would like to close the form?";
+            const string message = "Are you sure you want to close the application?";
             const string caption = "Form Closing";
             var result = MessageBox.Show(message, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
             Close();
@@ -125,7 +86,7 @@ namespace CardForm
             textWindow.ScrollBars = ScrollBars.Vertical;
         }
 
-
+        //Sends the sorted deck into the DB by the press of the database button.
         public void Database_Click(object sender, EventArgs e)
         {
             SqlConnection connection = Connection();

@@ -30,7 +30,7 @@
         {
             this.title = new System.Windows.Forms.Label();
             this.generateDeck = new System.Windows.Forms.Button();
-            this.missingCard = new System.Windows.Forms.Button();
+            this.Organize = new System.Windows.Forms.Button();
             this.chooseDeck = new System.Windows.Forms.CheckedListBox();
             this.blackPanel = new System.Windows.Forms.Panel();
             this.redPanel = new System.Windows.Forms.Panel();
@@ -63,16 +63,16 @@
             this.generateDeck.UseVisualStyleBackColor = true;
             this.generateDeck.Click += new System.EventHandler(this.generateDeck_Click);
             // 
-            // missingCard
+            // Organize
             // 
-            this.missingCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.missingCard.Location = new System.Drawing.Point(480, 404);
-            this.missingCard.Name = "missingCard";
-            this.missingCard.Size = new System.Drawing.Size(105, 34);
-            this.missingCard.TabIndex = 2;
-            this.missingCard.Text = "Organize";
-            this.missingCard.UseVisualStyleBackColor = true;
-            this.missingCard.Click += new System.EventHandler(this.missingCard_Click);
+            this.Organize.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Organize.Location = new System.Drawing.Point(480, 404);
+            this.Organize.Name = "Organize";
+            this.Organize.Size = new System.Drawing.Size(105, 34);
+            this.Organize.TabIndex = 2;
+            this.Organize.Text = "Organize";
+            this.Organize.UseVisualStyleBackColor = true;
+            this.Organize.Click += new System.EventHandler(this.missingCard_Click);
             // 
             // chooseDeck
             // 
@@ -80,7 +80,7 @@
             this.chooseDeck.CheckOnClick = true;
             this.chooseDeck.FormattingEnabled = true;
             this.chooseDeck.Items.AddRange(new object[] {
-            "No Jokers",
+            "With Jokers",
             "Only two Types",
             "No Picture Cards"});
             this.chooseDeck.Location = new System.Drawing.Point(157, 377);
@@ -161,7 +161,7 @@
             this.Controls.Add(this.redPanel);
             this.Controls.Add(this.blackPanel);
             this.Controls.Add(this.chooseDeck);
-            this.Controls.Add(this.missingCard);
+            this.Controls.Add(this.Organize);
             this.Controls.Add(this.generateDeck);
             this.Controls.Add(this.title);
             this.Name = "CardGeneratorIndex";
@@ -176,7 +176,7 @@
 
         private System.Windows.Forms.Label title;
         private System.Windows.Forms.Button generateDeck;
-        private System.Windows.Forms.Button missingCard;
+        private System.Windows.Forms.Button Organize;
         private System.Windows.Forms.CheckedListBox chooseDeck;
         private System.Windows.Forms.Panel blackPanel;
         private System.Windows.Forms.Panel redPanel;
