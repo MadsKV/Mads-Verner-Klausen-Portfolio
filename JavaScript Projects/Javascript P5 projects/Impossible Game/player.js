@@ -71,7 +71,7 @@ class Player {
     push();
     rectMode(CENTER);
     translate(20, 20);
-    //rotate(1 / 14.0);
+    //rotate(1 / 3.0);
     fill(33, 150, 243);
     rect(this.x, this.y, this.r, this.r);
     noStroke();
