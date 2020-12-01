@@ -8,3 +8,13 @@ C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual S
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.exe
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.pdb
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.CardGeneratorIndex.resources
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.csprojAssemblyReference.cache
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.CardGeneratorIndex.resources
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.Properties.Resources.resources
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.csproj.GenerateResource.cache
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.csproj.CoreCompileInputs.cache
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.exe
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.pdb
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\bin\Debug\CardForm.exe.config
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\bin\Debug\CardForm.exe
+D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\bin\Debug\CardForm.pdb

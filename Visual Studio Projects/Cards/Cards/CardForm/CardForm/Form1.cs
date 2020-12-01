@@ -10,10 +10,12 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using CardForm;
 
+
 namespace CardForm
 {
     public partial class CardGeneratorIndex : Form
     {
+        Deck myDeck;
         public CardGeneratorIndex()
         {
             InitializeComponent();
@@ -37,7 +39,7 @@ namespace CardForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -48,13 +50,13 @@ namespace CardForm
         //Generates the deck, sorts it out in Value, Suit and color and afterwards prints it to the textbox.
         private void generateDeck_Click(object sender, EventArgs e)
         {
-            Deck deck = new Deck();
-            deck.FillDeck();
-            deck.PrintDeck();
-
+            myDeck = new Deck();
+            //deck.FillDeck();
+            //deck.PrintDeck();
+            myDeck.FillDeck2();
             string newLine = Environment.NewLine;
+            textWindow.Text = myDeck.PrintDeck2();
 
-            textWindow.Text = deck.PrintDeck();
         }
         //Choose if you want to modify the deck your about to create.
         private void chooseDeck_SelectedIndexChanged(object sender, EventArgs e)
@@ -89,13 +91,18 @@ namespace CardForm
         //Sends the sorted deck into the DB by the press of the database button.
         public void Database_Click(object sender, EventArgs e)
         {
+            CardsToDB cardsToDB = new CardsToDB();
+            List<Card> cards1 = myDeck.Cards2;
             SqlConnection connection = Connection();
-            string c = (Console.ReadLine());
-            string t = (Console.ReadLine());
-            string o = (Console.ReadLine());
-            Cards cards = new Cards();
-            cards.InsertCards(c, t, o, connection);
-
+            foreach (Card card in cards1)
+            {
+                string c = card.Color.ToString();
+                string t = card.Suite.ToString();
+                string o = card.Value.ToString();
+                cardsToDB.InsertCards(o, t, c, connection);
+                //s += card.ToString() + newline;
+            }
+            
             const string message = "The deck have been saved.";
             const string caption = "Form Closing";
             var result = MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);

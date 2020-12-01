@@ -87,6 +87,24 @@ public class Deck
 		}
 	}
 
+	public void FillDeck2()
+	{
+		//int val = 0;
+		//Card Color
+		for (int i = 0; i < 2; i++)
+		{
+			//Card Suit
+			for (int j = 0; j < 2; j++)
+			{
+				//Card Value
+				for (int k = 0; k < 13; k++)
+				{
+					Console.Writeline("Farve = " + i + "Suit = " + j + "Value = " + k);
+				}
+			}
+		}
+	}
+
 	public void PrintDeck()
 	{
 		foreach (Card card in this.Cards)

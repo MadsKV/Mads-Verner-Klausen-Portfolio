@@ -2,9 +2,10 @@
 using System.Data.SqlClient;
 using CardForm;
 
+
 namespace CardForm
 {
-    public class Cards
+    public class CardsToDB
     {
         //Stores the entire deck into the DB, with all of them beeing sorted into value, suit and color.
         public void InsertCards(string cards, string types, string colors, SqlConnection connection)
