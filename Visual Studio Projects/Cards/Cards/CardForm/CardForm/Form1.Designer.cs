@@ -38,6 +38,11 @@
             this.textWindow = new System.Windows.Forms.TextBox();
             this.exit = new System.Windows.Forms.Button();
             this.Database = new System.Windows.Forms.Button();
+            this.HandDeck = new System.Windows.Forms.Button();
+            this.HandCard = new System.Windows.Forms.Button();
+            this.HandHalf = new System.Windows.Forms.Button();
+            this.HandWhole = new System.Windows.Forms.Button();
+            this.Reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title
@@ -55,7 +60,7 @@
             // generateDeck
             // 
             this.generateDeck.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.generateDeck.Location = new System.Drawing.Point(308, 377);
+            this.generateDeck.Location = new System.Drawing.Point(328, 377);
             this.generateDeck.Name = "generateDeck";
             this.generateDeck.Size = new System.Drawing.Size(166, 61);
             this.generateDeck.TabIndex = 1;
@@ -66,11 +71,11 @@
             // Organize
             // 
             this.Organize.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Organize.Location = new System.Drawing.Point(480, 404);
+            this.Organize.Location = new System.Drawing.Point(496, 404);
             this.Organize.Name = "Organize";
-            this.Organize.Size = new System.Drawing.Size(105, 34);
+            this.Organize.Size = new System.Drawing.Size(150, 34);
             this.Organize.TabIndex = 2;
-            this.Organize.Text = "Organize";
+            this.Organize.Text = "Delete History";
             this.Organize.UseVisualStyleBackColor = true;
             this.Organize.Click += new System.EventHandler(this.missingCard_Click);
             // 
@@ -83,9 +88,9 @@
             "With Jokers",
             "Only two Types",
             "No Picture Cards"});
-            this.chooseDeck.Location = new System.Drawing.Point(157, 377);
+            this.chooseDeck.Location = new System.Drawing.Point(91, 377);
             this.chooseDeck.Name = "chooseDeck";
-            this.chooseDeck.Size = new System.Drawing.Size(145, 72);
+            this.chooseDeck.Size = new System.Drawing.Size(142, 72);
             this.chooseDeck.TabIndex = 3;
             this.chooseDeck.SelectedIndexChanged += new System.EventHandler(this.chooseDeck_SelectedIndexChanged);
             // 
@@ -121,7 +126,7 @@
             this.textWindow.Location = new System.Drawing.Point(91, 51);
             this.textWindow.Multiline = true;
             this.textWindow.Name = "textWindow";
-            this.textWindow.Size = new System.Drawing.Size(618, 296);
+            this.textWindow.Size = new System.Drawing.Size(618, 324);
             this.textWindow.TabIndex = 7;
             this.textWindow.TextChanged += new System.EventHandler(this.textWindow_TextChanged);
             // 
@@ -130,7 +135,7 @@
             this.exit.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.exit.Location = new System.Drawing.Point(652, 404);
+            this.exit.Location = new System.Drawing.Point(652, 408);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(57, 31);
             this.exit.TabIndex = 8;
@@ -141,19 +146,79 @@
             // Database
             // 
             this.Database.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Database.Location = new System.Drawing.Point(480, 377);
+            this.Database.Location = new System.Drawing.Point(496, 377);
             this.Database.Name = "Database";
-            this.Database.Size = new System.Drawing.Size(105, 34);
+            this.Database.Size = new System.Drawing.Size(213, 34);
             this.Database.TabIndex = 9;
-            this.Database.Text = "Database";
+            this.Database.Text = "Send to Database";
             this.Database.UseVisualStyleBackColor = true;
             this.Database.Click += new System.EventHandler(this.Database_Click);
+            // 
+            // HandDeck
+            // 
+            this.HandDeck.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HandDeck.Location = new System.Drawing.Point(239, 375);
+            this.HandDeck.Name = "HandDeck";
+            this.HandDeck.Size = new System.Drawing.Size(30, 34);
+            this.HandDeck.TabIndex = 10;
+            this.HandDeck.Text = "7";
+            this.HandDeck.UseVisualStyleBackColor = true;
+            this.HandDeck.Click += new System.EventHandler(this.HandDeck_Click);
+            // 
+            // HandCard
+            // 
+            this.HandCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HandCard.Location = new System.Drawing.Point(266, 375);
+            this.HandCard.Name = "HandCard";
+            this.HandCard.Size = new System.Drawing.Size(32, 34);
+            this.HandCard.TabIndex = 11;
+            this.HandCard.Text = "1";
+            this.HandCard.UseVisualStyleBackColor = true;
+            this.HandCard.Click += new System.EventHandler(this.HandCard_Click);
+            // 
+            // HandHalf
+            // 
+            this.HandHalf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HandHalf.Location = new System.Drawing.Point(239, 408);
+            this.HandHalf.Name = "HandHalf";
+            this.HandHalf.Size = new System.Drawing.Size(45, 34);
+            this.HandHalf.TabIndex = 12;
+            this.HandHalf.Text = "26";
+            this.HandHalf.UseVisualStyleBackColor = true;
+            this.HandHalf.Click += new System.EventHandler(this.HandHalf_Click);
+            // 
+            // HandWhole
+            // 
+            this.HandWhole.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HandWhole.Location = new System.Drawing.Point(281, 408);
+            this.HandWhole.Name = "HandWhole";
+            this.HandWhole.Size = new System.Drawing.Size(46, 34);
+            this.HandWhole.TabIndex = 13;
+            this.HandWhole.Text = "52";
+            this.HandWhole.UseVisualStyleBackColor = true;
+            this.HandWhole.Click += new System.EventHandler(this.HandWhole_Click);
+            // 
+            // Reset
+            // 
+            this.Reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reset.Location = new System.Drawing.Point(295, 375);
+            this.Reset.Name = "Reset";
+            this.Reset.Size = new System.Drawing.Size(32, 34);
+            this.Reset.TabIndex = 14;
+            this.Reset.Text = "R";
+            this.Reset.UseVisualStyleBackColor = true;
+            this.Reset.Click += new System.EventHandler(this.Reset_Click);
             // 
             // CardGeneratorIndex
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Reset);
+            this.Controls.Add(this.HandWhole);
+            this.Controls.Add(this.HandHalf);
+            this.Controls.Add(this.HandCard);
+            this.Controls.Add(this.HandDeck);
             this.Controls.Add(this.Database);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.textWindow);
@@ -184,6 +249,11 @@
         private System.Windows.Forms.TextBox textWindow;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button Database;
+        private System.Windows.Forms.Button HandDeck;
+        private System.Windows.Forms.Button HandCard;
+        private System.Windows.Forms.Button HandHalf;
+        private System.Windows.Forms.Button HandWhole;
+        private System.Windows.Forms.Button Reset;
     }
 }
 

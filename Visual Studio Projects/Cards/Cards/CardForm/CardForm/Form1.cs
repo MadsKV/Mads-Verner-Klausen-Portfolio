@@ -1,15 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using CardForm;
-
 
 namespace CardForm
 {
@@ -54,7 +46,6 @@ namespace CardForm
             //deck.FillDeck();
             //deck.PrintDeck();
             myDeck.FillDeck2();
-            string newLine = Environment.NewLine;
             textWindow.Text = myDeck.PrintDeck2();
 
         }
@@ -64,9 +55,18 @@ namespace CardForm
 
         }
 
-        private void missingCard_Click(object sender, EventArgs e)
+        public void missingCard_Click(object sender, EventArgs e)
         {
-
+            //instantiate the DB again.
+            CardsToDB cardsToDB = new CardsToDB();
+            //Get connection to the DB
+            SqlConnection connection = Connection();
+            //Uses the "Delete history" from CardsToDB
+            cardsToDB.deleteHistory(connection);
+            //Displays Message when button is pressed.
+            const string message = "The previous cards have been deleted.";
+            const string caption = "Form Closing";
+            var result = MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
 
         private void userWindow_SelectedIndexChanged(object sender, EventArgs e)
@@ -106,6 +106,45 @@ namespace CardForm
             const string message = "The deck have been saved.";
             const string caption = "Form Closing";
             var result = MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+        }
+
+        public void HandDeck_Click(object sender, EventArgs e)
+        {
+            CardsToDB cardsToDB = new CardsToDB();
+            SqlConnection connection = Connection();
+
+            cardsToDB.getCards(connection);
+
+            //Console.WriteLine = cardsToDB.getCards(connection);
+        }
+
+        private void HandCard_Click(object sender, EventArgs e)
+        {
+            CardsToDB cardsToDB = new CardsToDB();
+            SqlConnection connection = Connection();
+
+            cardsToDB.getCard(connection);
+        }
+
+        private void HandHalf_Click(object sender, EventArgs e)
+        {
+            CardsToDB cardsToDB = new CardsToDB();
+            SqlConnection connection = Connection();
+
+            cardsToDB.getHalf(connection);
+        }
+
+        private void HandWhole_Click(object sender, EventArgs e)
+        {
+            CardsToDB cardsToDB = new CardsToDB();
+            SqlConnection connection = Connection();
+
+            cardsToDB.getWhole(connection);
+        }
+
+        private void Reset_Click(object sender, EventArgs e)
+        {
+            Console.Clear();
         }
     }
 }
