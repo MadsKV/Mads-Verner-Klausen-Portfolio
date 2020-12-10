@@ -53,7 +53,12 @@ namespace CardForm
             List<int> list = new List<int>();
 
             string sql = @"
-            SELECT TOP 13 PERCENT * FROM [Deck] ORDER BY newid()";
+            SELECT   DISTINCT top 13 percent ID, [Values], Suits, Colors, newid()
+            FROM     Deck
+            ORDER BY newid()";
+
+            //SELECT TOP 13 PERCENT * FROM [Deck] ORDER BY newid()";
+
             SqlCommand command = new SqlCommand(sql, connection);
             SqlDataReader sdr = command.ExecuteReader();
             while (sdr.Read())
@@ -73,7 +78,12 @@ namespace CardForm
         public void getCard(SqlConnection connection)
         {
             string sql = @"
-            SELECT TOP 1 PERCENT * FROM [Deck] ORDER BY newid()";
+            SELECT   DISTINCT top 1 percent ID, [Values], Suits, Colors, newid()
+            FROM     Deck
+            ORDER BY newid()";
+
+            //SELECT TOP 1 PERCENT * FROM [Deck] ORDER BY newid()";
+
             SqlCommand command = new SqlCommand(sql, connection);
             SqlDataReader sdr = command.ExecuteReader();
             while (sdr.Read())
@@ -87,7 +97,12 @@ namespace CardForm
         public void getHalf(SqlConnection connection)
         {
             string sql = @"
-            SELECT TOP 50 PERCENT * FROM [Deck] ORDER BY newid()";
+            SELECT   DISTINCT top 50 percent ID, [Values], Suits, Colors, newid()
+            FROM     Deck
+            ORDER BY newid()";
+
+            //SELECT TOP 50 PERCENT * FROM [Deck] ORDER BY newid()";
+
             SqlCommand command = new SqlCommand(sql, connection);
             SqlDataReader sdr = command.ExecuteReader();
             while (sdr.Read())
