@@ -50,7 +50,7 @@ namespace CardForm
 		{
 			get
 			{
-				//Makes sure that every 11-14 card in each suit is turned into a picture card.
+				//Makes sure that every 11-13 card in each suit is turned into a picture card.
 				string name = string.Empty;
 				switch (Value)
 				{
@@ -144,9 +144,9 @@ public class Deck
 	//	string newline = Environment.NewLine;
 	//	Console.WriteLine(Cards.Count);
 	//	foreach (Card card in this.Cards)
- //       {
- //           s += card.Name + newline;
- //       }
+    //       {
+    //           s += card.Name + newline;
+    //       }
 	//	//FillDeck2();
 	//	return s;
 	//}
