@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="builder\DataSource.cs" />
+    <Compile Include="CardShow.cs" />
     <Compile Include="CardsToDB.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="Form1.cs">
@@ -73,6 +74,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Cards\Thumbs.db" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,6 +87,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cards\1.jpg" />
+    <Content Include="Cards\10.jpg" />
+    <Content Include="Cards\11.jpg" />
+    <Content Include="Cards\12.jpg" />
+    <Content Include="Cards\13.jpg" />
+    <Content Include="Cards\14.jpg" />
+    <Content Include="Cards\15.jpg" />
+    <Content Include="Cards\16.jpg" />
+    <Content Include="Cards\17.jpg" />
+    <Content Include="Cards\18.jpg" />
+    <Content Include="Cards\19.jpg" />
+    <Content Include="Cards\2.jpg" />
+    <Content Include="Cards\20.jpg" />
+    <Content Include="Cards\21.jpg" />
+    <Content Include="Cards\22.jpg" />
+    <Content Include="Cards\23.jpg" />
+    <Content Include="Cards\24.jpg" />
+    <Content Include="Cards\25.jpg" />
+    <Content Include="Cards\26.jpg" />
+    <Content Include="Cards\27.jpg" />
+    <Content Include="Cards\28.jpg" />
+    <Content Include="Cards\29.jpg" />
+    <Content Include="Cards\3.jpg" />
+    <Content Include="Cards\30.jpg" />
+    <Content Include="Cards\31.jpg" />
+    <Content Include="Cards\32.jpg" />
+    <Content Include="Cards\33.jpg" />
+    <Content Include="Cards\34.jpg" />
+    <Content Include="Cards\35.jpg" />
+    <Content Include="Cards\36.jpg" />
+    <Content Include="Cards\37.jpg" />
+    <Content Include="Cards\38.jpg" />
+    <Content Include="Cards\39.jpg" />
+    <Content Include="Cards\4.jpg" />
+    <Content Include="Cards\40.jpg" />
+    <Content Include="Cards\41.jpg" />
+    <Content Include="Cards\42.jpg" />
+    <Content Include="Cards\43.jpg" />
+    <Content Include="Cards\44.jpg" />
+    <Content Include="Cards\45.jpg" />
+    <Content Include="Cards\46.jpg" />
+    <Content Include="Cards\47.jpg" />
+    <Content Include="Cards\48.jpg" />
+    <Content Include="Cards\49.jpg" />
+    <Content Include="Cards\5.jpg" />
+    <Content Include="Cards\50.jpg" />
+    <Content Include="Cards\51.jpg" />
+    <Content Include="Cards\52.jpg" />
+    <Content Include="Cards\6.jpg" />
+    <Content Include="Cards\7.jpg" />
+    <Content Include="Cards\8.jpg" />
+    <Content Include="Cards\9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -34,7 +34,6 @@
             this.chooseDeck = new System.Windows.Forms.CheckedListBox();
             this.blackPanel = new System.Windows.Forms.Panel();
             this.redPanel = new System.Windows.Forms.Panel();
-            this.userWindow = new System.Windows.Forms.ListBox();
             this.textWindow = new System.Windows.Forms.TextBox();
             this.exit = new System.Windows.Forms.Button();
             this.Database = new System.Windows.Forms.Button();
@@ -110,23 +109,13 @@
             this.redPanel.Size = new System.Drawing.Size(86, 450);
             this.redPanel.TabIndex = 5;
             // 
-            // userWindow
-            // 
-            this.userWindow.FormattingEnabled = true;
-            this.userWindow.ItemHeight = 16;
-            this.userWindow.Location = new System.Drawing.Point(91, 51);
-            this.userWindow.Name = "userWindow";
-            this.userWindow.Size = new System.Drawing.Size(618, 324);
-            this.userWindow.TabIndex = 6;
-            this.userWindow.SelectedIndexChanged += new System.EventHandler(this.userWindow_SelectedIndexChanged);
-            // 
             // textWindow
             // 
             this.textWindow.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textWindow.Location = new System.Drawing.Point(91, 51);
+            this.textWindow.Location = new System.Drawing.Point(91, 327);
             this.textWindow.Multiline = true;
             this.textWindow.Name = "textWindow";
-            this.textWindow.Size = new System.Drawing.Size(618, 324);
+            this.textWindow.Size = new System.Drawing.Size(618, 48);
             this.textWindow.TabIndex = 7;
             this.textWindow.TextChanged += new System.EventHandler(this.textWindow_TextChanged);
             // 
@@ -222,7 +211,6 @@
             this.Controls.Add(this.Database);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.textWindow);
-            this.Controls.Add(this.userWindow);
             this.Controls.Add(this.redPanel);
             this.Controls.Add(this.blackPanel);
             this.Controls.Add(this.chooseDeck);
@@ -245,7 +233,6 @@
         private System.Windows.Forms.CheckedListBox chooseDeck;
         private System.Windows.Forms.Panel blackPanel;
         private System.Windows.Forms.Panel redPanel;
-        private System.Windows.Forms.ListBox userWindow;
         private System.Windows.Forms.TextBox textWindow;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button Database;

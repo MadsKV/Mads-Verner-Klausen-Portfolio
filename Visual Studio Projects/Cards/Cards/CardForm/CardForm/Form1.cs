@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Drawing;
 
 namespace CardForm
 {
     public partial class CardGeneratorIndex : Form
     {
         Deck myDeck;
+        private PictureBox[] pictures;
+        public const string imagePath = @"C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\Cards\";
         public CardGeneratorIndex()
         {
             InitializeComponent();
+            pictures = new PictureBox[52];
         }
         public static SqlConnection Connection()
         {
@@ -28,7 +32,34 @@ namespace CardForm
             connection.Open();
             return connection;
         }
+        private void CreateControls()
+        {
+            for (int i = 0; i < 52; i++)
+            {
+                var newPictureBox = new PictureBox();
+                newPictureBox.Width = 75;
+                newPictureBox.Height = 100;
+                //newPictureBox.BorderStyle = BorderStyle.Fixed3D;
+                pictures[i] = SizeImage(newPictureBox, i + 1);
+            }
+        }
+        private PictureBox SizeImage(PictureBox pb, int i)
+        {
+            Image img = Image.FromFile(imagePath + i.ToString() + ".jpg");
+            pb.Image = img;
+            pb.SizeMode = PictureBoxSizeMode.CenterImage;
 
+            return pb;
+        }
+        private void DisplayControls()
+        {
+            for (int p = 0; p < 40; p++)
+            {
+                pictures[p].Left = (p * 20) + 100;
+                pictures[p].Top = 50;
+                this.Controls.Add(pictures[1]);
+            }
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             
@@ -47,6 +78,9 @@ namespace CardForm
             //deck.PrintDeck();
             myDeck.FillDeck2();
             textWindow.Text = myDeck.PrintDeck2();
+
+            CreateControls();
+            DisplayControls();
 
         }
         //Choose if you want to modify the deck your about to create.
