@@ -32,6 +32,22 @@ namespace CardForm
             connection.Open();
             return connection;
         }
+
+        private void ShuffleCards()
+        {
+            Random rand = new Random();
+            for (int i = 0; i < 1000; i++)
+            {
+                int firstCard = rand.Next(0, 52);
+                int secondCard = rand.Next(0, 52);
+                if (firstCard != secondCard)
+                {
+                    var temp = pictures[firstCard];
+                    pictures[firstCard] = pictures[secondCard];
+                    pictures[secondCard] = temp;
+                }
+            }
+        }
         private void CreateControlsWhole()
         {
             for (int i = 0; i < 52; i++)
@@ -66,7 +82,7 @@ namespace CardForm
         {
             for (int p = 0; p < 52; p++)
             {
-                pictures[p].Left = (p * 20) + 70;
+                pictures[p].Left = (p * 20) + 80;
                 pictures[p].Top = 50;
                 this.Controls.Add(pictures[p]);
             }
@@ -75,7 +91,7 @@ namespace CardForm
         {
             for (int p = 0; p < 7; p++)
             {
-                pictures[p].Left = (p * 20) + 70;
+                pictures[p].Left = (p * 20) + 80;
                 pictures[p].Top = 50;
                 this.Controls.Add(pictures[p]);
             }
@@ -100,8 +116,8 @@ namespace CardForm
             textWindow.Text = myDeck.PrintDeck2();
 
             CreateControlsWhole();
+            ShuffleCards();
             DisplayControlsWhole();
-
         }
         //Choose if you want to modify the deck your about to create.
         private void chooseDeck_SelectedIndexChanged(object sender, EventArgs e)
@@ -170,6 +186,7 @@ namespace CardForm
             cardsToDB.getCards(connection);
 
             CreateControlsSeven();
+            ShuffleCards();
             DisplayControlsSeven();
             //Console.WriteLine = cardsToDB.getCards(connection);
         }
