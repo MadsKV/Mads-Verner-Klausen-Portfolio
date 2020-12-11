@@ -32,9 +32,20 @@ namespace CardForm
             connection.Open();
             return connection;
         }
-        private void CreateControls()
+        private void CreateControlsWhole()
         {
             for (int i = 0; i < 52; i++)
+            {
+                var newPictureBox = new PictureBox();
+                newPictureBox.Width = 75;
+                newPictureBox.Height = 100;
+                //newPictureBox.BorderStyle = BorderStyle.Fixed3D;
+                pictures[i] = SizeImage(newPictureBox, i + 1);
+            }
+        }
+        private void CreateControlsSeven()
+        {
+            for (int i = 0; i < 7; i++)
             {
                 var newPictureBox = new PictureBox();
                 newPictureBox.Width = 75;
@@ -51,13 +62,22 @@ namespace CardForm
 
             return pb;
         }
-        private void DisplayControls()
+        private void DisplayControlsWhole()
         {
-            for (int p = 0; p < 40; p++)
+            for (int p = 0; p < 52; p++)
             {
-                pictures[p].Left = (p * 20) + 100;
+                pictures[p].Left = (p * 20) + 70;
                 pictures[p].Top = 50;
-                this.Controls.Add(pictures[1]);
+                this.Controls.Add(pictures[p]);
+            }
+        }
+        private void DisplayControlsSeven()
+        {
+            for (int p = 0; p < 7; p++)
+            {
+                pictures[p].Left = (p * 20) + 70;
+                pictures[p].Top = 50;
+                this.Controls.Add(pictures[p]);
             }
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -79,8 +99,8 @@ namespace CardForm
             myDeck.FillDeck2();
             textWindow.Text = myDeck.PrintDeck2();
 
-            CreateControls();
-            DisplayControls();
+            CreateControlsWhole();
+            DisplayControlsWhole();
 
         }
         //Choose if you want to modify the deck your about to create.
@@ -149,6 +169,8 @@ namespace CardForm
 
             cardsToDB.getCards(connection);
 
+            CreateControlsSeven();
+            DisplayControlsSeven();
             //Console.WriteLine = cardsToDB.getCards(connection);
         }
 

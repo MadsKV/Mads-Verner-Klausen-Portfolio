@@ -49,7 +49,7 @@
             this.title.AutoSize = true;
             this.title.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title.Location = new System.Drawing.Point(281, 9);
+            this.title.Location = new System.Drawing.Point(701, 9);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(213, 34);
             this.title.TabIndex = 0;
@@ -59,7 +59,7 @@
             // generateDeck
             // 
             this.generateDeck.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.generateDeck.Location = new System.Drawing.Point(328, 377);
+            this.generateDeck.Location = new System.Drawing.Point(701, 381);
             this.generateDeck.Name = "generateDeck";
             this.generateDeck.Size = new System.Drawing.Size(166, 61);
             this.generateDeck.TabIndex = 1;
@@ -70,7 +70,7 @@
             // Organize
             // 
             this.Organize.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Organize.Location = new System.Drawing.Point(496, 404);
+            this.Organize.Location = new System.Drawing.Point(869, 408);
             this.Organize.Name = "Organize";
             this.Organize.Size = new System.Drawing.Size(150, 34);
             this.Organize.TabIndex = 2;
@@ -87,7 +87,7 @@
             "With Jokers",
             "Only two Types",
             "No Picture Cards"});
-            this.chooseDeck.Location = new System.Drawing.Point(91, 377);
+            this.chooseDeck.Location = new System.Drawing.Point(464, 381);
             this.chooseDeck.Name = "chooseDeck";
             this.chooseDeck.Size = new System.Drawing.Size(142, 72);
             this.chooseDeck.TabIndex = 3;
@@ -104,18 +104,18 @@
             // redPanel
             // 
             this.redPanel.BackColor = System.Drawing.Color.Red;
-            this.redPanel.Location = new System.Drawing.Point(715, 0);
+            this.redPanel.Location = new System.Drawing.Point(1551, 0);
             this.redPanel.Name = "redPanel";
-            this.redPanel.Size = new System.Drawing.Size(86, 450);
+            this.redPanel.Size = new System.Drawing.Size(86, 459);
             this.redPanel.TabIndex = 5;
             // 
             // textWindow
             // 
             this.textWindow.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textWindow.Location = new System.Drawing.Point(91, 327);
+            this.textWindow.Location = new System.Drawing.Point(91, 238);
             this.textWindow.Multiline = true;
             this.textWindow.Name = "textWindow";
-            this.textWindow.Size = new System.Drawing.Size(618, 48);
+            this.textWindow.Size = new System.Drawing.Size(1404, 137);
             this.textWindow.TabIndex = 7;
             this.textWindow.TextChanged += new System.EventHandler(this.textWindow_TextChanged);
             // 
@@ -124,7 +124,7 @@
             this.exit.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.exit.Location = new System.Drawing.Point(652, 408);
+            this.exit.Location = new System.Drawing.Point(1025, 412);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(57, 31);
             this.exit.TabIndex = 8;
@@ -135,7 +135,7 @@
             // Database
             // 
             this.Database.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Database.Location = new System.Drawing.Point(496, 377);
+            this.Database.Location = new System.Drawing.Point(869, 381);
             this.Database.Name = "Database";
             this.Database.Size = new System.Drawing.Size(213, 34);
             this.Database.TabIndex = 9;
@@ -146,7 +146,7 @@
             // HandDeck
             // 
             this.HandDeck.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HandDeck.Location = new System.Drawing.Point(239, 375);
+            this.HandDeck.Location = new System.Drawing.Point(612, 379);
             this.HandDeck.Name = "HandDeck";
             this.HandDeck.Size = new System.Drawing.Size(30, 34);
             this.HandDeck.TabIndex = 10;
@@ -157,7 +157,7 @@
             // HandCard
             // 
             this.HandCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HandCard.Location = new System.Drawing.Point(266, 375);
+            this.HandCard.Location = new System.Drawing.Point(639, 379);
             this.HandCard.Name = "HandCard";
             this.HandCard.Size = new System.Drawing.Size(32, 34);
             this.HandCard.TabIndex = 11;
@@ -168,7 +168,7 @@
             // HandHalf
             // 
             this.HandHalf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HandHalf.Location = new System.Drawing.Point(239, 408);
+            this.HandHalf.Location = new System.Drawing.Point(612, 412);
             this.HandHalf.Name = "HandHalf";
             this.HandHalf.Size = new System.Drawing.Size(45, 34);
             this.HandHalf.TabIndex = 12;
@@ -179,7 +179,7 @@
             // HandWhole
             // 
             this.HandWhole.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HandWhole.Location = new System.Drawing.Point(281, 408);
+            this.HandWhole.Location = new System.Drawing.Point(654, 412);
             this.HandWhole.Name = "HandWhole";
             this.HandWhole.Size = new System.Drawing.Size(46, 34);
             this.HandWhole.TabIndex = 13;
@@ -190,7 +190,7 @@
             // Reset
             // 
             this.Reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reset.Location = new System.Drawing.Point(295, 375);
+            this.Reset.Location = new System.Drawing.Point(668, 379);
             this.Reset.Name = "Reset";
             this.Reset.Size = new System.Drawing.Size(32, 34);
             this.Reset.TabIndex = 14;
@@ -202,7 +202,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1635, 450);
             this.Controls.Add(this.Reset);
             this.Controls.Add(this.HandWhole);
             this.Controls.Add(this.HandHalf);
