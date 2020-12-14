@@ -10,7 +10,11 @@ namespace CardForm
     {
         Deck myDeck;
         private PictureBox[] pictures;
-        public const string imagePath = @"C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\Cards\";
+        //laptop
+        //public const string imagePath = @"C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\Cards\";
+
+        //Gamer
+        public const string imagePath = @"D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\Cards\";
         public CardGeneratorIndex()
         {
             InitializeComponent();
