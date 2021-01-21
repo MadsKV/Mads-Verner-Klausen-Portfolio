@@ -1,0 +1,13 @@
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\bin\Debug\netcoreapp3.1\GuessANumber.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\bin\Debug\netcoreapp3.1\GuessANumber.deps.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\bin\Debug\netcoreapp3.1\GuessANumber.runtimeconfig.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\bin\Debug\netcoreapp3.1\GuessANumber.runtimeconfig.dev.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\bin\Debug\netcoreapp3.1\GuessANumber.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\bin\Debug\netcoreapp3.1\GuessANumber.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\obj\Debug\netcoreapp3.1\GuessANumber.csprojAssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\obj\Debug\netcoreapp3.1\GuessANumber.AssemblyInfoInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\obj\Debug\netcoreapp3.1\GuessANumber.AssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\obj\Debug\netcoreapp3.1\GuessANumber.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\obj\Debug\netcoreapp3.1\GuessANumber.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\obj\Debug\netcoreapp3.1\GuessANumber.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\GuessANumber\GuessANumber\GuessANumber\obj\Debug\netcoreapp3.1\GuessANumber.genruntimeconfig.cache

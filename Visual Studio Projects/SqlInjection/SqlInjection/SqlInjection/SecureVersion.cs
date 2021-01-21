@@ -8,6 +8,9 @@ namespace SqlInjection
 {
     class SecureVersion
     {
+        //Den farlige injection der er mulig at lave ved input 2 (StudentLastname) dette kan potentielt være DROP TABLE, DELETE FROM osv osv.
+        //sqlinjection', 1,2); CREATE TABLE Sqlinjection (Id int);--
+
         public static SqlConnection openConnection()
         {
             SqlConnectionStringBuilder builder =
