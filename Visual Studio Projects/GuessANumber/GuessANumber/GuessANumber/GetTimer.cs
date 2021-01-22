@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Timers;
 
 namespace GuessANumber
@@ -17,7 +15,7 @@ namespace GuessANumber
         }
         public static void OnTimedEvent(object source, ElapsedEventArgs e)
         {
-            Console.WriteLine("Timer elapsed at {mm:ss.fff}", e.SignalTime);
+            Console.WriteLine("Timer elapsed at {0:HH:mm:ss.fff}", e.SignalTime);
         }
     }
 }

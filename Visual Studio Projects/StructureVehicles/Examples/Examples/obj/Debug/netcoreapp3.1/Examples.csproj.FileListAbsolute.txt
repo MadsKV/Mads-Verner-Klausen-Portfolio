@@ -1,0 +1,13 @@
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\bin\Debug\netcoreapp3.1\Examples.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\bin\Debug\netcoreapp3.1\Examples.deps.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\bin\Debug\netcoreapp3.1\Examples.runtimeconfig.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\bin\Debug\netcoreapp3.1\Examples.runtimeconfig.dev.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\bin\Debug\netcoreapp3.1\Examples.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\bin\Debug\netcoreapp3.1\Examples.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\obj\Debug\netcoreapp3.1\Examples.csprojAssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\obj\Debug\netcoreapp3.1\Examples.AssemblyInfoInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\obj\Debug\netcoreapp3.1\Examples.AssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\obj\Debug\netcoreapp3.1\Examples.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\obj\Debug\netcoreapp3.1\Examples.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\obj\Debug\netcoreapp3.1\Examples.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\Examples\Examples\obj\Debug\netcoreapp3.1\Examples.genruntimeconfig.cache

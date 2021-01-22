@@ -24,7 +24,7 @@ namespace GuessANumber
                 GetTimer.SetTimer();
                 DateTime startTid = DateTime.Now;
                 Console.WriteLine(border);
-                Console.WriteLine("HURRY! Game Started at {mm:ss.fff}", "[" + startTid + "]");
+                Console.WriteLine("HURRY! Game Started at {0:HH:mm:ss.fff}", "[" + startTid + "]");
                 int num = random.Next(1, 100);
                 Console.WriteLine(welcome);
                 Console.WriteLine(border);
@@ -56,9 +56,9 @@ namespace GuessANumber
                 Console.WriteLine(border);
                 Console.WriteLine("Congrats, it took you " + i + " tries");
                 DateTime slutTid = DateTime.Now;
-                Console.WriteLine("Fast Enough? Game Started at {mm:ss.fff}", "["+ startTid +"]");
+                Console.WriteLine("Fast Enough? Game Started at {0:HH:mm:ss.fff}", "["+ startTid +"]");
                 TimeSpan duration = slutTid - startTid;
-                Console.WriteLine("Woah your fast! Time from start to end " + "["+ duration +"]");
+                Console.WriteLine("Woah your fast! Time from start to end " + "["+ duration.ToString(@"mm\:ss") + "]");
                 Console.WriteLine(border);
 
                 while (true) // Continue asking until a correct answer is given.
