@@ -6,159 +6,68 @@ namespace StructureVehicles
 {
     class PersonalVehicle : Vehicle
     {
-        PersonalVehicle PV = new PersonalVehicle();
-        public PersonalVehicle()
-        {
-            
-        }
 
-        public string name()
-        {
-            return ;
-        }
-        public double km()
-        {
-            return ;
-        }
-        public double kmL()
-        {
-            return ;
-        }
-        public string fuel()
-        {
-            return ;
-        }
-        public string registerNumber()
-        {
-            return ;
-        }
-        public int year()
-        {
-            return ;
-        }
-        public double newPrice()
-        {
-            return;
-        }
-        public bool towbar()
-        {
-            return ;
-        }
-        public string drivingLicenseType()
-        {
-            return ;
-        }
-        public string motorSize()
-        {
-            return ;
-        }
-        public string energyClass()
-        {
-            return ;
-        }
-    }
-    class Trucks : Vehicle
-    {
-        public Trucks()
-        {
-            
-        }
-        public string name()
-        {
-            return;
-        }
-        public double km()
-        {
-            return;
-        }
-        public double kmL()
-        {
-            return;
-        }
-        public string fuel()
-        {
-            return;
-        }
-        public string registerNumber()
-        {
-            return;
-        }
-        public int year()
-        {
-            return;
-        }
-        public double newPrice()
-        {
-            return;
-        }
-        public bool towbar()
-        {
-            return;
-        }
-        public string drivingLicenseType()
-        {
-            return;
-        }
-        public string motorSize()
-        {
-            return;
-        }
-        public string energyClass()
-        {
-            return;
-        }
-    }
-    class Bus : Vehicle
-    {
-        public Bus()
-        {
-            
-        }
 
-        public string name()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+        public PersonalVehicle(int weight)
         {
-            return;
+            this.capacity = weight;
         }
-        public double km()
+        public void seats(int seats)
         {
-            return;
+            if (seats >= 1 && seats <= 2)
+            {
+                Console.WriteLine("Business car with " + seats + " seats");
+            }
+            else if(seats >= 3 && seats <= 7)
+            {
+                Console.WriteLine("Personal car with " + seats + " seats");
+            }
+            else
+            {
+                Console.WriteLine("car cant have " + seats + " seats");
+            }
         }
-        public double kmL()
+        public void baggage(int a, int b, int c)
         {
-            return;
+            Console.WriteLine("Lenght: " + a + " Height: " + b + " Width: " + c);
         }
-        public string fuel()
+        public string licenseType()
         {
-            return;
+            if(capacity >= 750)
+            {
+                return "BE";
+            }
+            else
+            {
+                return "B";
+            }
         }
-        public string registerNumber()
-        {
-            return;
-        }
-        public int year()
-        {
-            return;
-        }
-        public double newPrice()
-        {
-            return;
-        }
-        public bool towbar()
-        {
-            return;
-        }
-        public string drivingLicenseType()
-        {
-            return;
-        }
-        public string motorSize()
-        {
-            return;
-        }
-        public string energyClass()
-        {
-            return;
-        }
+        public bool isoFix;
+        public bool securityHang;
+        public int capacity;
+        */
     }
 }
 
