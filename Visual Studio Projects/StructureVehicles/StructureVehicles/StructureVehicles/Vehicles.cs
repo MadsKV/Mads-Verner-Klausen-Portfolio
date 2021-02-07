@@ -49,7 +49,7 @@ namespace StructureVehicles
 
         public string RegistrationNumber
         {
-            get { return RegistrationNumer; }
+            get { return RegistrationNumber; }
             set { registrationNumber = value; }
         }
         private string registrationNumber;
