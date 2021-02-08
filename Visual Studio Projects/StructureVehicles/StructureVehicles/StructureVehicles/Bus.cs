@@ -6,7 +6,19 @@ namespace StructureVehicles
 {
     class Bus : Vehicle
     {   
-        
+        public Bus (string name,
+            double km,
+            string registrationNumber,
+            int year,
+            double newPrice,
+            bool towbar,
+            double engineSize,
+            double kmPerLiter,
+            fuelTypeEnum fuelType,
+            energyClassEnum energyClass)
+        {
+            throw new NotImplementedException();
+        }
         
         
         
