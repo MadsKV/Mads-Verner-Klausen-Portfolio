@@ -9,7 +9,7 @@ main {
 
 .landing {
   min-height: 100vh;
-  background: url(./leap2.jpg);
+  background: url("/JavaScript Projects/Leap/img/leap2.jpg");
   background-size: cover;
   padding: 0rem 5rem;
 }
