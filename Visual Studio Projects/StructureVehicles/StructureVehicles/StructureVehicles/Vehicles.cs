@@ -22,9 +22,18 @@ namespace StructureVehicles
             this.Year = year;
             this.NewPrice = newPrice;
             this.Towbar = towbar;
-            this.EngineSize = engineSize;
+            this.engineSize = engineSize;
             this.KmPerLiter = kmPerLiter;
             this.FuelType = fuelType;
+            this.energyClass = GetEnergyClass();
+            /*this.Km = km;
+            this.RegistrationNumber = registrationNumber;
+            this.Year = year;
+            this.NewPrice = newPrice;
+            this.Towbar = towbar;
+            this.EngineSize = engineSize;
+            this.KmPerLiter = kmPerLiter;
+            this.FuelType = fuelType;*/
             
         }
 

@@ -7,6 +7,10 @@ namespace StructureVehicles
         static void Main(string[] args)
         {
 
+            PersonalCar.trunkDimentionsStruct tds;
+            tds.height = 18.00;
+            tds.width = 13.00;
+            tds.depth = 15.00;
 
 
 
