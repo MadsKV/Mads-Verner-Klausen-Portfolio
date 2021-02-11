@@ -181,7 +181,7 @@ namespace StructureVehicles
             }
             else
             {
-                if (this.fuelType is fuelTypeEnum.Diesel)
+                if (this.fuelType is fuelTypeEnum.Benzine)
                 {
 
                     if (this.kmPerLiter >= 25.0)

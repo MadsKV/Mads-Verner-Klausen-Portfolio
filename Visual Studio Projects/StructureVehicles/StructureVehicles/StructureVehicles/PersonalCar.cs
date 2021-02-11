@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StructureVehicles
 {
-    class PersonalCar : Vehicle
+    abstract class PersonalCar : Vehicle
     {
         public PersonalCar(string name,
             double km,
@@ -49,11 +49,23 @@ namespace StructureVehicles
                 this.engineSize = value;
             }
         }
+
+        }
         class PrivatePersonalCar : PersonalCar
         {
-            public PrivatePersonalCar( 
-                int numberOfSeats,
-                trunkDimentionsStruct trunkDimentions) : base()
+            public PrivatePersonalCar(
+            string name,
+            double km,
+            string registrationNumber,
+            int year,
+            double newPrice,
+            bool towbar,
+            double engineSize,
+            double kmPerLiter,
+            fuelTypeEnum fuelType,
+            int numberOfSeats,
+            bool isofix,
+            trunkDimentionsStruct trunkDimentions) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
             {
                 this.DriverLisence = driverLicenseEnum.B;
             }
@@ -65,7 +77,6 @@ namespace StructureVehicles
                 throw new NotImplementedException();
             }
         }
-
         class ProfessionalPersonalCar : PersonalCar
         {
             public ProfessionalPersonalCar(string name,
@@ -79,7 +90,8 @@ namespace StructureVehicles
             fuelTypeEnum fuelType,
             trunkDimentionsStruct trunkDimentions,
             bool safetyBar,
-            double loadCapacity)
+            double loadCapacity,
+            int numberOfSeats) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
             {
                 this.Name = name;
                 this.Km = km;
@@ -95,6 +107,7 @@ namespace StructureVehicles
                 this.safetyBar = safetyBar;
                 this.NumberOfSeats = 2;
                 this.Towbar = true;
+
                 if(loadCapacity > 750.0)
                 {
                     this.DriverLisence = driverLicenseEnum.BE;
@@ -119,57 +132,6 @@ namespace StructureVehicles
                     );
 
             }
-        }
-
-
-
-
-
-
-
-
-
-
-
-        /*
-        public PersonalVehicle(int weight)
-        {
-            this.capacity = weight;
-        }
-        public void seats(int seats)
-        {
-            if (seats >= 1 && seats <= 2)
-            {
-                Console.WriteLine("Business car with " + seats + " seats");
-            }
-            else if(seats >= 3 && seats <= 7)
-            {
-                Console.WriteLine("Personal car with " + seats + " seats");
-            }
-            else
-            {
-                Console.WriteLine("car cant have " + seats + " seats");
-            }
-        }
-        public void baggage(int a, int b, int c)
-        {
-            Console.WriteLine("Lenght: " + a + " Height: " + b + " Width: " + c);
-        }
-        public string licenseType()
-        {
-            if(capacity >= 750)
-            {
-                return "BE";
-            }
-            else
-            {
-                return "B";
-            }
-        }
-        public bool isoFix;
-        public bool securityHang;
-        public int capacity;
-        */
     }
 }
 

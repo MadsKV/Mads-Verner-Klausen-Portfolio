@@ -16,7 +16,7 @@ namespace StructureVehicles
             double kmPerLiter,
             fuelTypeEnum fuelType,
             energyClassEnum energyClass
-            )
+            ) : base (name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
         {
             throw new NotImplementedException();
         }
@@ -38,29 +38,5 @@ namespace StructureVehicles
         {
             throw new NotImplementedException();
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /*
-        public int capacity;
-        public int height;
-        public int weight;
-        public int length;
-        public string licenseType;
-        */
     }
 }

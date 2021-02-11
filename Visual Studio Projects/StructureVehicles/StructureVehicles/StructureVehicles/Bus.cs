@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StructureVehicles
 {
-    class Bus : Vehicle
+    abstract class Bus : Vehicle
     {   
         public Bus (string name,
             double km,
@@ -15,40 +15,9 @@ namespace StructureVehicles
             double engineSize,
             double kmPerLiter,
             fuelTypeEnum fuelType,
-            energyClassEnum energyClass)
+            energyClassEnum energyClass) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
         {
             throw new NotImplementedException();
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        /*
-        public int seats;
-        public int sleepingRoom;
-        public bool toilets;
-        public int height;
-        public int weight;
-        public int length;
-        public string licenseType;
-        */
     }
 }
