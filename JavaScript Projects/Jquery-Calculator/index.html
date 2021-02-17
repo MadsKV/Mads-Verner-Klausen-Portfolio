@@ -8,11 +8,44 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+  <input id="display" type="text" placeholder="0"><br>
+
+  <input class="clear" type="button" value="C">
+  <input class="clc" type="button" value=".">
+  <input class="clc" type="button" value="/">
+  <input class="clc" type="button" value="*"><br>
+  <input class="clc" type="button" value="7">
+  <input class="clc" type="button" value="8">
+  <input class="clc" type="button" value="9">
+  <input class="clc" type="button" value="-"><br>
+  <input class="clc" type="button" value="4">
+  <input class="clc" type="button" value="5">
+  <input class="clc" type="button" value="6">
+  <input class="clc" type="button" value="+"><br>
+  <input class="clc" type="button" value="1">
+  <input class="clc" type="button" value="2">
+  <input class="clc" type="button" value="3">
+  <input class="finalResult" type="button" value="=">
+
+  
+  
+  <script>
+    $(document).ready(function(){
+      $('.clc').click(function(){
+        $('.#display').val ($('.#display').val() + $(this).val());
+      });
+      $('.clear').click(function(){
+        $('#display').val(' ');
+      });
+      $('.finalResult').click(function(){
+        $('#display').val(eval($('#display').val()));
+      });
+    });
+    </script>
+    <script src="app.js"></script>
 </body>
 </html>

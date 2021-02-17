@@ -15,7 +15,7 @@ namespace StructureVehicles
             double engineSize,
             double kmPerLiter,
             fuelTypeEnum fuelType,
-            energyClassEnum energyClass) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
+            energyClassEnum energyClass) : base (name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
         {
             throw new NotImplementedException();
         }

@@ -14,9 +14,10 @@ namespace StructureVehicles
             bool towbar,
             double engineSize,
             double kmPerLiter,
-            fuelTypeEnum fuelType) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
+            fuelTypeEnum fuelType,
+            int numberOfSeats) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
         {
-
+            this.NumberOfSeats = numberOfSeats;
         }
 
         public int NumberOfSeats;
@@ -65,7 +66,7 @@ namespace StructureVehicles
             fuelTypeEnum fuelType,
             int numberOfSeats,
             bool isofix,
-            trunkDimentionsStruct trunkDimentions) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
+            trunkDimentionsStruct trunkDimentions) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType, numberOfSeats)
             {
                 this.DriverLisence = driverLicenseEnum.B;
             }
@@ -74,8 +75,15 @@ namespace StructureVehicles
 
             public override string ToString()
             {
-                throw new NotImplementedException();
-            }
+            return base.ToString() + string.Format("\n {0}: {1}\n {2}: {3}\n {4}: {5}",
+                nameof(this.isofix),
+                this.isofix,
+                nameof(this.NumberOfSeats),
+                this.NumberOfSeats,
+                nameof(this.Towbar),
+                this.Towbar
+                );
+        }
         }
         class ProfessionalPersonalCar : PersonalCar
         {
@@ -91,7 +99,7 @@ namespace StructureVehicles
             trunkDimentionsStruct trunkDimentions,
             bool safetyBar,
             double loadCapacity,
-            int numberOfSeats) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
+            int numberOfSeats) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType, numberOfSeats)
             {
                 this.Name = name;
                 this.Km = km;
