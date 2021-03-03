@@ -15,11 +15,14 @@ namespace StructureVehicles
             double engineSize,
             double kmPerLiter,
             fuelTypeEnum fuelType,
-            energyClassEnum energyClass) : base (name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
+            truckDimentionsStruct trunkDimentions,
+            double loadCapacity) : base (name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
         {
-            
+            this.TruckDimentions = truckDimentions;
+            this.DriverLisence = driverLicenseEnum.C;
         }
-
+        public int LoadCapacity;
+        private int loadCapacity;
         public override double EngineSize
         {
             get { return this.engineSize; }
@@ -33,9 +36,31 @@ namespace StructureVehicles
             }
         }
 
+        public truckDimentionsStruct TruckDimentions
+        {
+            get { return truckDimentions; }
+            set { truckDimentions = value; }
+        }
+        private truckDimentionsStruct truckDimentions;
+
+        public struct truckDimentionsStruct
+        {
+            public double height;
+            public double weight;
+            public double length;
+            public override string ToString() => $"({height}, {weight}, {length})";
+        }
+
         public override string ToString()
         {
-            throw new NotImplementedException();
+            return base.ToString() + string.Format("\n {0}: {1}\n {2}:{3}",
+                    nameof(this.Towbar),
+                    this.Towbar,
+                    nameof(this.loadCapacity),
+                    this.loadCapacity,
+                    nameof(this.truckDimentions),
+                    this.truckDimentions
+                    );
         }
     }
 }
