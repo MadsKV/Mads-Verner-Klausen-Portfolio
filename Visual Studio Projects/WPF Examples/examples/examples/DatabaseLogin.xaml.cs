@@ -20,10 +20,13 @@ namespace examples
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
+
+
             //if (Database.Connect(txtUsername.Text, txtPassword.Password))
             if (Database.Connect(Username, txtPassword.Password))
             {
-                window.Login();
+                //window.Login();
+                window.contentArea.Navigate(new Menu(window));
 
             }
             else

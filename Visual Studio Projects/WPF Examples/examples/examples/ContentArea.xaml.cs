@@ -27,12 +27,10 @@ namespace examples
         {
             previous = Content;
             Content = control;
-            
         }
         public void Back()
         {
             Content = previous;
-
         }
     }
 }

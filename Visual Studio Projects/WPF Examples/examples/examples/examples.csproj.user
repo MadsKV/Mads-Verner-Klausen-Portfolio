@@ -7,7 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClassList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClassListWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ContentArea.xaml.cs">
@@ -16,9 +25,33 @@
     <Compile Update="DatabaseLogin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentListWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherListWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AddUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClassList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClassListWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ContentArea.xaml">
@@ -28,6 +61,21 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentListWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherListWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

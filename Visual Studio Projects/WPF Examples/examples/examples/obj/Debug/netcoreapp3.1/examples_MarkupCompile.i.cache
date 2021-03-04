@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\WPF Examples\examples\examples\App.xaml
-4-809563372
+12-501707113
 
-10-1819638602
+191646358183
 1931589018397
-AddUser.xaml;ContentArea.xaml;DatabaseLogin.xaml;MainWindow.xaml;
+AddTeacher.xaml;AddUser.xaml;ClassList.xaml;ClassListWindow.xaml;ContentArea.xaml;DatabaseLogin.xaml;MainWindow.xaml;Menu.xaml;StudentList.xaml;StudentListWindow.xaml;TeacherList.xaml;TeacherListWindow.xaml;
 
-False
+True
 

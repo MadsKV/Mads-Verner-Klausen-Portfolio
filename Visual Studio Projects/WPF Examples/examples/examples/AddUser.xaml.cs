@@ -22,7 +22,6 @@ namespace examples
         ContentArea contentArea;
         public AddUser(ContentArea contentArea)
         {
-
             InitializeComponent();
             this.contentArea = contentArea;
             DataContext = studentBuffer;

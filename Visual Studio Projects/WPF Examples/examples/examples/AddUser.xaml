@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:examples"
              mc:Ignorable="d" 
-             d:DesignHeight="525" d:DesignWidth="300" FontSize="14" Background="#04c582">
+             d:DesignHeight="600" d:DesignWidth="300" FontSize="14" Background="#04c582">
     <Border Background="#2e3137" CornerRadius="20" Margin="20">
         <StackPanel>
             <Label Content="New Student" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
@@ -23,7 +23,7 @@
             <!-- <TextBox  Name="SClassID" Text="{Binding ClassID, UpdateSourceTrigger=PropertyChanged}" Background="#545d6a" Foreground="White" FontSize="18"/>   -->
             <ComboBox SelectedValue="{Binding Path=ClassID, UpdateSourceTrigger=PropertyChanged}" SelectedValuePath="Key" DisplayMemberPath="Value" Name="selectClass"></ComboBox>
             <Button Name="createUser" Click="createUser_Click" Content="Create Student" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Cursor="Hand"/>
-            <Button Name="createClass" Click="createClass_Click" Content="Create Class" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Cursor="Hand"/>
+            <!-- <Button Name="createClass" Click="createClass_Click" Content="Create Class" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Cursor="Hand"/> -->
             <Separator></Separator>
             <Button Name="back" Click="back_Click" Content="Back" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Cursor="Hand"/>
         </StackPanel>

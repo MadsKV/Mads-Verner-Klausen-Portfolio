@@ -11,5 +11,6 @@ namespace examples
         public string StudentLastName { get; set; }
         public int StudentAge { get; set; }
         public int ClassID { get; set; }
+        public string Name { get; set; }
     }
 }

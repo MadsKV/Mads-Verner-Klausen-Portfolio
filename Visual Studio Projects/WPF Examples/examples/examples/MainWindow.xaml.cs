@@ -26,5 +26,9 @@ namespace examples
         {
             
         }
+        public ContentArea ContentArea()
+        {
+            return contentArea;
+        }
     }
 }

@@ -25,6 +25,7 @@ namespace WPF_intro
             builder.DataSource = @"DESKTOP-CHHJASV\MSQLSERVERDEV";
             //builder.DataSource = @"DESKTOP-CHHJASV\SQLEXPRESS";
             builder.InitialCatalog = "WPF_Intro";
+            builder.IntegratedSecurity = true;
             SqlConnection connection = new SqlConnection(builder.ConnectionString);
             connection.Open();
             try
