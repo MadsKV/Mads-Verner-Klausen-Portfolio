@@ -30,9 +30,6 @@
                 </div>
             </div>
         </div>
-
-
-
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
@@ -78,7 +75,9 @@
                 <table>
                     <tr>
                         <td><button onclick="clear()" class="btn"> C </button></td>
-                        <td><button onclick="back()" class="btn"> < </button></td>
+                        <td><button onclick="back()" class="btn">
+                                < </button>
+                        </td>
                         <td><button onclick="insert('/')" class="btn"> / </button></td>
                         <td><button onclick="insert('*')" class="btn"> X </button></td>
                         <td><button onclick="insert('%')" class="btn"> % </button></td>
@@ -111,13 +110,9 @@
                 </table>
             </div>
         </div>
-
         <!--Get the JS from "calculatorJS" for the calculator-->
         <script src="CalculatorJS.js"></script>
-
-
         <script type="text/javascript">
-        
             //Clock functionality
             const deg = 6;
             const hr = document.querySelector('#hr');
@@ -130,17 +125,11 @@
                 let mm = day.getMinutes() * deg;
                 let ss = day.getSeconds() * deg;
 
-
-
                 hr.style.transform = `rotateZ(${(hh) + (mm / 12)}deg)`;
                 mn.style.transform = `rotateZ(${mm}deg`;
                 sc.style.transform = `rotateZ(${ss}deg`;
             })
-            
-
-
         </script>
     </section>
 </body>
-
 </html>

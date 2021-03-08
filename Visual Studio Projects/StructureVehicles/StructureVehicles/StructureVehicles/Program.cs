@@ -127,6 +127,11 @@ namespace StructureVehicles
             {
                 Console.WriteLine(Auctionvehicles.ToString() + "\n");
             }
+
+            User customUser = new privateUser(1207950021, 9000, 5000);
+
+            
+
         }
     }
 }

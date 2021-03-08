@@ -6,6 +6,6 @@ namespace StructureVehicles
 {
     public interface IBuyer
     {
-        decimal Balance { get; set; }
+        //decimal Balance { get; set; }
     }
 }

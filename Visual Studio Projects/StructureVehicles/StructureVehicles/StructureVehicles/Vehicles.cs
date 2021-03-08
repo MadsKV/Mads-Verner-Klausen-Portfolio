@@ -231,7 +231,6 @@ namespace StructureVehicles
             }
 
         }
-
         public override string ToString()
         {
             return String.Format("{0}: {1}\n {2}: {3}\n {4}: {5}\n {6}: {7}\n {8}: {9}\n {10}: {11}\n {12}: {13}\n {14}: {15}\n {16}: {17}",
@@ -255,77 +254,5 @@ namespace StructureVehicles
                 this.energyClass
                 );
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /*
-        public string name;
-        public void km(double km)
-        {
-            if(km <= 0)
-            {
-                throw new Exception("Cant be negative, Value isent valid");
-                //Console.WriteLine("Km cant be negative, so value isent valid");
-            }
-            else
-            {
-                Console.WriteLine("Km: " + km);
-            }
-        }
-        public double kmL()
-        {
-            throw new NotImplementedException();
-        }
-        public string fuel;
-        public string registerNumber;
-        public int year;
-        public void newPrice(double price)
-        {
-            if (price < 0)
-            {
-                throw new Exception("Cant be negative, Value isent valid");
-            }
-            else
-            {
-                Console.WriteLine("New price: " + price + "kr,-");
-            }
-        }
-        public void towbar(bool towbar)
-        {
-            if(towbar == true)
-            {
-                Console.WriteLine("Do have towbar");
-            }
-            else
-            {
-                Console.WriteLine("Do not have Towbar");
-            }
-        }
-
-        //public string drivingLicenseType()
-        //{
-        //    throw new NotImplementedException();
-        //}
-        public string motorSize;
-        public string energyClass;
-        */
     }
 }
