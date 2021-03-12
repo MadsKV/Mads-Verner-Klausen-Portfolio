@@ -24,7 +24,7 @@ namespace examples
                 connection.Open();
                 return true;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }
@@ -46,11 +46,10 @@ namespace examples
                 try
                 {
                     command.ExecuteNonQuery();
-                    connection.Close();
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
-                    
+
                 }
             }
         }
@@ -63,7 +62,7 @@ namespace examples
             Dictionary<int, string> ClassName = new Dictionary<int, string>();
             while (reader.Read())
             {
-                ClassName.Add(reader.GetInt32(0),reader.GetString(1));
+                ClassName.Add(reader.GetInt32(0), reader.GetString(1));
             }
             reader.Close();
             return ClassName;
@@ -109,7 +108,6 @@ namespace examples
                 try
                 {
                     command.ExecuteNonQuery();
-                    connection.Close();
                 }
                 catch (Exception e)
                 {
@@ -131,7 +129,32 @@ namespace examples
             reader.Close();
             return SubjectName;
         }
-        #endregion
 
+        public static List<Teacher> FillGridT()
+        {
+            List<Teacher> teachers = new List<Teacher>();
+            string sql = (@"SELECT TeacherID, TeacherFirstName, TeacherLastName, TeacherAge, TeacherMail, Subject.SubjectName FROM TeacherN
+                            INNER JOIN Subject ON TeacherN.SubjectID = Subject.SubjectID");
+
+            SqlCommand command = new SqlCommand(sql, connection);
+            using SqlDataReader reader = command.ExecuteReader();
+            {
+                while (reader.Read())
+                {
+                    Teacher teacher = new Teacher();
+                    teacher.TeacherID = reader.GetInt32(0);
+                    teacher.TeacherFirstName = reader.GetString(1);
+                    teacher.TeacherLastName = reader.GetString(2);
+                    teacher.TeacherAge = reader.GetInt32(3);
+                    teacher.TeacherMail = reader.GetString(4);
+                    teacher.SubjectName = reader.GetString(5);
+
+                    teachers.Add(teacher);
+                }
+                reader.Close();
+                return teachers;
+            }
+            #endregion
+        }
     }
 }

@@ -6,43 +6,16 @@
         xmlns:local="clr-namespace:examples"
         mc:Ignorable="d"
         Title="TeacherListWindow" Height="450" Width="800" FontSize="14" Background="#04c582">
-    <FlowDocument>
-        <Table>
-            <Table.Columns>
-                <TableColumn />
-                <TableColumn />
-                <TableColumn />
-            </Table.Columns>
-            <TableRowGroup>
-                <TableRow>
-                    <TableCell>
-                        <Paragraph>ID</Paragraph>
-                    </TableCell>
-                    <TableCell>
-                        <Paragraph>FirtName</Paragraph>
-                    </TableCell>
-                    <TableCell>
-                        <Paragraph>lastName</Paragraph>
-                    </TableCell>
-                    <TableCell>
-                        <Paragraph>Age</Paragraph>
-                    </TableCell>
-                    <TableCell>
-                        <Paragraph>Class</Paragraph>
-                    </TableCell>
-                </TableRow>
-                <TableRow>
-                    <TableCell>
-                        <Paragraph>Name</Paragraph>
-                    </TableCell>
-                    <TableCell>
-                        <Paragraph>Age</Paragraph>
-                    </TableCell>
-                    <TableCell>
-                        <Paragraph>Class</Paragraph>
-                    </TableCell>
-                </TableRow>
-            </TableRowGroup>
-        </Table>
-    </FlowDocument>
+    <StackPanel>
+        <DataGrid Name="TeachersGrid" Height="415" AutoGenerateColumns="False" Margin="6,10,6,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="TeacherID" Binding="{Binding Path=TeacherID}"></DataGridTextColumn>
+                <DataGridTextColumn Header="TeacherFirstname" Binding="{Binding Path=TeacherFirstName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="TeacherLastname" Binding="{Binding Path=TeacherLastName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="TeacherAge" Binding="{Binding Path=TeacherAge}"></DataGridTextColumn>
+                <DataGridTextColumn Header="TeacherMail" Binding="{Binding Path=TeacherMail}"></DataGridTextColumn>
+                <DataGridTextColumn Header="SubjectID" Binding="{Binding Path=SubjectName}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
 </Window>

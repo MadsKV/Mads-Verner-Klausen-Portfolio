@@ -12,6 +12,7 @@ namespace examples
         public int TeacherAge { get; set; }
         public string TeacherMail { get; set; }
         public int SubjectID { get; set; }
+        public string SubjectName { get; set; }
 
     }
 }

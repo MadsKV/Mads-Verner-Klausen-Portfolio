@@ -28,12 +28,19 @@ namespace examples
 
             Dictionary<int, string> SubjectName = Database.Fill_TeacherDiscipline();
             selectClass.ItemsSource = SubjectName;
+
+            Application.Current.Exit += Exit_Save;
+        }
+
+        private void Exit_Save(object sender, ExitEventArgs e)
+        {
+            Database.InsertNewTeacher(teacherBuffer);
         }
 
         private void createTeacher_Click(object sender, RoutedEventArgs e)
         {
             Database.InsertNewTeacher(teacherBuffer);
-            MessageBox.Show("Teacher Created!");
+            MessageBox.Show("Teacher Created!","Created", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         private void back_Click(object sender, RoutedEventArgs e)

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace StructureVehicles
 {
-    class Bus : Vehicle
-    {   
-        public Bus (string name,
+    class Bus : PersonalCar
+    {
+        public Bus(string name,
             double km,
             string registrationNumber,
             int year,
@@ -18,7 +18,7 @@ namespace StructureVehicles
             busDimentionsStruct busDimentions,
             int numberOfSeats,
             int numberOfSleepingRoom,
-            bool toilets) : base (name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
+            bool toilets) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
         {
             this.BusDimentions = busDimentions;
             this.NumberOfSeats = numberOfSeats;

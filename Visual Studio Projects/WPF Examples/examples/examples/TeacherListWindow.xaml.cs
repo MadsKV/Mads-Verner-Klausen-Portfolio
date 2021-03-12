@@ -20,6 +20,8 @@ namespace examples
         public TeacherListWindow()
         {
             InitializeComponent();
+            List<Teacher> teachers = Database.FillGridT();
+            TeachersGrid.ItemsSource = teachers;
         }
     }
 }

@@ -254,5 +254,13 @@ namespace StructureVehicles
                 this.energyClass
                 );
         }
+
+        internal Auctionhouse Auctionhouse
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

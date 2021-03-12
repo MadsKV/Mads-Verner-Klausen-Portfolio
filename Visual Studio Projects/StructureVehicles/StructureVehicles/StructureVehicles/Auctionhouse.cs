@@ -7,16 +7,19 @@ namespace StructureVehicles
     class Auctionhouse
     {
 
-        public int ForSale(Vehicle V, ISeller S, decimal price)
+        public static Auction ForSale(Vehicle V, ISeller S, decimal price)
         {
-            throw new NotImplementedException();
+            Auction auction = new Auction(V, S, price);
+            auction.Vehicle.ToString();
+
+            return auction;
         }
 
-        public int BidNotification(ISeller buyer, int auctionList, decimal bid)
+        public static int BidNotification(ISeller buyer, Auction auctionList, decimal bid)
         {
             throw new NotImplementedException();
         }
-        public int BidAccepted(ISeller seller, int auctionList)
+        public static int BidAccepted(ISeller seller, Auction auctionList)
         {
             throw new NotImplementedException();
         }

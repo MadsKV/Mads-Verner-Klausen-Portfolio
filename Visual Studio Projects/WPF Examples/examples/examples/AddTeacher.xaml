@@ -25,7 +25,7 @@
             <!-- <TextBox  Name="tDiscipline" Text="{Binding TeacherDesciplines, UpdateSourceTrigger=PropertyChanged}" Background="#545d6a" Foreground="White" FontSize="18"/> -->
             <Label Content="Teacher Subject" Foreground="White" FontSize="13"/>
             <!-- <TextBox  Name="SClassID" Text="{Binding ClassID, UpdateSourceTrigger=PropertyChanged}" Background="#545d6a" Foreground="White" FontSize="18"/>   -->
-            <ComboBox SelectedValue="{Binding Path=SubjectName, UpdateSourceTrigger=PropertyChanged}" SelectedValuePath="Key" DisplayMemberPath="Value" Name="selectClass"></ComboBox>
+            <ComboBox SelectedValue="{Binding Path=SubjectID, UpdateSourceTrigger=PropertyChanged}" SelectedValuePath="Key" DisplayMemberPath="Value" Name="selectClass"></ComboBox>
             <Button Name="createTeacher" Click="createTeacher_Click" Content="Create Teacher" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Cursor="Hand"/>
             <!-- <Button Name="createClass" Click="createClass_Click" Content="Create Class" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Cursor="Hand"/> -->
             <Separator></Separator>

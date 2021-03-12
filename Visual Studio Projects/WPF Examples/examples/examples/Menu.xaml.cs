@@ -47,7 +47,7 @@ namespace examples
         private void studentMenuList_Click(object sender, RoutedEventArgs e)
         {
             //window.contentArea.Navigate(new StudentList(window.contentArea));
-            StudentListWindow win2 = new StudentListWindow();
+            StudentListWindow win2 = new StudentListWindow(window);
             win2.Show();
         }
 

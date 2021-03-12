@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:examples"
         mc:Ignorable="d"
         Title="Login to Database" Height="700" Width="300" FontSize="14" Background="#04c582">
+    <!-- Layout containers Grid/UniformGrid/Canvas/StackPanel/WrapPanel/DockPanel-->
     <Grid>
         <local:ContentArea x:Name="contentArea"></local:ContentArea>
     </Grid>

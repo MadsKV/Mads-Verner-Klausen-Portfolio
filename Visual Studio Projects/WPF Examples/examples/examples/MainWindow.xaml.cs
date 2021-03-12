@@ -14,8 +14,13 @@ namespace examples
         public MainWindow()
         {
             InitializeComponent();
-            
+            Application.Current.Exit += Exit_Lifetime;
             contentArea.Navigate(new DatabaseLogin(this));
+        }
+
+        private void Exit_Lifetime(object sender, ExitEventArgs e)
+        {
+            MessageBox.Show("Changes saved", "Saved", MessageBoxButton.OK, MessageBoxImage.Information);
         }
         public void Login()
         {

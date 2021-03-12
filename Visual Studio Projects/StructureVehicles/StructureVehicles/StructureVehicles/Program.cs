@@ -130,7 +130,13 @@ namespace StructureVehicles
 
             User customUser = new privateUser(1207950021, 9000, 5000);
 
-            
+
+            User CustomSeller = new corporateUser();
+
+            Auctionhouse.ForSale(BMWi8, CustomSeller, 9043850356M);
+
+
+
 
         }
     }

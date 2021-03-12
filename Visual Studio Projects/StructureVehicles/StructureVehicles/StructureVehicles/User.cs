@@ -55,8 +55,6 @@ namespace StructureVehicles
         }
         private decimal balance;
 
-
-
         public override string ToString()
         {
             return base.ToString() + string.Format("\n {0}: {1}\n {2}: {3}\n {4}: {5}\n {6}: {7}\n {8}: {9}",
@@ -103,20 +101,17 @@ namespace StructureVehicles
         }
     }
 
-
     class privateUser : User
     {
-        public PrivateUser(int cprNumber,
+        public PrivateUser(string firstName,
+            string lastName,
+            string address,
             int phoneNumber,
             int zipCode,
-            decimal balance) : base(CPRNumber, zipCode, firstName, lastName, balance)
+            decimal balance,
+            int cprNumber) : base(firstName, lastName, address, phoneNumber, zipCode, firstName, lastName, balance)
         {
             this.CPRNumber = cprNumber;
-            this.CVRNumber = cvrNumber;
-            this.Credit = credit;
-            this.ZipCode = zipCode;
-            this.PhoneNumber = phoneNumber;
-            this.Balance = balance;
         }
         public int PhoneNumber
         {
@@ -132,6 +127,22 @@ namespace StructureVehicles
             }
         }
         private int phoneNumber;
+
+        public int CPRNumber
+        {
+            get { return cprNumber; }
+            set
+            {
+                var r = new Regex(@"^\d{10}$");
+                if (!r.IsMatch(value.ToString()))
+                {
+                    throw new Exception("CPR is not correct");
+                }
+                cprNumber = value;
+            }
+        }
+        private int cprNumber;
+
         public int Credit
         {
             get { return credit; }
@@ -139,19 +150,19 @@ namespace StructureVehicles
         }
         private int credit;
 
-        public int CVRNumber
-        {
-            get { return cvrNumber; }
-            set { cvrNumber = value; }
-        }
-        private int cvrNumber;
+        //public int CVRNumber
+        //{
+        //    get { return cvrNumber; }
+        //    set { cvrNumber = value; }
+        //}
+        //private int cvrNumber;
 
 
         public override string ToString()
         {
-            return base.ToString() + string.Format("\n {0}: {1}\n {2}: {3}\n {4}: {5}\n {6}: {7}\n {8}: {9}",
-                    nameof(this.Towbar),
-                    this.Towbar
+            return base.ToString() + string.Format("\n {0}: {1}\n",
+                    nameof(this.CPRNumber),
+                    this.CPRNumber
                     );
         }
     }
