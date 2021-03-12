@@ -14,6 +14,7 @@ namespace StructureVehicles
         int zipCode,
         decimal balance)
         {
+            //User Constructor
             this.FirstName = firstName;
             this.LastName = lastName;
             this.Address = address;
@@ -21,6 +22,9 @@ namespace StructureVehicles
             this.ZipCode = zipCode;
             this.Balance = balance;
         }
+        /// <summary>
+        /// FirstName Field and proberty
+        /// </summary>
         public string FirstName
         {
             get { return firstName; }
@@ -35,6 +39,9 @@ namespace StructureVehicles
         }
         private string firstName;
 
+        /// <summary>
+        /// LastName Field and proberty
+        /// </summary>
         public string LastName
         {
             get { return lastName; }
@@ -49,6 +56,9 @@ namespace StructureVehicles
         }
         private string lastName;
 
+        /// <summary>
+        /// Address Field and proberty
+        /// </summary>
         public string Address
         {
             get { return address; }
@@ -63,6 +73,9 @@ namespace StructureVehicles
         }
         private string address;
 
+        /// <summary>
+        /// PhoneNumber Field and proberty
+        /// </summary>
         public int PhoneNumber
         {
             get { return phoneNumber; }
@@ -77,6 +90,9 @@ namespace StructureVehicles
         }
         private int phoneNumber;
 
+        /// <summary>
+        /// Balance Field and proberty
+        /// </summary>
         public decimal Balance
         {
             get { return balance; }
@@ -84,6 +100,9 @@ namespace StructureVehicles
         }
         private decimal balance;
 
+        /// <summary>
+        /// ZipCode Field and proberty
+        /// </summary>
         public int ZipCode
         {
             get { return zipCode; }
@@ -101,46 +120,9 @@ namespace StructureVehicles
         }
         private int zipCode;
 
-
-
-
-
-        //public int CPRNumber
-        //{
-        //    get { return cprNumber; }
-        //    set { cprNumber = value; }
-        //}
-        //private int cprNumber;
-        //public int ZipCode
-        //{
-        //    get { return ZipCode; }
-        //    set
-        //    {
-        //        var r = new Regex(@"\d{4}$");
-        //        if (!r.IsMatch(value.ToString()))
-        //            throw new Exception("Zipcode not valid!");
-        //    }
-        //}
-        //private int Zipcode;
-        //public string FirstName
-        //{
-        //    get { return firstName; }
-        //    set { firstName = value; }
-        //}
-        //private string firstName;
-        //public string LastName
-        //{
-        //    get { return lastName; }
-        //    set { lastName = value; }
-        //}
-        //private string lastName;
-        //public decimal Balance
-        //{
-        //    get { return balance; }
-        //    set { balance = value; }
-        //}
-        //private decimal balance;
-
+        /// <summary>
+        /// String.Format ToString
+        /// </summary>
         public new virtual string ToString()
         {
             return String.Format("\n {0}: {1}\n {2}: {3}\n {4}: {5}\n {6}: {7}\n {8}: {9}\n {10}: {11}",
@@ -170,6 +152,7 @@ namespace StructureVehicles
 
     class corporateUser : User
     {
+        //inherited C-user from user
         public corporateUser(string firstName,
             string lastName,
             string address,
@@ -180,9 +163,13 @@ namespace StructureVehicles
             int credit
             ) : base(firstName, lastName, address, phoneNumber, zipCode, balance)
         {
+            //CorporateUser Constructor
             this.CVRNumber = cvrNumber;
             this.Credit = credit;
         }
+        /// <summary>
+        /// CVRNumber Field and proberty
+        /// </summary>
         public int CVRNumber
         {
             get { return cvrNumber; }
@@ -196,7 +183,10 @@ namespace StructureVehicles
             }
         }
         private int cvrNumber;
-        
+
+        /// <summary>
+        /// Credit Field and proberty
+        /// </summary>
         public int Credit
         {
             get { return credit; }
@@ -204,7 +194,9 @@ namespace StructureVehicles
         }
         private int credit;
 
-
+        /// <summary>
+        /// String.Format ToString
+        /// </summary>
         public override string ToString()
         {
             return base.ToString() + string.Format("\n {0}: {1}\n",
@@ -216,6 +208,7 @@ namespace StructureVehicles
 
     class privateUser : User
     {
+        //inherited P-user from user
         public privateUser(string firstName,
             string lastName,
             string address,
@@ -224,8 +217,12 @@ namespace StructureVehicles
             decimal balance,
             int cprNumber) : base(firstName, lastName, address, phoneNumber, zipCode, balance)
         {
+            //privateUser Constructor
             this.CPRNumber = cprNumber;
         }
+        /// <summary>
+        /// PhoneNumber Field and proberty
+        /// </summary>
         public int PhoneNumber
         {
             get { return phoneNumber; }
@@ -241,6 +238,9 @@ namespace StructureVehicles
         }
         private int phoneNumber;
 
+        /// <summary>
+        /// CPRNumber Field and proberty
+        /// </summary>
         public int CPRNumber
         {
             get { return cprNumber; }
@@ -256,21 +256,9 @@ namespace StructureVehicles
         }
         private int cprNumber;
 
-        //public int Credit
-        //{
-        //    get { return credit; }
-        //    set { credit = value; }
-        //}
-        //private int credit;
-
-        //public int CVRNumber
-        //{
-        //    get { return cvrNumber; }
-        //    set { cvrNumber = value; }
-        //}
-        //private int cvrNumber;
-
-
+        /// <summary>
+        /// String.Format ToString
+        /// </summary>
         public override string ToString()
         {
             return base.ToString() + string.Format("\n {0}: {1}\n",
@@ -279,5 +267,4 @@ namespace StructureVehicles
                     );
         }
     }
-
 }

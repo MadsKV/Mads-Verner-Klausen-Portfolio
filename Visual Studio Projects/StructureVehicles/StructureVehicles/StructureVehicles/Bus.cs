@@ -4,8 +4,9 @@ using System.Text;
 
 namespace StructureVehicles
 {
-    class Bus : PersonalCar
+    class Bus : Vehicle
     {
+        //inherited Bus from Vehicle
         public Bus(string name,
             double km,
             string registrationNumber,
@@ -20,6 +21,7 @@ namespace StructureVehicles
             int numberOfSleepingRoom,
             bool toilets) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType, numberOfSeats)
         {
+            //Bus Constructor
             this.BusDimentions = busDimentions;
             this.NumberOfSeats = numberOfSeats;
             this.NumberOfSleepingRoom = numberOfSleepingRoom;
@@ -27,16 +29,27 @@ namespace StructureVehicles
             this.DriverLisence = driverLicenseEnum.D;
         }
 
+        /// <summary>
+        /// NumberOfSeats Field and proberty
+        /// </summary>
         public int NumberOfSeats;
         private int numberOfSeats;
 
+        /// <summary>
+        /// NumberOfSleepingRoom Field and proberty
+        /// </summary>
         public int NumberOfSleepingRoom;
         private int numberOfSleepingRoom;
 
+        /// <summary>
+        /// Toilets Field and proberty
+        /// </summary>
         public bool Toilets;
         private bool toilets;
 
-
+        /// <summary>
+        /// BusDimentions Field and proberty
+        /// </summary>
         public busDimentionsStruct BusDimentions
         {
             get { return busDimentions; }
@@ -52,6 +65,9 @@ namespace StructureVehicles
             public override string ToString() => $"({height}, {weight}, {length})";
         }
 
+        /// <summary>
+        /// ToString (String.Format)
+        /// </summary>
         public override string ToString()
         {
             return base.ToString() + string.Format("\n {0}: {1}\n {2}: {3}\n {4}: {5}\n {6}: {7}\n {8}: {9}",

@@ -6,6 +6,7 @@ namespace StructureVehicles
 {
     abstract class Vehicle
     {
+        //Protected Vehicle class
         protected Vehicle(string name,
             double km,
             string registrationNumber,
@@ -16,6 +17,7 @@ namespace StructureVehicles
             double kmPerLiter,
             fuelTypeEnum fuelType)
         {
+            //Vehicle Constructor
             this.Name = name;
             this.Km = km;
             this.RegistrationNumber = registrationNumber;
@@ -26,17 +28,11 @@ namespace StructureVehicles
             this.KmPerLiter = kmPerLiter;
             this.FuelType = fuelType;
             this.energyClass = GetEnergyClass();
-            /*this.Km = km;
-            this.RegistrationNumber = registrationNumber;
-            this.Year = year;
-            this.NewPrice = newPrice;
-            this.Towbar = towbar;
-            this.EngineSize = engineSize;
-            this.KmPerLiter = kmPerLiter;
-            this.FuelType = fuelType;*/
-            
         }
-
+        
+        /// <summary>
+        /// Name Field and proberty
+        /// </summary>
         public string Name
         {
             get { return name; }
@@ -49,6 +45,9 @@ namespace StructureVehicles
         }
         private string name;
 
+        /// <summary>
+        /// Km Field and proberty
+        /// </summary>
         public double Km
         {
             get { return km; }
@@ -56,6 +55,9 @@ namespace StructureVehicles
         }
         private double km;
 
+        /// <summary>
+        /// RegistrationNumber Field and proberty
+        /// </summary>
         public string RegistrationNumber
         {
             get { return RegistrationNumber; }
@@ -63,6 +65,9 @@ namespace StructureVehicles
         }
         private string registrationNumber;
 
+        /// <summary>
+        /// Year Field and proberty
+        /// </summary>
         public int Year
         {
             get { return year; }
@@ -70,6 +75,9 @@ namespace StructureVehicles
         }
         private int year;
 
+        /// <summary>
+        /// NewPrice Field and proberty
+        /// </summary>
         public double NewPrice
         {
             get { return newPrice; }
@@ -77,6 +85,9 @@ namespace StructureVehicles
         }
         private double newPrice;
 
+        /// <summary>
+        /// Towbar Field and proberty
+        /// </summary>
         public bool Towbar
         {
             get { return towbar; }
@@ -84,6 +95,9 @@ namespace StructureVehicles
         }
         private bool towbar;
 
+        /// <summary>
+        /// EngineSize Field and proberty
+        /// </summary>
         public virtual double EngineSize
         {
             get { return engineSize; }
@@ -91,12 +105,18 @@ namespace StructureVehicles
         }
         protected double engineSize;
 
+        /// <summary>
+        /// KmPerLiter Field and proberty
+        /// </summary>
         public double KmPerLiter
         {   get { return kmPerLiter; }
             set { kmPerLiter = value; }
         }
         private double kmPerLiter;
 
+        /// <summary>
+        /// DriverLicenseEnum Field and proberty
+        /// </summary>
         public driverLicenseEnum DriverLisence;
         private driverLicenseEnum driverLicense;
         public enum driverLicenseEnum
@@ -110,6 +130,9 @@ namespace StructureVehicles
             DE,
         }
 
+        /// <summary>
+        /// FuelTypeEnum Field and proberty
+        /// </summary>
         public fuelTypeEnum FuelType;
         private fuelTypeEnum fuelType;
         public enum fuelTypeEnum
@@ -117,6 +140,10 @@ namespace StructureVehicles
             Diesel,
             Benzine
         }
+
+        /// <summary>
+        /// EnergyClassEnum Field and proberty
+        /// </summary>
         public energyClassEnum Energyclass
         {
             get { return energyClass; }
@@ -129,6 +156,8 @@ namespace StructureVehicles
             C,
             D
         }
+
+
         private energyClassEnum GetEnergyClass() {
             if (this.year < 2010)
             {
@@ -231,6 +260,10 @@ namespace StructureVehicles
             }
 
         }
+
+        /// <summary>
+        /// ToString (String.Format)
+        /// </summary>
         public override string ToString()
         {
             return String.Format("{0}: {1}\n {2}: {3}\n {4}: {5}\n {6}: {7}\n {8}: {9}\n {10}: {11}\n {12}: {13}\n {14}: {15}\n {16}: {17}",

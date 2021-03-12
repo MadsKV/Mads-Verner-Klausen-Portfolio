@@ -6,6 +6,7 @@ namespace StructureVehicles
 {
     abstract class PersonalCar : Vehicle
     {
+        //inherited PersonalCar from Vehicle
         public PersonalCar(string name,
             double km,
             string registrationNumber,
@@ -17,13 +18,19 @@ namespace StructureVehicles
             fuelTypeEnum fuelType,
             int numberOfSeats) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
         {
+            //PersonalCar Constructor
             this.NumberOfSeats = numberOfSeats;
         }
 
+        /// <summary>
+        /// NumberOfSeats Field and proberty
+        /// </summary>
         public int NumberOfSeats;
         private int numberOfSeats;
 
-
+        /// <summary>
+        /// TrunkDimentions Field and proberty
+        /// </summary>
         public trunkDimentionsStruct TrunkDimentions
         {
             get { return trunkDimentions; }
@@ -31,6 +38,9 @@ namespace StructureVehicles
         }
         private trunkDimentionsStruct trunkDimentions;
 
+        /// <summary>
+        /// TrunkDimentions Struct Field and proberty
+        /// </summary>
         public struct trunkDimentionsStruct
         {
             public double height;
@@ -39,6 +49,9 @@ namespace StructureVehicles
             public override string ToString() => $"({height}, {width}, {depth})";
         }
 
+        /// <summary>
+        /// EngineSize Struct Field and proberty
+        /// </summary>
         public override double EngineSize 
         {
             get { return this.engineSize; }
@@ -54,6 +67,7 @@ namespace StructureVehicles
         }
         class PrivatePersonalCar : PersonalCar
         {
+            //inherited PrivatePersonalCar from PersonalCar
             public PrivatePersonalCar(
             string name,
             double km,
@@ -68,11 +82,16 @@ namespace StructureVehicles
             bool isofix,
             trunkDimentionsStruct trunkDimentions) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType, numberOfSeats)
             {
+                //PersonalCar Constructor
                 this.DriverLisence = driverLicenseEnum.B;
             }
 
             public bool isofix;
 
+
+            /// <summary>
+            /// ToString (String.Format)
+            /// </summary>
             public override string ToString()
             {
             return base.ToString() + string.Format("\n {0}: {1}\n {2}: {3}\n {4}: {5}",
@@ -87,6 +106,7 @@ namespace StructureVehicles
         }
         class ProfessionalPersonalCar : PersonalCar
         {
+            //inherited ProfessionalPersonalCar from Vehicle
             public ProfessionalPersonalCar(string name,
             double km,
             string registrationNumber,
@@ -101,6 +121,7 @@ namespace StructureVehicles
             double loadCapacity,
             int numberOfSeats) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType, numberOfSeats)
             {
+                //professionalPersoncalCar Constructor
                 this.Name = name;
                 this.Km = km;
                 this.RegistrationNumber = registrationNumber;
@@ -116,6 +137,7 @@ namespace StructureVehicles
                 this.NumberOfSeats = 2;
                 this.Towbar = true;
 
+                //LoadCapacity -> DriversLicense decider
                 if(loadCapacity > 750.0)
                 {
                     this.DriverLisence = driverLicenseEnum.BE;
@@ -125,9 +147,20 @@ namespace StructureVehicles
                     this.DriverLisence = driverLicenseEnum.B;
                 }
             }
+            /// <summary>
+            /// SafetyBar Struct Field and proberty
+            /// </summary>
             public bool safetyBar;
+            private bool safetyBar;
+            /// <summary>
+            /// EngineSize Struct Field and proberty
+            /// </summary>
             public double loadCapacity;
+            private double loadCapacity;
 
+            /// <summary>
+            /// ToString (String.Format)
+            /// </summary>
             public override string ToString()
             {
                 return base.ToString() + string.Format("\n {0}: {1}\n {2}: {3}\n {4}: {5}",

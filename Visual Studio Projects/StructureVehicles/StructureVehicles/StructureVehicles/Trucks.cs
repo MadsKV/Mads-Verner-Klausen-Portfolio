@@ -6,6 +6,7 @@ namespace StructureVehicles
 {
     class Trucks : Vehicle
     {
+        //inherited Truck from Vehicle
         public Trucks(string name,
             double km,
             string registrationNumber,
@@ -18,11 +19,19 @@ namespace StructureVehicles
             truckDimentionsStruct trunkDimentions,
             double loadCapacity) : base (name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
         {
+            //Truck Constructor
             this.TruckDimentions = truckDimentions;
             this.DriverLisence = driverLicenseEnum.C;
         }
+        /// <summary>
+        /// LoadCapacity Field and proberty
+        /// </summary>
         public int LoadCapacity;
         private int loadCapacity;
+
+        /// <summary>
+        /// EngineSize Field and proberty
+        /// </summary>
         public override double EngineSize
         {
             get { return this.engineSize; }
@@ -36,6 +45,9 @@ namespace StructureVehicles
             }
         }
 
+        /// <summary>
+        /// TruckDimentions Field and proberty
+        /// </summary>
         public truckDimentionsStruct TruckDimentions
         {
             get { return truckDimentions; }
@@ -51,6 +63,9 @@ namespace StructureVehicles
             public override string ToString() => $"({height}, {weight}, {length})";
         }
 
+        /// <summary>
+        /// ToString (String.Format)
+        /// </summary>
         public override string ToString()
         {
             return base.ToString() + string.Format("\n {0}: {1}\n {2}:{3}",
