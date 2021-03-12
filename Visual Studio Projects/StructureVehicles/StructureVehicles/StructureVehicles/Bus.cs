@@ -18,7 +18,7 @@ namespace StructureVehicles
             busDimentionsStruct busDimentions,
             int numberOfSeats,
             int numberOfSleepingRoom,
-            bool toilets) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType)
+            bool toilets) : base(name, km, registrationNumber, year, newPrice, towbar, engineSize, kmPerLiter, fuelType, numberOfSeats)
         {
             this.BusDimentions = busDimentions;
             this.NumberOfSeats = numberOfSeats;

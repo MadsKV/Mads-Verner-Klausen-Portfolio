@@ -15,7 +15,7 @@ namespace StructureVehicles
 
         public decimal Bid
         {
-            get { }
+            get => default;
             set { }
         }
         private decimal bid;
@@ -29,7 +29,7 @@ namespace StructureVehicles
         //set { cprNumber = value; }
         public User Buyer
         {
-            get { }
+            get => default;
             set { }
         }
         private User buyer;

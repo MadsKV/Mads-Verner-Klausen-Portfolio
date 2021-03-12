@@ -112,7 +112,7 @@ namespace StructureVehicles
             Console.WriteLine(Taxi);
             Console.WriteLine("\n");
             #endregion
-
+            #region Auction List
             List<Vehicle> Auctionvehicles = new List<Vehicle>();
             Auctionvehicles.Add(BMWi8);
             Auctionvehicles.Add(M3E90);
@@ -127,13 +127,14 @@ namespace StructureVehicles
             {
                 Console.WriteLine(Auctionvehicles.ToString() + "\n");
             }
+            #endregion
 
-            User customUser = new privateUser(1207950021, 9000, 5000);
 
+            //User customUser = new privateUser(1207950021, 9000, 5000);
 
-            User CustomSeller = new corporateUser();
+            //User CustomSeller = new corporateUser();
 
-            Auctionhouse.ForSale(BMWi8, CustomSeller, 9043850356M);
+            //Auctionhouse.ForSale(BMWi8, CustomSeller, 9043850356M);
 
 
 
