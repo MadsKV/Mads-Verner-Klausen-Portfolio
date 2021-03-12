@@ -39,13 +39,5 @@ namespace StructureVehicles
             get; 
         }
         public Vehicle vehicle;
-
-        internal User User
-        {
-            get => default;
-            set
-            {
-            }
-        }
     }
 }

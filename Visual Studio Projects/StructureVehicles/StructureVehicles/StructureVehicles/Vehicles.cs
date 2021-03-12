@@ -255,7 +255,7 @@ namespace StructureVehicles
                 );
         }
 
-        internal Auctionhouse Auctionhouse
+        internal Auction Auction
         {
             get => default;
             set

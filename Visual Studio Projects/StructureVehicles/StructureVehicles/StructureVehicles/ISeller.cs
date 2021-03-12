@@ -6,7 +6,6 @@ namespace StructureVehicles
 {
     public interface ISeller
     {
-        int zipcode { get; set; }
-
+        int ZipCode { get; set; }
     }
 }

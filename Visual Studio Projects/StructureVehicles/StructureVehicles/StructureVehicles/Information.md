@@ -1,4 +1,5 @@
-#Information
+# Information
+
 
 For at få lav kobling skal vores metoder og klasser være 
 uafghængige af hinanden, og ved ændringer i metoder og klasser, påvirke andet kode så lidt som muligt.
