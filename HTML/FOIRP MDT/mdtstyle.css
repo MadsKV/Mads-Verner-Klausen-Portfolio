@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story|Raleway+Dots');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+body {
+  background-color: #f7f7f7;
+  position: relative;
+
+}
+::-webkit-input-placeholder {
+  color: black;
+
+}
+
+.searchText {
+  background-color: white;
+  border: 1px solid black;
+  font-weight: bold;
+  margin: 1em;
+  width: 20em;
+  padding-left:5px;
+font-family: 'Raleway Dots', cursive;
+
+
+}
+.searchText1 {
+  font-size: 1.2em;
+  color: black;
+  font-family: 'Baloo', cursive;
+
+}
+
+table thead tr th {
+  color: #B87333;
+}
+
+
+
+
+#table2 {
+
+width: 65em;
+position: relative;
+border: 1px solid black;
+
+}
+
+#table1 {
+
+  background-color: white;
+
+}
+
+#crimelis{
+ position: relative;
+  bottom:0em;
+  width: 67em;
+
+
+}
+
+#idkidk {
+  text-decoration: none;
+  color: black;
+}
+
+#theme {
+ font-size: 0.7em;
+ text-decoration: none;
+ color: black;
+ border: 1px black solid;
+ padding: 2px 6px 2px 1px;
+ margin-left: 1em;
+ border-radius: 7px;
+}
+#theme:hover {
+background-color: black;
+color: white;
+}
+
+
+span.text-center {
+  display: block;
+  margin-bottom: 15px;
+
+
+
+}
+.one {
+  background: #e8f7ea;
+
+}
+.two {
+  background:#f7ede8;
+}
+.three {
+  background:#f9dede;
+}
+.four {
+  background:#f0efff;
+}
+
+.five {
+  background:#feefff;
+}
+
+
+button {
+  font-size: 13px!important;
+}
+button i {
+  font-size: 15px!important;
+}
+#title {
+font-family: 'Righteous', cursive;
+      font-weight: bold;
+         
+   
+
+
+}
+#crimel {
+  font-family: 'Secular One', sans-serif;
+
+}
+
+
+#snoopy {
+	font-family: 'Hi Melody', cursive;
+  font-size: 1.95em;
+}
+
+#idid{
+  font-weight: bold;
+}
+
+#crimeid {
+  font-weight: bold;
+}
+
+
+#btnJail {
+	background-color: #a8c5ff;
+	color: #3272f2;
+	margin-right:10px;
+}
+
+#btnLp {
+  background-color: #e3b7ff;
+  color: #9a55c6;
+  margin-right:10px;
+}
+
+#btnActions {
+  background-color: #ffa8c5;
+  color: #f23272;
+  margin-right:10px;
+}
+
+#fineid {
+	font-weight: bold;
+}
+#fineid1 {
+	width: 7.5em;
+}
+
+#jailid {
+	width: 5.5em;
+  font-weight: bold;
+}
+#jailid1 {
+	padding-left: 2.1em;
+}
+
+#addid {
+	width:6.8em;
+  font-weight: bold;
+}
+
+#addid1 {
+	margin-left: 1.2em;
+}
+
+
+
+#idid3 {
+  font-weight: bold;
+}
+#crimeid3 {
+  font-weight: bold;
+}
+#fineid3 {
+  font-weight: bold;
+  width: 5.6em;
+}
+#jailid3 {
+  font-weight: bold;
+  width: 6.5em;
+}
+#addid3 {
+  font-weight: bold;
+}
+
+#jailid4 {
+  padding-left: 2.2em;
+}
+#addid4 {
+  padding-left: 2.2em;
+}
+#lpid4 {
+  padding-left: 1em;
+}
+#crimelist {
+  bottom: 1px;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+
+#table2 {
+
+width: 100%;
+position: relative;
+
+}
+
+#crimelis{
+ position: relative;
+  bottom:0em;
+  width: 100%;
+  margin-left: 1em;
+}
+
+    	
+    }
+}
+
+
+
+
+

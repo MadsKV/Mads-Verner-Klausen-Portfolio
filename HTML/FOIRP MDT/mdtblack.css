@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story|Raleway+Dots');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+/* Pooooooooo */
+
+body {
+  background-color: #212121;
+  position: relative;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #ffffff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+.searchText {
+  border: 1px solid black;
+  margin: 1em;
+  width: 20em;
+  padding-left:5px;
+  background-color: #565656;
+  color: #ffffff;
+}
+
+.searchText1 {
+  font-size: 1.2em;
+  color: white;
+  font-family: 'Baloo', cursive;
+}
+
+table thead tr th {
+  color: #B87333;
+}
+
+.table>thead>tr>th {
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+#addid4 {
+  padding-left: 2.2em;
+}
+
+#lpid4 {
+  padding-left: 1em;
+}
+
+#btnActions {
+  color: #ffffff;
+  background-color: #f38400;
+  border-color: #ffffff;
+  margin-right:10px;
+}
+
+#btnLp {
+  color: #ffffff;
+  background-color: #f38400;
+  border-color: #ffffff;
+  margin-right:10px;
+}
+
+#table2 {
+  width: 65em;
+  position: relative;
+  background-color: rgba(80, 80, 80, 0.8);
+}
+
+#crimelis {
+  position: relative;
+  bottom:0em;
+  width: 67em;
+}
+
+.text-center {
+  color: red;
+}
+
+span.text-center {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.one {
+  background-color: #0088319e;
+}
+
+.two {
+  background-color: #00518291;
+}
+
+.three {
+  background-color: #a70016a8;
+}
+
+.four {
+  background-color: #2a004e8a;
+}
+
+.five {
+  background-color: #7800888a;
+}
+
+button {
+  font-size: 13px!important;
+}
+
+button i {
+  font-size: 15px!important;
+}
+
+#title {
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  color: white;
+}
+
+#crimel {
+  color: white;
+  font-family: 'Secular One', sans-serif;
+}
+
+#idid {
+  font-weight: bold;
+  color: white;
+}
+
+#crimeid {
+  font-weight: bold;
+  color: white;
+}
+
+#lpid {
+  font-weight: bold;
+  color: white;
+}
+
+#idkidk {
+  text-decoration: none;
+  color: white;
+}
+
+#btnJail {
+  color: #ffffff;
+  background-color: #f38400;
+  border-color: #ffffff;
+  margin-right:10px;
+}
+
+#btnFine {
+  color: #ffffff;
+  background-color: #f38400;
+  border-color: #ffffff;
+}
+
+#btnClear {
+  color: #ffffff;
+  background-color: #ff0000c2;
+  border-color: #ffffff;
+}
+
+#fineid {
+  font-weight: bold;
+  color: white;
+}
+
+#fineid1 {
+  width: 5.5em;      
+}
+
+#jailid {
+  width: 5.5em;
+  font-weight: bold;
+  color: white;
+}
+
+#jailid1 {
+  padding-left: 2.1em;
+}
+
+#addid {
+  width:6.8em;
+  font-weight: bold;
+  color: white;
+}
+
+#addid1 {
+  margin-left: 1.2em;
+  background-color: rgb(58, 58, 58);
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+#table1 {
+  color: #ffffff;
+}
+
+#table1 td {
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.table-hover>tbody>tr:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+#theme {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: white;
+  border: 1px white solid;
+  padding: 2px 5px 2px 1px;
+  margin-left: 1em;
+  border-radius: 7px;
+}
+
+#theme:hover {
+  background-color: white;
+  color: black;
+}
+
+#lpid3 {
+  font-weight: bold;
+  color: white;
+}
+
+#idid3 {
+  font-weight: bold;
+  color: white;
+}
+
+#crimeid3 {
+  font-weight: bold;
+  color: white;
+}
+
+#fineid3 {
+  font-weight: bold;
+  width: 5.5em;
+  color: white;
+}
+
+#jailid3 {
+  font-weight: bold;
+  width: 6.5em;
+  color: white;
+}
+
+#addid3 {
+  font-weight: bold;
+  color: white;
+}
+
+#jailid4 {
+  padding-left: 2.2em;
+}
+
+#crimelist {
+  bottom: 1px;
+}
+
+@media only screen and (max-width: 750px) {
+  #table2 {
+    width: 100%;
+    position: relative;
+  }
+
+  #crimelis {
+    position: relative;
+    bottom:0em;
+    width: 100%;
+    margin-left: 1em;
+  }
+}

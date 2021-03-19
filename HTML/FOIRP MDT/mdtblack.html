@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Los Sanots MDT</title>
+  
+   
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+
+      <link rel="stylesheet" href="mdtblack.css">
+
+  
+</head>
+
+<body>
+<style>img[alt="www.000webhost.com"]{display:none;}</style>
+
+  <div class="container" ng-app="myApp" ng-controller="myCtrl">
+  
+  <div class="col-md-6">
+    <h2 id="title"><a id="idkidk" href="https://lossantoslife.com/mdt/">Los Santos MDT</a><a id="theme" href="mdt.html">    White</a></h2>
+    <h3 id="snoopy">Code & desgin by <a href="https://lossantoslife.com/user/Dimitripetrov" target="_blank">Snoopy</a></h3>
+
+        <h8 class="searchText1">Search:</h8> <input class="searchText" type="text" placeholder="Search for crimes" ng-model="searchText"/>
+
+    <table id="table2" class="table table-hover">
+      <thead>
+        <tr>
+          <th id="idid">ID</th>
+          <th id="crimeid">Crime Offences</th>
+          <th id="fineid">Fine</th>
+          <th id="jailid">Jail Time</th>
+          <th id="lpid">LP</th>
+          <th  id="addid">Add To List</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr  id="table1" ng-repeat="item in items | filter:searchText">
+          <td class="{{item.class}}"> {{ item.id }}</td>
+          <td class="{{item.class}}">{{ item.name }}</td>
+          <td class="{{item.class}}" id="fineid1" >$ {{ item.price | number:0 }}</td>
+          <td class="{{item.class}}" id="jailid1"> {{ item.jail }}</td>
+             <td class="{{item.class}}" id="lp1"> {{ item.lp }}</td>
+          <td class="{{item.class}}">
+            <button id="addid1" ng-click="addItem(item)" class="btn btn-sm btn-info">
+              Add
+             
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+
+  <div id="crimelis"  class="col-md-6">
+    <h2 id="crimel" >Crime List</h2>
+<div id="iojgf">
+    <table id="crime2" class="table table-hover">
+      <thead>
+          <th id="idid3">ID</th>
+          <th id="crimeid3">Crime Offences</th>
+          <th id="fineid3">Fine</th>
+          <th id="jailid3">Jail Time</th>
+          <th id="lpid3">LP</th>
+          <th id="addid3">Quantity</th>
+      </thead>
+      <tbody id="ok">
+        <tr id="table1" ng-repeat="myItem in myItems | reverse">
+          <td class="{{item.class}}">{{ myItem.id }}</td>
+          <td class="{{item.class}}">{{ myItem.name }}</td>
+          <td class="{{item.class}}">$ {{ myItem.price }}</td>
+          <td class="{{item.class}}" id="jailid4">{{ myItem.jail }}</td>
+          <td class="{{item.class}}" id="lpid4">{{ myItem.lp }}</td>
+          <td class="{{item.class}}" id="addid4">{{ myItem.count }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <span class="text-center" ng-show="myItems.length == 0">
+      Crime list is currently empty
+    </span></div>
+    <div class="clearfix"></div>
+    <span id="btnFine" class="pull-right alert alert-success">Total Fine: $ {{ !totalPrice ? "0" : totalPrice | number:0 }}</span>
+
+     <span id="btnJail" class="pull-right alert alert-success">Jail Time:  {{ !totalJail ? "0" : totalJail | number:0 }}</span>
+
+  <span id="btnLp" class="pull-right alert alert-success">LP:  {{ !totalLp ? "0" : totalLp | number:0 }}</span>
+
+    <button onclick="topFunction()" id="btnClear" ng-click="removeBasket()" ng-show="myItems.length > 0" class="pull-left alert alert-danger">Clear Crimes</button>
+  </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js'></script>
+
+  
+
+    <script  src="mdtjs7.js"></script>
+
+
+
+
+</body>
+
+</html>

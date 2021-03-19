@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	
+
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.intro{
+	background: url(https://i.imgur.com/HfKiNOS.jpg);
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: table;
+	top:0;
+	background-size: cover;
+	
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 25%;
+
+}
+
+.content h1 {
+	font-family: 'Russo One', sans-serif;
+	font-size: 480%;
+	font-weight: 100;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+
+}
+
+.btn1 {
+	font-family: 'Gugi', sans-serif;
+	font-size: 135%;
+	font-weight: 400;
+	text-decoration: none;
+	border: solid white 2px;
+	padding: 10px 20px;
+	border-radius: 9px;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+	top: 13em;
+}
+
+.btn1:hover {
+	background-color: rgb(29, 186, 55, 0.15);
+	font-weight: 200;
+	
+		
+
+}
+.btn2 {
+	font-family: 'Gugi', sans-serif;
+	font-size: 135%;
+	font-weight: 400;
+	text-decoration: none;
+	border: solid white 2px;
+	padding: 10px 20px;
+	border-radius: 9px;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+	float:left;
+	margin-left: 50px;
+
+}
+
+.btn2:hover {
+	
+	background-color: rgb(29, 186, 55, 0.15);
+	font-weight: 200;
+	
+		
+
+}
+.btn3 {
+	font-family: 'Gugi', sans-serif;
+	font-size: 135%;
+	font-weight: 400;
+	text-decoration: none;
+	border: solid white 2px;
+	padding: 10px 20px;
+	border-radius: 9px;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+	float:right;
+	margin-right: 50px;
+
+
+}
+
+
+.btn3:hover {
+	background-color: rgb(29, 186, 55, 0.15);
+	font-weight: 200;
+	
+		
+
+}
+
+
+#version {
+	position: absolute;
+    bottom: 1px;
+    right: 10px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+
+
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+.content {
+	padding-bottom: 30%;
+}
+.content h1 {
+	font-size: 300%;
+}
+.btn{
+	font-size: 100%;
+	padding: 9px 17px;
+}
+}
+@media screen and (max-width: 768px) {
+.content {
+	padding-bottom: 40%;
+}
+.content h1 {
+	font-size: 300%;
+
+}
+.btn{
+	font-size: 100%;
+	padding: 9px 17px;
+}
+@media screen and (max-width: 515px) {
+
+.content h1 {
+font-size: 250%;
+	
+}
+
+.btn3, .btn2 {
+float: none;
+ 	display: block;
+  position:relative;
+    text-align:center;
+      padding:7px;
+  margin:35px 0;
+margin-right: 20%;
+margin-left: 20%;
+
+}
+
+.btn1{
+	 	display: block;
+margin-right: 20%;
+margin-left: 20%;
+
+}

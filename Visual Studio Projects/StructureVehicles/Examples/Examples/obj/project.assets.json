@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\MadsV\\.nuget\\packages\\": {}
+    "C:\\Users\\Mads\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\StructureVehicles\\Examples\\Examples\\Examples.csproj",
+      "projectUniqueName": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\StructureVehicles\\Examples\\Examples\\Examples.csproj",
       "projectName": "Examples",
-      "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\StructureVehicles\\Examples\\Examples\\Examples.csproj",
-      "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\StructureVehicles\\Examples\\Examples\\obj\\",
+      "projectPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\StructureVehicles\\Examples\\Examples\\Examples.csproj",
+      "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\StructureVehicles\\Examples\\Examples\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,6 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }
