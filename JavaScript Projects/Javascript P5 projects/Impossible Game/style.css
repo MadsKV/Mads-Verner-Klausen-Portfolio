@@ -27,6 +27,7 @@ canvas {
   font-family: cursive;
   text-shadow: 0 0 50px #2196f3, 0 0 100px #2196f3, 0 0 150px #2196f3,
     0 0 200px #2196f3, 0 0 250px #2196f3;
+    
   animation: animate 0.5s linear infinite;
 }
 
