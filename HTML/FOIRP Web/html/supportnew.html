@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/HTML/FOIRP Web/css/stylesheetnew.css">
+    <link rel="stylesheet" href="/HTML/FOIRP Web/css/stylesheet-light.css">
     <link rel="shortcut icon" type="image/png" href="/HTML/FOIRP Web/img/favicon-32x32.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li><a href="indexnew.html">Home</a></li>
-                    <li><a href="rulesnew.html">Rules</a></li>
+                    <li><a href="rulesnew.html">Server Rules</a></li>
                     <li class="active"><a href="#">Support</a></li>
                     <li> <a href="./catalogue.html">Catalogues</a></li>
                     <li style="font-size: 20px;"><a href="donating.html"><strong>Donating</strong></a></li>
@@ -50,6 +50,9 @@
         <div class="row content">
             <div class="col-sm-2 sidenav">
                 <div class="socials">
+                    <button type="button" name="dark_light" class="btn-toggle" onclick="toggleDarkLight()" title="Toggle dark/light mode"
+                        style="border: none;">🌛</button>
+                    <p style="font-size: 15px;"><em>Click here to toggle dark mode.</em></p>
                     <p>
                         <a href="https://www.youtube.com/channel/UC8E8rsxiUOae3O3yWLgRBrg">
                             <img border="0" alt="W3Schools" src="/HTML/FOIRP Web/img/youtubeR (2).jpeg" width="200"
@@ -71,15 +74,13 @@
                     <div class="description-head">
                         <h1><em><u>FOIRP Support</u></em></h1><br>
                     </div>
-                    <div class="supportMain">
-                        <h2 style="text-align: center;">Support wise we tend to use our Teamspeak server.</h2>
-                        <p>
-                            In need of any help? Been banned? Or just have a question?
-                            Join our teamspeak or go to our #Support Channel in Discord to get a hold of someone from
-                            our staff
-                            team.
-                        </p>
-                    </div>
+                    <h2 style="text-align: center;">Support wise we tend to use our Teamspeak server.</h2>
+                    <p>
+                        In need of any help? Been banned? Or just have a question?
+                        Join our teamspeak or go to our #Support Channel in Discord to get a hold of someone from
+                        our staff
+                        team.
+                    </p>
 
                     <iframe style="border-radius: 12px;"
                         src="https://api.trackyserver.com/widget/tracky.php?id=65&lang_code=&map=1&version=1&votes=1&plist=1&connect=1&button_name=Connect&color1=FF8415&color2=333333&color3=333333&color4=FFFFFF&color5=FFFFFF&color7=8A8E94&color8=8a8e94&color9=fff&title=[UK/EU] Find Out In RP | Serious RP | EMS/Police/Mechanic | Active Staff | Legal/Illegal Jobs | Custom Scripts"
@@ -94,69 +95,74 @@
                         style="background-color:rgb(69, 69, 69); width:300px; height:500px; float: left; margin-right: 5px; border-radius: 12px;">
                     </div>
 
-                    <script src="https://static.tsviewer.com/short_expire/js/ts3viewer_loader.js"></script>
-                    <script>
-                        var ts3v_url_1 = "https://www.tsviewer.com/ts3viewer.php?ID=1112833&text=595959&text_size=12&text_family=1&text_s_color=ffffff&text_s_weight=bold&text_s_style=italic&text_s_variant=small-caps&text_s_decoration=none&text_i_color=949292&text_i_weight=normal&text_i_style=italic&text_i_variant=small-caps&text_i_decoration=none&text_c_color=949494&text_c_weight=normal&text_c_style=italic&text_c_variant=small-caps&text_c_decoration=none&text_u_color=ffffff&text_u_weight=bold&text_u_style=italic&text_u_variant=small-caps&text_u_decoration=none&text_s_color_h=ffffff&text_s_weight_h=bold&text_s_style_h=italic&text_s_variant_h=small-caps&text_s_decoration_h=none&text_i_color_h=ffffff&text_i_weight_h=bold&text_i_style_h=italic&text_i_variant_h=small-caps&text_i_decoration_h=none&text_c_color_h=ffffff&text_c_weight_h=bold&text_c_style_h=italic&text_c_variant_h=small-caps&text_c_decoration_h=none&text_u_color_h=ffffff&text_u_weight_h=bold&text_u_style_h=italic&text_u_variant_h=small-caps&text_u_decoration_h=none&iconset=default_mono_2014";
-                        ts3v_display.init(ts3v_url_1, 1112833, 100);
-                    </script>
+                    
                 </div>
+                <br>
                 <hr>
+                <div class="support-main"> 
                 <h2 style="text-align: center;"><strong> Dedicated Staff Team</strong></h2>
                 <h3 style="text-align: center;">We have a large dedicated staff team, ready to help you at almost
                     anytime.</h3><br>
 
-                <ul>
-                    <li><a style="font-size: 20px;"
-                            href="https://docs.google.com/forms/d/1uLJu8d6KouAmQbhgokqUT5IhGYD5w9cF_XOdQUL3Wvg/edit">Ban
-                            Appeal</a></li>
-                    <p>If you've been banned and want to fill out a ban appeal, to hopefully join the server again,
-                        follow the link above and our QA team will review it and get back to you.</p>
-                    <li><a style="font-size: 20px;"
-                            href="https://docs.google.com/forms/d/1gU6yTvWnOfBgnwo_M7O9eXzfOxskc9YpB0QK9Epqop4/edit?usp=drive_web">Faction
-                            / Business Application</a></li>
-                    <p>Want to rule the city? Want to be a drug king pin? Make your own faction and conquer your
-                        territory!</p>
-                    <p>Want to open a business? Got a brilliant money idea you want to make reality?</p>
-                    <li><a style="font-size: 20px;"
-                            href="https://docs.google.com/forms/d/1U3unMOtFdsjzauV71HqfYqWKvybfRVXdRCCPl3pGU6I/edit?usp=drive_web">Community
-                            Member Application</a></li>
-                    <p>Do you enjoy our community and want to show your appreciation? Become a community member and get
-                        extra perks in our teamspeak, along with a fancy little badge.</p>
-                    <hr>
-                    <h2>We also have QA and PR applications <u><strong> OPEN</strong></u> at the moment.</h2>
-                    <p>so if you would like to
-                        contribute even more by joining either QA or PR, make an application and you will get contacted
-                        by the respective department.</p>
-                    <li><a style="font-size: 20px;"
-                            href="https://docs.google.com/forms/d/1Tiva-aPxfmgJRsJYAisPdeUSXJS0zyM8LIFchXd1mB4/edit?usp=drive_web">QA
-                            Application</a></li>
-                    <li><a style="font-size: 20px;"
-                            href="https://docs.google.com/forms/d/1VIo4Y5brzggvEujvIE1SOA38V-M8Jcp-tonGKgUwQqU/edit">PR
-                            Application</a></li>
-                    <hr>
-                    <h2>Want to join EMS or Police, follow the links below to send in your application.</h2>
-                    <p>The applications will be looked at as fast as possible, normally you will get contacted within 7
-                        days maximum, if you got questions about either EMS or Police, join our teamspeak or discord for
-                        further information.</p>
-                    <li><a style="font-size: 20px;"
-                            href="https://docs.google.com/forms/d/1MPvlSE0--SWYWH6aUJlPTuTkyPC0QYs0-l_seWPM6fY/edit">Police
-                            Application</a></li>
-                    <li><a style="font-size: 20px;"
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSeudfN0r2ebHeRsQCpel18N7SoGo7s93TWmseNM9rVC-FR4-Q/viewform">EMS
-                            Application</a></li>
-                </ul>
-                <div class="donating">
-                    <div class="donating-head">
+                    <ul>
+                        <li><a style="font-size: 20px;"
+                                href="https://docs.google.com/forms/d/1uLJu8d6KouAmQbhgokqUT5IhGYD5w9cF_XOdQUL3Wvg/edit">Ban
+                                Appeal</a></li>
+                        <p>If you've been banned and want to fill out a ban appeal, to hopefully join the server again,
+                            follow the link above and our QA team will review it and get back to you.</p>
+                        <li><a style="font-size: 20px;"
+                                href="https://docs.google.com/forms/d/1gU6yTvWnOfBgnwo_M7O9eXzfOxskc9YpB0QK9Epqop4/edit?usp=drive_web">Faction
+                                / Business Application</a></li>
+                        <p>Want to rule the city? Want to be a drug king pin? Make your own faction and conquer your
+                            territory!</p>
+                        <p>Want to open a business? Got a brilliant money idea you want to make reality?</p>
+                        <li><a style="font-size: 20px;"
+                                href="https://docs.google.com/forms/d/1U3unMOtFdsjzauV71HqfYqWKvybfRVXdRCCPl3pGU6I/edit?usp=drive_web">Community
+                                Member Application</a></li>
+                        <p>Do you enjoy our community and want to show your appreciation? Become a community member and
+                            get
+                            extra perks in our teamspeak, along with a fancy little badge.</p>
                         <hr>
-                        <h2>Donating</h2>
-                    </div>
-                    <div class="donating-description">
-                        <p><em> We accept donations to further develop and withholding of our server, so if you'd
-                                like to
-                                keep the community going and contribute with any kind of donation, go to the #Donations
-                                tab here or on our discord for further information...</em></p>
+                        <h2>We also have QA and PR applications <u><strong> OPEN</strong></u> at the moment.</h2>
+                        <p>so if you would like to
+                            contribute even more by joining either QA or PR, make an application and you will get
+                            contacted
+                            by the respective department.</p>
+                        <li><a style="font-size: 20px;"
+                                href="https://docs.google.com/forms/d/1Tiva-aPxfmgJRsJYAisPdeUSXJS0zyM8LIFchXd1mB4/edit?usp=drive_web">QA
+                                Application</a></li>
+                        <li><a style="font-size: 20px;"
+                                href="https://docs.google.com/forms/d/1VIo4Y5brzggvEujvIE1SOA38V-M8Jcp-tonGKgUwQqU/edit">PR
+                                Application</a></li>
+                        <hr>
+                        <h2>Want to join EMS or Police, follow the links below to send in your application.</h2>
+                        <p>The applications will be looked at as fast as possible, normally you will get contacted
+                            within 7
+                            days maximum, if you got questions about either EMS or Police, join our teamspeak or discord
+                            for
+                            further information.</p>
+                        <li><a style="font-size: 20px;"
+                                href="https://docs.google.com/forms/d/1MPvlSE0--SWYWH6aUJlPTuTkyPC0QYs0-l_seWPM6fY/edit">Police
+                                Application</a></li>
+                        <li><a style="font-size: 20px;"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSeudfN0r2ebHeRsQCpel18N7SoGo7s93TWmseNM9rVC-FR4-Q/viewform">EMS
+                                Application</a></li>
+                    </ul>
+                    <div class="donating">
+                        <div class="donating-head">
+                            <hr>
+                            <h2>Donating</h2>
+                        </div>
+                        <div class="donating-description">
+                            <p><em> We accept donations to further develop and withholding of our server, so if you'd
+                                    like to
+                                    keep the community going and contribute with any kind of donation, go to the
+                                    #Donations
+                                    tab here or on our discord for further information...</em></p>
+                        </div>
                     </div>
                 </div>
+
             </div>
 
             <div class="col-sm-2 sidenav">
@@ -193,6 +199,11 @@
         integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
         crossorigin="anonymous"></script>
     <script src="/HTML/FOIRP Web/js/appnew.js"></script>
+    <script src="https://static.tsviewer.com/short_expire/js/ts3viewer_loader.js"></script>
+    <script>
+        var ts3v_url_1 = "https://www.tsviewer.com/ts3viewer.php?ID=1112833&text=595959&text_size=12&text_family=1&text_s_color=ffffff&text_s_weight=bold&text_s_style=italic&text_s_variant=small-caps&text_s_decoration=none&text_i_color=949292&text_i_weight=normal&text_i_style=italic&text_i_variant=small-caps&text_i_decoration=none&text_c_color=949494&text_c_weight=normal&text_c_style=italic&text_c_variant=small-caps&text_c_decoration=none&text_u_color=ffffff&text_u_weight=bold&text_u_style=italic&text_u_variant=small-caps&text_u_decoration=none&text_s_color_h=ffffff&text_s_weight_h=bold&text_s_style_h=italic&text_s_variant_h=small-caps&text_s_decoration_h=none&text_i_color_h=ffffff&text_i_weight_h=bold&text_i_style_h=italic&text_i_variant_h=small-caps&text_i_decoration_h=none&text_c_color_h=ffffff&text_c_weight_h=bold&text_c_style_h=italic&text_c_variant_h=small-caps&text_c_decoration_h=none&text_u_color_h=ffffff&text_u_weight_h=bold&text_u_style_h=italic&text_u_variant_h=small-caps&text_u_decoration_h=none&iconset=default_mono_2014";
+        ts3v_display.init(ts3v_url_1, 1112833, 100);
+    </script>
 
 </body>
 

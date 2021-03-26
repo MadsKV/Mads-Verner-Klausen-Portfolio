@@ -1,4 +1,12 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
+
+.landing {
+  background-color: rgb(45,48,55);
+}
+.well {
+  background-color: rgb(21,22,23);
+  border: none;
+}
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -6,26 +14,38 @@
 .aboutus {
   text-align: center;
   font-family: "Heebo", sans-serif;
+  color: white;
 }
 .aboutus h3 {
+  color: white;
   font-family: "Lobster", sans-serif;
 }
-
+.support-main{
+    color: white;
+}
 .description {
-  color: black;
+  color: white;
   font-size: 15px;
   font-family: "Heebo", sans-serif;
 }
 .description-head {
   text-align: center;
   font-family: "Lobster", sans-serif;
+  color: white;
 }
 .donating-head {
   text-align: center;
   font-family: "Lobster", sans-serif;
+  color: white;
+}
+.donating-description {
+  color: white;
+}
+.description-catalogue{
+    color: white;
 }
 .description-catalogue a:link {
-  color: #00315c;
+  color: lightblue;
   text-decoration: none;
 }
 .description-catalogue a:hover {
@@ -45,7 +65,7 @@
   font-family: "Lobster", sans-serif;
   color: rgb(21, 22, 23);
 }
-.nav navbar-nav{
+.nav navbar-nav {
   font-family: "Lobster", sans-serif;
   color: rgb(21, 22, 23);
 }
@@ -56,16 +76,20 @@
       }
       */
 .rules {
-  color: black;
+  color: white;
   text-align: center;
   font-family: "Lobster", sans-serif;
+  background-color: rgb(45,48,55);
 }
 .ruleList {
+  color: white;
   font-weight: bold;
+  background-color: rgb(45,48,55);
 }
 .ruleChange {
   color: red;
   font-size: 20px;
+  text-align: center;
 }
 .socials {
   font-size: 25px;
@@ -103,8 +127,9 @@ a:active {
 /* Set gray background color and 100% height */
 .sidenav {
   padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 380vh;
+  background-color: rgb(21,22,23);
+
+  height: 490vh;
 }
 
 /* Set black background color, white text and some padding */
@@ -123,4 +148,12 @@ footer {
   .row.content {
     height: auto;
   }
+}
+
+.togglelightbtn p{
+    color: white;
+}
+
+.togglelightbtn button{
+    background-color: black;
 }
