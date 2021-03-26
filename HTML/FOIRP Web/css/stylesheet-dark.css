@@ -1,5 +1,7 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
-
+body{
+    background-color: rgb(45,48,55);
+}
 .landing {
   background-color: rgb(45,48,55);
 }
@@ -90,6 +92,7 @@
   color: red;
   font-size: 20px;
   text-align: center;
+  
 }
 .socials {
   font-size: 25px;
@@ -156,4 +159,5 @@ footer {
 
 .togglelightbtn button{
     background-color: black;
+    outline: none;
 }
