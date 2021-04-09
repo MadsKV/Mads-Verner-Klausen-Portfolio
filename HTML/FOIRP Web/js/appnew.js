@@ -16,3 +16,8 @@ btn.addEventListener("click", function () {
   }
 });
 
+document.cookie = "mode=Night;";
+
+window.onload = function() {
+    readCookieAndSetMode("mode=Night;");
+}
