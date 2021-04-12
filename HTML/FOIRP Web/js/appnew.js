@@ -5,14 +5,14 @@ const theme = document.querySelector("#theme-link");
 
 // Listen for a click on the button
 btn.addEventListener("click", function () {
-  // If the current URL contains "ligh-theme.css"
-  if (theme.getAttribute("href") == "/HTML/FOIRP Web/css/stylesheet-light.css") {
-    // ... then switch it to "dark-theme.css"
-    theme.href = "/HTML/FOIRP Web/css/stylesheet-dark.css";
+  // If the current URL contains "dark-theme.css"
+  if (theme.getAttribute("href") == "/HTML/FOIRP Web/css/stylesheet-dark.css") {
+    // ... then switch it to "light-theme.css"
+    theme.href = "/HTML/FOIRP Web/css/stylesheet-light.css";
     // Otherwise...
   } else {
-    // ... switch it to "light-theme.css"
-    theme.href = "/HTML/FOIRP Web/css/stylesheet-light.css";
+    // ... switch it to "dark-theme.css"
+    theme.href = "/HTML/FOIRP Web/css/stylesheet-dark.css";
   }
 });
 
