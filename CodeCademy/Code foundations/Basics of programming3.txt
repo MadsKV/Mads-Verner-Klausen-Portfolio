@@ -1,0 +1,231 @@
+Introduction to Lists
+When we start writing more complex programs, we’ll start working with more pieces of data. But data can get messy real fast if we’re not careful.
+
+To keep our data tidy, we’ll want to use data structures. Data structures are formats that we can use to keep track of our data in an organized fashion.
+
+Lists are one very basic data structure. Programmers use lists as a container to store multiple pieces of information that relate to each other in some way. Like a list of the presidents of the US, types of cheeses in alphabetical order, and the finishing positions of runners in a race.
+
+What makes lists special is that they order our data in a specific, linear sequence.
+
+Since our values are kept in order, it allows us to easily find the information we’re looking for; otherwise, we’d have a huge jumbled mess of data!
+
+In this lesson, we’re going to cover:
+
+Accessing an item from a list
+Adding an item to a list
+Removing an item from a list
+
+
+Accessing List Items
+Lists order items so that they’re in a specific sequence. For example the comic strip, as a list, stores frames in a specific order. Without an order, the story wouldn’t make sense!
+
+This idea of sequence is important because it tells us that each value has a specific position in the list. The position of value in a list is known as its index. You can think of an index like an address - it’s what we use to locate an item in a list.
+
+List indices (the plural of index) are numbers. Usually, lists will start their index at 0 and then add one for each value. So if you want to select the first item in the list, make sure to remember to use 0 in order to do so!
+
+list_indices
+
+Knowing an item’s index allows us to select a value from a list and do something with it, like save it to a variable. It can also be useful in modifying a list, whether by adding something or removing it.
+
+
+Adding Items to a List
+After a list is created, we’re able to add things to it.
+
+When we add things to the end of an existing list, we say that we’re appending them to the end. Imagine we’re trying out different endings for our comic strip. We can try adding different frames to our current narrative and see which one we like the best.
+
+myList = ['apple', 'banana', 'pear']
+ 
+myList.append('orange')
+ 
+// now, myList == ['apple', 'banana', 'pear', 'orange']
+In addition to adding things to the end of a list, we can also insert items in the existing list. We do so by using the index number for where we want to position our new value.
+
+myList = ['apple', 'banana', 'pear']
+ 
+myList.splice(1, 0, 'mango') // make 'mango' the second item in the list
+ 
+// now, myList = ['apple', 'mango', 'banana', 'pear']
+ 
+In this line of code, we inserted the string 'mango' at the index 1 position. But it’s important to be careful - adding something in the middle of a pre-existing list, or adding it to the beginning of a list, will alter the indices for all the following items. Notice that ‘banana’ was in the second position and is now in the third.
+
+In JavaScript, we can edit lists with commands like .splice and .pop. You don’t need to memorize these commands – the important part is that you understand the ways in which lists can be edited!
+
+
+Removing Items from a List
+We’re also able to remove items from a list.
+
+Similar to adding items, we can modify lists by taking off the last item, or we can use indexing to select a specific item and remove it from the list.
+
+myList = ['apple', 'banana', 'pear']
+ 
+myList.pop() // returns 'pear'
+ 
+// now, myList == ['apple', 'banana']
+This line of code will take away the last item from our list, keeping our sequence intact. But we can also remove items from the middle of our list:
+
+myList = ['apple', 'banana', 'pear']
+ 
+myList.splice(1, 1) // returns 'banana'
+ 
+// now, myList == ['apple', 'pear']
+
+
+Lists: Putting it Together
+Great! Now that you know all about lists, let’s write some code.
+
+There are many ways to create lists and they can change depending on what language you are programming in. Here’s an example of a list in JavaScript that contains three items:
+
+myList = ['apple', 'banana', 'pear']
+In JavaScript, lists are created by defining a name for the list (such as myList), then setting it equal to a set of brackets []. If there’s nothing in between the brackets, the list is empty. But myList has three items in between brackets [], each separated by a comma ,:
+
+'apple'
+'banana'
+'pear'
+You may have noticed that those were all strings. We can also put other data types in a list, including numbers and boolean values. We can even put other lists in a list!
+
+To select an item from the list, we use the following syntax:
+
+// the following line will return 'apple'
+myList[0]
+Where myList is the name of the list we are selecting from and [0] is the first item in the list. As we may remember, the first item is at the 0th index. So this code would grab the string, 'apple'.
+
+Let’s look at another example using the following list:
+
+colors = ['red', 'yellow', 'green', 'blue']
+To select the third item in the list, we would write colors[2]:
+
+// the following line will return 'green'
+colors[2]
+We could also save this selection to a variable, so we can use it later in our code:
+
+// now myFavoriteColor is equal to 'green'
+myFavoriteColor = colors[2]
+
+
+Lists: Review
+Congratulations! Now you’ve learned about another data type known as a list.
+
+A list is an ordered sequence of information
+You can access an item in a list by using its index position
+You can append items to the end of the list or insert them in the middle
+You can also remove an item from the end or middle of a list
+
+
+Introduction to Loops
+How do we use code to tell a computer this: “Create a variable and call a function 15 times”?
+
+We could write it out 15 times:
+
+create a variable
+call a function
+create a variable
+call a function
+create a variable
+call a function....
+…We’ll spare you the rest. This approach takes a long time and it can easily lead to mistakes. Instead, let’s give the instructions once and tell the computer how many times to repeat them:
+
+Repeat this 15 times:
+  create a variable
+  call a function
+This structure is called a loop, and you’ll learn all about them in this lesson. These special structures in programming will give you the ability to repeat instructions multiple times without writing the instructions out multiple times.
+
+This lesson will cover:
+
+for loops
+while loops
+for each loops
+By the way, we assume that you’re familiar with creating variables, using operators, calling functions, and working with lists.
+
+
+For Loops
+When we give instructions once and tell the computer how many times to repeat them, we are using a for loop, or a count-controlled loop. It executes a set of instructions for a specified number of times:
+
+For 10 times:
+  placeTile('pink')
+  placeTile('orange')
+  placeTile('mint')
+The tile-placing instructions are the same from the previous exercise – Place a pink tile, Place a orange tile, Place a mint tile – written as calls to the placetile() function.
+
+When a computer receives this program it sets a counter to 0 and executes the instructions in the body of the loop. After each iteration (one pass through the instructions), it advances the counter by 1. The process repeats until the counter is 10, meaning 10 iterations are completed.
+
+The for loop is good to use when you know the number of times you’d like to perform a task before you begin, like printing 3 copies of a document or inserting 8 rows into a table.
+
+
+While Loops
+What if you approached tile-placing another way: you don’t know how many tiles to place, but you know when to stop. How could you communicate this type of command to a computer? Give it the instructions and a condition:
+
+While there are pink tiles available:
+  placeTile('pink')
+  placeTile('orange')
+  placeTile('mint')
+This is a while loop, or condition-controlled loop. It repeats a set of instructions while that condition is true. In this case, the computer will place tiles while there are pink tiles available.
+
+In a while loop, the computer checks if the condition is satisfied. If it is, it executes the tasks in the loop body. It checks the condition again, and repeats. This continues until the condition is not satisfied, and it stops executing the tasks.
+
+Use while loops when you know when a program should stop, but not the number of times it should repeat.
+
+
+For Each Loops
+There’s one more way to give looping instructions to a computer. We define a sequence of desired tile colors (a list), and tell the computer to repeat the instructions for each item in the sequence. Here’s an example list:
+
+festiveList = ['pink', 'green', 'red', 'pink', 'green', 'red' ]
+and the loop would look like:
+
+For each color in festiveList:
+  placeTile(color)
+Why does this program look shorter than the ones before it? We only need to write placeTile() once because the pink-green-red repetition is already described in the list.
+
+color is a variable whose value changes each iteration. It represents each item in the list. On the first iteration, its value would be 'pink', then 'green', then 'red', and so on.
+
+The sequence we used was a list, but we can use other similar data types. The umbrella term for those is collection, so we may also call for each loops collection loops.
+
+Use this loop when you need to perform a task for every item in a list, or when the order of things must be maintained. In this case, both were important. A tile must be placed for each item in the list and the order of them is essential to the pattern.
+
+
+Putting it All Together
+Let’s combine all that we’ve learned so far:
+
+variables, operators, and data types
+functions and control flow
+lists and loops
+Examples of for and while loops are provided below in JavaScript. Copy each one to the editor and run it! You’ll see that they do the same things.
+
+In this for loop, the instructions are run 10 times.
+
+for (i = 0; i < 10; i++) {
+  placeTile('mint')
+  placeTile('orange')
+  placeTile('mint')
+}
+In this while loop, we create a counter at 0 and add 1 to it every iteration. The loop is executed until the counter is 10 or more.
+
+let i = 0;
+while (i < 10) {
+  placeTile('mint')
+  placeTile('orange')
+  placeTile('mint')
+  i++
+}
+
+
+"
+// Copy code here and run it!
+let i = 0;
+while (i < 2) {
+  placeTile('mint')
+  placeTile('orange')
+  placeTile('purple')
+  i++
+}
+"
+
+
+Review
+Well done! Loops are commonly used in programming because they save time, reduce error, and are easy to read. Being comfortable with each type of loop will make you a better programmer. In review:
+
+A loop is a structure in programming where the instructions are written once, but a computer can execute them multiple times
+Each execution of those instructions is called an iteration
+For loops (count-controlled loops) repeat for a specified number of times
+While loops (condition-controlled loops) repeat until a condition changes
+For each loops (collection-controlled loops) repeat for each item in a collection
+
