@@ -1,0 +1,182 @@
+Reusing Values in Variables
+One reason we use variables is that they allow us to easily reuse values in different parts of our code.
+
+When we reuse a value, it will appear in multiple places in our code. Re-typing that value becomes tedious, which leads to errors, and without a variable name, it becomes unclear as to what the value represents. It may also be unclear as to what that value is meant to represent.
+
+Let’s take a look at the following piece of code. Here we have a number that we reuse in order to make some calculations:
+
+847595593392818109495
+847595593392818109495 * 2
+847595593392818109495 / 4
+Rather than writing the same number over and over again, we can save it to a variable named my_number:
+
+my_number = 847595593392818109495
+my_number * 2
+my_number / 4
+You may be thinking, “But what if my variable name is longer than the value it stores? What’s the point of a variable?”
+
+When we use a value without assigning it to a variable, that’s known as hardcoding. While it’s sometimes faster to initially hardcode values in your program, in the long run you’ll run into trouble — especially if you need to change what those values are.
+
+
+
+
+Changing the Value of a Variable
+The strong selling point of using a variable is that we can easily change their value, making our programs flexible.
+
+As we saw in the last exercise, we can save a number to a variable and reuse it throughout a program:
+
+my_number = 847595593392818109495
+my_number * 2
+my_number / 4
+We could easily switch out the value of my_number, without having to change that number in multiple places in our code.
+
+my_number = 1
+my_number * 2
+my_number / 4
+We could also change the value of my_number part way through our program:
+
+my_number = 1
+my_number * 2
+ 
+my_number = 3
+my_number / 4
+
+
+Putting it All Together
+Now that you know a bit about variables, let’s code some ourselves!
+
+We create or declare a variable by giving it a name and setting it equal to a value.
+
+terrain = 'lake'
+In the code editor, we’ve written out an example of a variable declaration. We’ve included one variable in the workspace, named one, and it’s currently set to 'grass'.
+
+
+Review - Variables
+Congrats! Now you’ve learned about variables and why they’re useful in programming. In this lesson, we learned that:
+
+Variables allow us to store information
+Variables allow us to quickly reuse a value in our program.
+Variables let us easily change a value in our program.
+
+Numbers
+Numbers are the original data type. The earliest computers communicated only in numbers, using binary computation.
+
+We no longer just program using numbers, but numbers still have special properties and are used to do the following:
+
+Describe — numbers are used to express value: what is the frequency of a sound wave? We can express that in a number, such as 800hz.
+Calculate — numbers are used in calculations: what’s the distance between the earth and mars?
+Count — numbers are used to keep track: how many times did the car go around the track?
+While we can do a lot of things with numbers, there are a few things we can’t do with them. For example, say we have the number 20 and the text, “I am 20 years old.” While both deal with the idea of 20 as a value, a computer could perform mathematical operations on the first piece of data, but not on the second.
+
+
+Strings
+But what if we want to work with data that isn’t a number? We can represent other forms of data as a string.
+
+Strings are any sequence of characters (letters, spaces, numbers, or symbols). While almost anything can be a string, they are typically used to represent text or speech. Similar to how we represent speech in writing, we surround strings with single ('...') or double quotes ("...").
+
+But why the name strings? Strings are a sequence of symbols, so we can think of each characters being strung together, like beads in a necklace.
+
+So, what can we use strings for?
+
+To display data that uses text or symbols, like printing our name to the screen.
+To add or remove text. Since strings are a linear sequence of characters, we can break strings into even smaller strings, or combine strings to make longer ones.
+To modify characters. For example, we could capitalize the first letter of every word in a string if wanted to turn it into a title.
+To let the computer communicate with us in a “human-readable” way, like displaying the rules of an online game.
+
+
+Boolean
+This next data type has a special importance to computing. Boolean values represent the logical ideas of true and false.
+
+Booleans, unlike numbers or strings, only have two values: true and false. The term boolean comes from the inventor of a specific form of logic, George Boole. Logic is important to computer science because it is an early attempt at translating the human capacity for reason to computers.
+
+So, what do we use booleans for?
+
+To determine validity. For example, we want to know whether a meme is viral. If it’s been viewed more than 50 million times in less than a week, we’d say that it’s true that it went viral.
+To make decisions. For example, if I get an email, the program checks that the email is new and it displays at the top of my inbox.
+Because booleans act as binary opposites, we can think of them in a myriad of ways, like on and off, yes and no, sometimes even 1 and 0.
+
+While we use the words true and false to represent boolean values, it’s important to remember that they are different from the strings 'true' and 'false'.
+
+
+Putting it All Together
+So far you’ve learned about three different data types:
+
+numbers
+strings
+booleans
+Let’s put your knowledge to work!
+
+In the code editor, we’ve listed three variables, each equal to a different datatype. Try choosing a function and see what it outputs.
+
+
+Using Operators to Make Calculations
+Think about the last time you needed to perform long division — did you write it out on paper or reach for a calculator? We can actually write computer programs that perform calculations for us. In fact, that was their original purpose!
+
+If we want to write a program that performs calculations, we need to use arithmetic operators. They include addition (+), subtraction (-), multiplication (*), and division (/).
+
+Addition adds an amount to a number: 2 + 3 = 5
+Subtraction takes away an amount from a number: 10 - 3 = 7
+Multiplication takes a number and repeats it a specified number of times: 5 * 2 = 10
+Division takes a number and divides it by another number: 15 / 3 = 5
+How does this work in real life? Let’s say we need to buy some apples for the fruit salad recipe. The recipe calls for six apples, but we can only find bags of five. If we buy just enough bags for your recipe, how many extra apples will you have?
+
+Since one bag isn’t enough, we need to buy two bags with five apples each, which would equal 10. Then, we’d subtract the six apples that we need for our recipe to find our answer:
+
+apples = 5
+my_apples = apples * 2 
+answer = my_apples - 6
+If we were to print out answer, it would equal 4.
+
+You may notice that unlike in math class, we put the “answer” on the left-hand side of the equals sign, rather than to the right. That’s because we’re saving the value of our answer to a new variable! So, apples, my_apples, and answer are all variables.
+
+
+Using Operators to Make Comparisons
+When writing a program, we often need to check if a value is correct or compare two values.
+
+Comparison operators allow us to compare values and evaluate their relationship. Rather than evaluating to an integer, they evaluate to true or false, AKA boolean values. Expressions that evaluate to boolean values are known as boolean expressions.
+
+Comparison operators include:
+
+Less than < — value to the left is less than the value to the right: 2 < 6
+Greater than > — value to the left is more than the value to the right: 14 > 5
+Equals == — value to the left is equal to the value to the right: 3 == 3
+Note: we use a double-equal sign to show that we’re checking a value, rather than setting it equal to something, like we would with a variable. Some languages even use a triple-equal sign === to super-triple-check!
+
+There are two main instances where we use comparison operators:
+
+If we have an unknown quantity. What if we knew that we needed a half pound of strawberries, but we didn’t know the weight of each strawberry? We could weigh the strawberries and see if the total weight equals a half pound.
+
+strawberry_weight = ?
+is (strawberry_weight == .5lb)? => true
+If we need to compare two known values. If we’re making a salad that’s super citrusy, then we need to make sure we have more oranges than bananas. If that’s false, I’ll have to add more oranges.
+
+bananas = 5
+oranges = 3
+ 
+is (oranges > bananas)? => false
+
+
+Using Operators to Get Different Outcomes
+As we saw, comparison operators allow us to examine the relationship of two values. But what if we’re looking at more than two values?
+
+Logical operators, also known as boolean operators, evaluate multiple boolean expressions. Rather than determining if one relationship is true or false, it looks at several relationships by connecting them with logical operators and then determining the logic/validity of the overall expression.
+
+Logical operators include:
+
+AND — both expressions evaluate to true, so the final result is true:
+((4 > 1) AND (2 < 7)) is the same as (TRUE AND TRUE). Evaluates to true.
+OR — one of the expressions evalutes to true, so the final result is true:
+((8 > 6) OR (3 > 6)) is the same as (TRUE OR FALSE). Evaluates to true.
+NOT — an expression, no matter its logical value, evaluates to the opposite:
+NOT (1 < 3) evaluates to NOT (TRUE). Evaluates to false.
+The examples given are only a few of the outcomes that you can reach using logical operators. Using logical operators and boolean expressions enable us to handle different scenarios in our program. For example, what if we only had apples in our fridge? If a recipe asked for either apples OR pears, we could still make the recipe. But if a recipe requires both apples AND pears, we wouldn’t be able to make it.
+
+
+Putting it All Together
+Now that we know a bit about different operators, let’s try writing our own expressions!
+
+As we’ve seen, we can use operators to change something’s value, add other things to our program, to take them away, or to perform calculations. We can also use operators to compare statements or determine whether they are true or false.
+
+One important thing about operators when you program is that they may look different from language to language. That’s because different programming languages have different syntax, or rules for how they are written.
+
+

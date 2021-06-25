@@ -1,0 +1,187 @@
+Functions for Reusability
+Instead of giving those instructions for every hamburger, we can group and name them as a single function:
+
+function makeHamburger() {
+  Add bread
+  Add burger patty
+  Add pickles
+}
+A function is a named sequence of instructions, packaged as a unit, that performs a specific task.
+
+We’ve defined the function by giving it instructions and a name, but how do we use it? We use a function by calling it. When we call makeHamburger() we expect all of its steps to be executed.
+
+
+Functions for Flexibility
+Not everyone wants to eat hamburgers.
+
+We could write a new function for each new sandwich type, but that takes a lot of work and risks making mistakes.
+
+Instead, we’ll generalize the hamburger function to a sandwich function. This new sandwich function will still make a bread-topping-topping-bread combination, but the toppings may change based on inputs to the function:
+
+function makeSandwich(topping1, topping2) {
+  Add bread
+  Add topping1
+  Add topping2
+  Add bread
+}
+We’ve renamed the function makeSandwich() and given it two inputs, or parameters. Each time we call the function, we’ll give actual values for each input, called arguments.
+
+For example, we make a ham-and-cheese sandwich with makeSandwich("ham", "cheese"). We call the function with the arguments “ham” and “cheese”. Those will be the values for the topping1 and topping2 parameters.
+
+Instead of writing a different function for each type of sandwich, we have one function that can make them all!
+
+
+Functions for organization
+A sandwich wouldn’t be complete without fries and dessert!
+
+Here are the instructions to make the complete meal:
+
+Add bread, Add burger patty, Add fried potatoes, Add pickles, Add bread, Add salt, Add chocolate scoop, Add ketchup, Add vanilla scoop, Add strawberry scoop
+Oof. All of the instructions are there, but they’re confusing and hard to edit. If you decide to ask for a fruit salad instead of fries, you would have to find all of the fries-related instructions and replace every line.
+
+To make it easier to read, we’ll separate and organize our instructions:
+
+Add bread, Add burger patty, Add pickles, Add bread
+
+Add fried potatoes, Add salt, Add ketchup
+
+Add chocolate scoop, Add vanilla scoop, Add strawberry scoop
+
+Better… Now let’s group these instructions into three functions:
+
+makeSandwich()
+makeSomeFries()
+makeIceCream()
+We can easily substitute one line, makeSomeFries(), for a different function, like makeFruitSalad(). And if there’s an error, we know where to look for the recipe for each part of the meal.
+
+The new instructions are starting to look like a program! By using functions, we made it easier to read, reusable, and modular: each set of related instructions (sandwich, fries, dessert) is grouped into its own function, which we can easily add, remove, and swap to make a diversity of meals.
+
+
+Putting It All Together
+Time to get coding! It’s okay if you don’t recognize all the symbols in this code: we’ll walk you through the parts you need to know.
+
+The makeSandwich() function is provided in main.js. It is defined with two parameters, topping1 and topping2. By reading the instructions inside the function, we can see that it is constructing a string of words that represent the ingredients in the sandwich. For example, the first ingredient is 'bread'.
+
+Below the function definition, the function is called. When called, the function outputs a string representing a custom sandwich. We say that the function returns a string. The value of that string is stored in the variable result.
+
+We’ve set up the workspace so that the value of result is translated to ingredients drawn in the app to the far right. With the below code…
+
+result = makeSandwich('burger patty', 'pickles')
+…the app will interpret result as a bread-patty-pickles-bread sandwich and draw one to the screen.
+
+
+Control Flow
+How do computers make decisions? Here are a few examples:
+
+Web surfing: Open the browser, load the text, load the images.
+Social media: If the user’s profile is private, hide their posts. Otherwise, make them visible.
+Electronic music: Repeat a note four times a measure.
+Shopping: Collect shipping and contact information. Reject a purchase if either is incorrect.
+Each of these programs is a set of instructions, executed in a certain order. This order, called control flow, is just as important as the instructions themselves.
+
+Programmers use control structures to alter control flow. Control structures include conditionals — “do these instructions if Z is true”, loops — “do these instructions X many times”, and exceptions — “do instruction set A, but if an error occurs switch to instruction set B”. Programmers use these structures in their code to tell a computer which instructions (or in which order) to execute.
+
+In this lesson you will learn the fundamental concepts of control flow and three essential control structures. By the end of the lesson you should be able to:
+
+Define control flow
+Explain the difference between conditional, loop, and exception control structures
+Give examples for each
+
+
+Conditional
+If the user’s profile is private, hide their posts. Otherwise, make them visible.
+
+Computers can run instructions on their own, leaving us to work on more interesting and creative problems. But computers can’t make decisions on their own. Programmers can give them multiple sets of instructions and describe the right conditions in which to use each set. They can describe a structure like the quoted program above: “if X, then do instruction set 1. Otherwise do instruction set 2.” This structure is called a conditional control structure because the computer’s instructions depend on some condition(s).
+
+In our social media example, all the instructions are shown in the diagram, but only some of them will be executed each time. Here they are in text form:
+
+Check profile privacy
+Hide the post
+Show the post
+When is step 2 executed and when is 3 executed? The answer is: it depends. The control flow is 1-2 if the profile is private and 1-3 if the profile is public. The condition is the privacy setting on the profile.
+
+Conditional control structures, or just conditionals, allow programs to do different things in different scenarios. As you can see, they follow a logic similar to how humans think, making it easy to write clear code while still handling complex processes.
+
+
+Loop
+Repeat a sound four times a measure.
+
+Computers are good at repetitive tasks: they exactly follow instructions and perform them quickly. But if the programmer has to write the same instructions for every repetition, they waste time and increase the chances of a mistake.
+
+In our example, instead of literally writing “play a sound, play a sound, play a sound, play a sound”, programmers can use a loop structure. A loop is a sequence of instructions which is specified once but which may be carried out several times in a row. In this case there is one instruction (play a sound) and it should be carried out 4 times.
+
+Loop structures can also specify that the instructions are repeated until a certain condition is met. For example, “Repeat a sound until you are booed off stage”.
+
+
+Exception
+Collect shipping and email address. Reject a purchase if either is incorrect.
+
+Errors, or exceptions, happen all the time in programming. You can’t escape them. But you can handle them gracefully.
+
+In exception handling, two sets of instructions are defined. The first set is executed, and if an exception occurs, the first set is stopped and the second set of instructions is executed.
+
+In this example,
+
+The first set is “collect shipping address”, “collect email address”
+The second set is “reject the purchase”
+If any errors occur in executing the first set—maybe the address is incorrectly formatted, or fake—it is stopped and the second set is executed.
+
+These statements are useful if you know an exception may occur in a set of instructions but you don’t know in which one, or you expect the same exception might occur in multiple, sequential instructions.
+
+
+Putting It All Together
+Let’s recreate the conditional control structure using JavaScript! (The one about social media posts, remember?)
+
+Diagram of conditional control structure
+
+The control flow shown above is written as a conditional control structure in main.js. It looks something like this:
+
+if (condition) {
+  DO SOMETHING
+} else {
+  DO SOMETHING DIFFERENT
+}
+If the condition evaluates to true, the computer will execute the body of that statement. In this case, it’s DO SOMETHING.
+
+If the condition is false, the computer will execute the body of the else statement. In this case, it’s DO SOMETHING DIFFERENT.
+
+Let’s adapt this general template to our example:
+
+The condition is true when the privacy mode is set to 'public'. This is already written for you in main.js.
+You’ll replace DO SOMETHING with a JavaScript function: showDetails().
+You’ll replace DO SOMETHING DIFFERENT with another function: hideDetails().
+The instructions below will show you how to do this in code!
+
+Instructions
+Complete the control structure by calling the functions below. If the mode is 'public', call:
+
+showDetails();
+Else, call:
+
+hideDetails();
+Run the code and test the website.
+
+If done correctly, the content of the post should be visible when you choose “Make Profile Public” in the dropdown, and the content of the post should be hidden when you choose “Make Profile Private”.
+
+
+"
+if (mode === 'public') {
+  // Call a function here to show the post details
+showDetails();
+} else {
+  // Call a function here to hide the post details
+hideDetails();
+}
+"
+
+
+Review
+Well done! Control flow is a fundamental concept in programming, and learning the basics will serve you wherever your path leads, regardless of language or domain. In review:
+
+Control flow is the order in which instructions are executed.
+Control structures alter control flow in a program. You learned three structures, each suited for a different scenario:
+Conditional: “if some condition is met, then do X. Otherwise, do Y”.
+Loop: “do something Z number of times” or “do something repeatedly until some condition is met”.
+Exception: “do steps A, B, C. If an error occurs, stop, and do steps J, K, L”.
+
+

@@ -1,0 +1,307 @@
+Introduction - What is Programming?
+When’s the last time you used Google? Probably today when you searched “learn coding” and “Codecademy” popped up on the list. How did Google know to give you Codecademy from that simple search? They did so through the constant development of complex computer programs.
+
+But what exactly is programming? Programming is the act of telling a computer what to do. A program can be as simple as telling a computer to print hello, world or as complex as telling a computer to predict what kinds of Facebook advertisements you like based on the search history of your browser.
+
+If you choose to take the computer science path, you will learn the fundamentals to write your own programs, but for now, let’s learn how programming came to be!
+
+The idea of computers and programming started long before the 21st century. Humans were always looking for devices to do tedious tasks. The abacus gave Chinese farmers a competitive advantage over others to count sheep. In 87 B.C., the Greeks created the Antikythera mechanism to calculate the positions of the stars and planets in order to assist with sea navigation.
+
+Over the years, these devices evolved into the more complex devices that we see today. In this lesson, we will give an overview of the history of programming and how our current era became the “the era of technology”.
+
+
+The First Programmer
+So how did the simple devices of the past evolve into the complex machines of today?
+
+Charles Babbage shifted the paradigm in 1837, when he proposed the “The Analytical Engine” - a computer that could perform various mathematical operations and conditional statements. For instance, you would feed the engine a program that translated to: “If the input is greater than 7, output 12”. Then, you would be able to input numbers into the engine and if that number was greater than 7, the engine would output 12. This seems simple, but for the time, a machine like this was unheard of!
+
+In 1847, Ada Lovelace elevated computer science by proposing the first real algorithm that the Analytical Engine could perform. An algorithm is a sequence of steps that the computer follows to solve a problem. In a paper about the Analytical Engine, Lovelace described a program that would calculate any Bernoulli Number. Because of this, some consider Ada Lovelace the first programmer.
+
+This algorithm was critical in the development of programming because it was the first proposal where a machine could generate mathematical output based solely on logic.
+
+
+Computers, Compute!
+In the 20th century, there was a growing need for mathematical computation. Before the rise of powerful machines, people would perform these mathematical computations by hand (e.g. the movie, Hidden Figures), and these people were called computers. They would sit in large rooms and solve complex equations with long, complicated decimals. Imagine your hardest math class without a calculator!
+
+However, with the rise of technological advancements, these people were replaced by machines that were named “computers” (surprise, surprise). These machines were improvements on Babbage’s original proposal and had the ability to perform even more complex mathematical operations. NASA used these machines for their rocket computations during the famous Space Race. These computers took up entire rooms and were operated with punch cards.
+
+Nasa Computers
+
+However, as cool as it sounds, we don’t use punch cards to write programs today. In 1971, a chip was developed that allowed users to type programs. This started the rise of personal computers with the IBM Selectric Typewriter. Today, computer scientists still type their programs using various programming languages.IBM Selectric Typewriter
+
+
+You're telling me this is a Computer?
+Remember Ada Lovelace and her first algorithm? In the same paper where she described her program, Lovelace predicted that one day computers could do much more than crunch numbers. Today, that prediction has held true! Programs can now make predictions about what tv shows you like, beat a grandmaster at chess, and personalize advertisements. But how did we get here?
+
+In 1947, Bell Labs invented something that would change computer science forever - transistors. Transistors are devices used to switch and amplify electronic signals: the basic building blocks of computers. The old method of switching and amplifying signals used unwieldy, fragile glass tubes. Transistors were sturdier, cheaper, and smaller, and scientific advances have only enhanced those traits. The first transistors were the size of the palm of your hand. Now, the average transistor is only the size of a couple of molecules!
+
+In fact, the computer scientist Gordon Moore predicted that transistors would get exponentially smaller. Since transistors are grouped into chips called integrated circuits, the prediction is expressed in those terms: Moore predicted that the amount of transistors in an integrated circuit would double every two years, and that prediction has held true! This is popularly known as Moore’s law.
+
+With better computers, programmers can solve more advanced problems, which leads to new and interesting jobs (we will get more into this in Lesson 3). For instance, if you are a programmer who enjoys educating the world you could get a job at Codecademy. If you are a TV and film aficionado, you could join Netflix or Hulu. If you love cars, you could join any car company (how about Tesla?)! Every industry needs programmers, and over time, you can develop the skills to become a high-valued programmer.
+
+
+What Now?
+The role of programming and computers has evolved over time, from the simple abacus to the complex laptops and supercomputers of today.
+
+Today, computer science is one of the fastest growing college degrees, and half of the top-earning jobs in the United States—those pulling in $57,000 per year or higher—require the ability to code. On the Codecademy platform, you will have the ability to learn these programming skills to score a great job.
+
+In the next lesson, we will explore how programming exactly works, for in the words of Bill Gates, “programming teaches you how to think”.
+
+
+
+
+
+
+What is Computer Science?
+Meet Kenny. Kenny is a bright young man who recently graduated from a prestigious university with a degree in Computer Science. But Kenny is a little disillusioned. He isn’t sure that he wants to go into software engineering or even be a part of the technology industry at all.
+
+Kenny thinks to himself, “how will I ever use any of these computer science skills out in the real world?”
+
+Kenny is not unique. Often the realm of computer science can feel indescribably abstract and arcane, even to those who study it. But in fact, the same abstractness that makes computer science feel inaccessible also makes it incredibly useful and applicable to a wide range of fields, disciplines, and industries. Computer Science isn’t just about learning how to code and program, it’s about learning how to view the world in a different way, to see patterns that emerge from the mundane, and to reveal opportunities for optimization and improvement around every corner.
+
+Over the course of this lesson, we will follow Kenny as he pursues a variety of different careers and hobbies and discovers that his computer science background is more relevant to his everyday life than he could have ever imagined.
+
+
+Kenny the Teacher
+Kenny’s first job out of college is teaching high-school algebra. It’s a normal day in school and Kenny needs to break the class up into pairs for a project. Sounds easy enough, but Kenny wants to match the students who are struggling with those who understand the material.
+
+Kenny looks at the problem and thinks to himself, “You know what? I’ll use an algorithm to pair up these students!”
+
+Kenny quickly writes up his class roster using the Python programming language and writes a program that pairs the highest scoring student with the lowest scoring student, the second highest scoring student with the second lowest scoring student, and so on.
+
+What does that mean?
+
+An algorithm is a step-by-step solution to a general type of problem. To solve this student-pairing problem, Kenny needs to write a sorting algorithm.
+
+"
+# This is a Python Dictionary that contains all of the students in Kenny's class as well as their grades.
+student_grades = {"Jeremy" : 87, "Kyla" : 82, "Ayesha" : 90, "Aleida" : 94, "Todd" : 79, "Maxwell" : 98, "Yolonda" : 81, "Kiyoko" : 71, "Dagmar" : 73, "Laura" : 91, "Shimeah" : 81, "Songqiao" : 92, "Frankie" : 87, "Natalia" : 95, "Gonzalo" : 82, "Pavel" : 78}
+
+# This is a function that determines the student with the highest grade given a dictionary
+def highest_grade(grades):
+	top_of_class = list(grades.keys())[0]
+	for student_a in grades:
+		for student_b in grades:
+			if (grades[student_a] > grades[student_b]) and (grades[student_a] > grades[top_of_class]):
+				top_of_class = student_a
+			elif (grades[student_b] > grades[student_a]) and (grades[student_b] > grades[top_of_class]):
+				top_of_class = student_b
+	return top_of_class
+
+# This is a function that determines the student with the lowest grade given a dictionary
+def lowest_grade(grades):
+	bottom_of_class = list(grades.keys())[0]
+	for student_a in grades:
+		for student_b in grades:
+			if (grades[student_a] < grades[student_b]) and (grades[student_a] < grades[bottom_of_class]):
+				bottom_of_class = student_a
+			elif (grades[student_b] < grades[student_a]) and (grades[student_b] < grades[bottom_of_class]):
+				bottom_of_class = student_b
+	return bottom_of_class
+
+# This is Kenny's Algorithm! It sorts the students into pairs based on their grades.
+def kennys_algorithm(grade_dict):
+	student_pairs = []
+	while len(grade_dict) > 0:
+		student_pairs.append([highest_grade(grade_dict), lowest_grade(grade_dict)])
+		grade_dict.pop(highest_grade(grade_dict))
+		grade_dict.pop(lowest_grade(grade_dict))
+	print(student_pairs)
+  
+# Paste the code below!
+kennys_algorithm(student_grades)
+"
+
+
+What are Algorithms?
+Algorithms have three main characteristics:
+
+They are sequential.
+Algorithms are performed step by step from start to finish. Kenny’s algorithm had to first build one pair of students, then another pair, then another pair, until all the students were paired up.
+They are conditional.
+Algorithms perform certain steps based on conditions of the system. Kenny’s algorithm needs to check the grade of each student as it builds the pairs to make sure that the highest scoring student is paired with the lowest scoring student and so forth.
+They are generalizable.
+Algorithms are applicable to many different problems that are of a similar type. For example, Kenny used his sorting algorithm to pair students in each of his different classes and then, later in the day, he also used it to build a tournament bracket for the school’s chess club. These are two different applications, but the generalizable nature of the sorting algorithm allowed it to be used in both situations.
+What would have been a pretty annoying task to do by hand became an easy job for the computer. This is the power of algorithms! Nearly every piece of technology in the world today uses some form of algorithms to sort, store, and access data efficiently and accurately.
+
+Studying computer science gives you the tools you need to apply algorithmic thinking to real-world problems and quickly complete tasks and optimize processes that would have otherwise been a burden to tackle. Kenny doesn’t know it yet, but algorithms are going to help him a lot in all sorts of situations!
+
+
+Functions
+Kenny got tired of the classroom and wanted to see more of the outdoors, so he took a job as a farmhand. Kenny, being the capable young man he is, quickly moved up the ranks of the farmhand hierarchy and was tasked with managing a team of new farmhands to harvest the strawberry fields.
+
+“How do I impart my knowledge of harvesting strawberries to these apprentice pickers?” thinks Kenny to himself. Well, whenever Kenny has a task that needs to be done many times over, like harvesting a strawberry, he thinks back to his computer science days and realizes he needs to write a function.
+
+A function is a specific set of repeatable instructions that takes an input, like a strawberry plant, and produces an output, like freshly picked strawberries. If this sounds like the definition of an algorithm, you’re right! An algorithm is conceptual, and a function can put an algorithm into practice.
+
+Kenny finds it helpful to consider functions as he writes instructions on how to harvest strawberries for all of the new pickers. “I need to have explicit, step by step instructions or my pickers will not consistently produce the correct output,” thinks Kenny. By thinking of these instructions as a function he is giving to the harvesters, Kenny ensures that harvesting strawberries is a repeatable, dependable task.
+
+
+Control Flow and Logic
+Although it was interesting and fun, Kenny didn’t feel that the farm life was quite right for him. But his time on the farm made him interested in food and food safety, so Kenny became a health inspector.
+
+In his job as a health inspector, he had to give the restaurants he inspected a grade. In order to grade them fairly, Kenny knew he had to develop a system to decide their score based on a set of conditions of the restaurant.
+
+Kenny would check each area in the restaurant in sequence: first the dining room, then the bar, then the servers station, and finally the kitchen.
+
+If he found any pests, dirt, or something unsanitary at any of those locations he would subtract a letter from the overall grade of the restaurant. The restaurants always started with an A, but by the end of the inspection sometimes they ended up having an F, and no one wants to eat at a restaurant with an F health grade.
+
+Kenny knew that what he had developed was a control flow. He had a set sequence he followed, and throughout that sequence, based on some conditionals he would lower the health grade of the establishment. This is a way of thinking that he learned when developing software. Kenny had turned his job as a health inspector into a sequence of if/then statements within a control flow. This allowed him to grade each restaurant fairly and consistently.
+
+
+Iteration
+Kenny saw the horrors of the food safety world but rather than those horrors driving him away, he thinks “I can do better!” and decides to take a job as a line cook at a local breakfast spot.
+
+The place is popular and on weekend mornings there is quite a brunch rush. Sometimes Kenny has to make five or more bacon egg and cheese sandwiches at once!
+
+He turns to his knowledge of computer science again. “Well, if I think of the rush as a list of orders, I can iterate through the list and do a step at a time for each sandwich, completing all of the bacon, egg, and cheeses at once!”
+
+So first Kenny puts the eggs for all five sandwiches on the grill, then he iterates through the orders and adds cheese to each one. Next, comes the bacon, he iterates through the list of orders and adds the bacon. Finally, the sandwiches are ready and he plates up each sandwich on a bagel. By iterating through his orders and performing the same operation on each of them, Kenny simplified his cooking process and delivered all five sandwiches on time!
+
+This idea of iteration is essential to computer science and is used in practically every type of application. When you need to perform the same operation on every item in a list, you iterate through the list to complete that task. Almost all algorithms depend on some sort of iteration to produce their results, and by studying computer science you will see not only how to iterate through lists and data structures, but how to iterate efficiently to complete a task in the optimum amount of time.
+
+"
+on_the_griddle = [["eggs"], ["eggs"], ["eggs"], ["eggs"]]
+
+def add_spinach(being_cooked):
+	for item in being_cooked:
+		item.append("spinach")
+	print(being_cooked)
+    
+def add_mushrooms(being_cooked):
+	for item in being_cooked:
+		item.append("mushrooms")
+	print(being_cooked)
+
+def add_cheese(being_cooked):
+	for item in being_cooked:
+		item.append("cheese")
+	print(being_cooked)
+  
+  
+# Paste your code on the lines below:
+add_spinach,add_mushrooms,add_cheese(on_the_griddle)
+"
+
+
+Optimization
+Being a line cook was a lot harder than Kenny thought! He wanted to find some more relaxing work so Kenny went and got a job at the small rare bookstore in town. Kenny finds that most of his time working at the bookstore is spent searching for rare books that customers request.
+
+Sadly, the store isn’t separated into sections or labeled well, so Kenny finds himself going through row after row of books without any real direction. After a couple times of trying to look through every book from start to finish to find the one he needs, Kenny knows he needs to think of a better method, to optimize his search.
+
+The good news is that the books are in alphabetical order, so Kenny thinks back to when he had to optimize searches when he was studying computer science and comes up with an idea. First, he’ll start on a middle shelf and check the name of the author there. If that author comes later in the alphabet than the one he’s looking for, he knows he only has to check the shelves on the left. If it comes before the author he’s looking for he only has to check the shelves on the right.
+
+He can then repeat this method on whichever side of the store the book must be on and slowly narrow down the area where the book must be. After repeating this process a couple times he is able to pinpoint the book and find it for the customer. Kenny knows that what he ended up implementing was a binary search, in computer science terms, and it ended up being able to effectively optimize his search time and reduce the amount of shelf scanning he had to do by several fold.
+
+Once again, his background in computer science is paying off!
+
+
+"
+# This binary search function will look for a book on a bookshelf by iteratively narrowing down the area where it might find the book, until it finds the book.
+def binary_search(lst, search_val):
+  if len(lst) == 0:
+    print("Book is not on the shelf!")
+    return
+  print("Checking the bookshelf and finding: {0}".format(lst[0]))
+  mid = len(lst) // 2
+  if lst[mid] == search_val:
+    print("\nFound the book: {0}\n\n\n\n\n\n".format(search_val))
+    return
+  elif lst[mid] > search_val:
+    binary_search(lst[:mid], search_val)
+  else:
+    binary_search(lst[(mid + 1):], search_val)
+
+# This linear search looks through a bookshelf book by book until it finds the book it is looking for.    
+def linear_search(lst, search_val):
+  count = 0
+  while len(lst) != 0:
+    print("Checking the bookshelf and finding: {0}".format(lst[0]))
+    if lst[0] == search_val:
+    	print("\nFound the book: {0}\n\n\n\n\n\n".format(search_val))
+    	return
+    lst = lst[1:]
+    count += 1
+with open("books.csv") as f:
+  books = f.read()
+  bookshelf = sorted(books.split(","))
+  
+# Copy-paste the search code below:
+binary_search(bookshelf, "Do Androids Dream of Electric Sheep?")
+"
+
+
+Abstraction
+Kenny is exhausted and frustrated. After all of these different jobs and roles he still feels no closer to discovering what he really wants to do with his life. He turns to his friend Mimiko for advice. “What should I do Mimiko? I feel as lost as ever!”
+
+“Well,” she says “you seemed to enjoy all of these jobs to a certain extent. What did they all have in common?”
+
+Kenny thinks, hmm, what DID they all have in common? “Well, I used my understanding of computer science topics to help make my work more efficient, reliable, and repeatable!” That’s it! Computer science! Huzzah!
+
+He realizes that all this time in all of these roles he had been practicing the fundamentals of computer science, but without a computer! Clearly that is where his passion must lie.
+
+This is the power of studying computer science. Learning the fundamental building blocks of how to optimize, how to build a process and control flow, and how to make sure your work is scalable will allow you to abstract these concepts into literally any field you might find yourself in.
+
+In our modern world, nearly every industry employs software engineers in some capacity. Having a strong understanding of computer science principles will give you the skills you need to excel in any discipline, even the ones where you least expect it. Although Kenny took the long way around, he now finds himself back in the fold, developing software to make people’s lives better, easier, and fuller.
+
+
+Introduction - Careers at the Frontier of Computer Science
+As you saw in the last lesson, the skills of computer science are applicable to nearly any industry. But if you’re truly interested in becoming a programmer, it’s good to get a sense of the jobs that you can do with an excellent understanding of computer science.
+
+In this short lesson, you will learn some of the jobs that you can accomplish with a knowledge of computer science, including:
+
+DevOps Engineer
+Machine Learning Engineer
+Robotics Engineer
+Quantum Computing Researcher
+While they may not be as wide-ranging as Kenny’s accomplishments, having a background in computer science is still applicable in a wide variety of industries and serves many different interests.
+
+
+Development Operations
+When people think about computer science and programming, they often think of software development: people making software. But how does that software get to users, and who maintains it while it’s out there? That’s IT operations: people deploying and maintaining existing software. Development and Operations both write code and make decisions that are critical to the product, but some companies organize them as different departments with different goals. DevOps is a combination of those two groups, in word and work. It’s an approach to software development where those teams work together to release code quickly and safely.
+
+DevOps roles fill this need by making automated systems to deploy code and bringing organizational changes that increase collaboration between development and operations teams. This allows them to improve their software by releasing new features quickly without breaking old ones.
+
+Roles like this may also be listed as Site Reliability Engineering. Site Reliability Engineering (SRE) was created at Google around 2003 with the same goals in mind and, like many things from that company, the name got popular.
+
+DevOps is an exciting field because it touches the entire release process. Who cares about a new feature if it’s not available to users? How can a new system create impact if it’s filled with bugs? DevOps ensures that new features and software is released quickly, has low rates of failure, and in the event that something does go wrong, that it will be fixed quickly.
+
+
+Machine Learning Engineer
+Another increasingly popular software engineer role is Machine Learning Engineer. As more companies use data science to make informed decisions, they hire more programmers specializing in Machine Learning (or ML for short). Machine Learning engineers build, well, machine learning algorithms. They focus on writing optimized algorithms that make use of massive amounts of data, which in turn can be used to create different products. So what distinguishes a machine learning engineer from a data scientist, or even a data engineer?
+
+While ML engineers need the holistic knowledge of a data scientist, they also need strong programming skills and an understanding of software development processes, like a traditional software engineer. Ultimately this combination means that rather than producing insights through their own analysis, they’re building the machine that will discover those insights for them. They’re harnessing data not just to communicate findings, but to build a system or product that utilizes that data directly.
+
+Being a ML engineer puts you at the cutting edge of two fields: software development and data science. So take note - while understanding computer science is important, to land this job you’ll need to have a solid background in data science as well!
+
+
+Robotics Developer
+We may jokingly say that robots are soon going to take over the world but according to Loup Ventures Research, the industrial robotics market is supposed to increase by 175% over the next 10 years. Whether it’s the arm that grabs your Amazon order off the shelf or your personal Roomba, robots are part of our lives in many different ways.
+
+Robotics encompasses several different fields, including mechanical engineering, electrical engineering, and, you guessed it, computer science. You can think of each of these fields as applying to a different part of the robot: the body [how it moves], the nervous system [how it senses], and the brain [how it decides]. So in addition to programming a computer, you also have the chance to design and put together the entire system.
+
+When designing a robot, its physical attributes are only half the battle. Consider the Mars Curiosity Rover, which landed on Mars in 2012. It’s a car-sized, incredible exploration machine, capable of analyzing soil samples, avoiding hazards, cleaning itself, and performing x-ray spectrometry. This is a massive mechanical and electrical engineering accomplishment, but the rover also requires software to run. Engineers at NASA wrote 2.5 million lines of C that tell Curiosity what to do and when to do it.
+
+In Robotics Engineering, you will have a chance to be at the forefront of designing some of the world’s most incredible machines.
+
+
+Quantum Computing
+Quantum Computing is the hot new field that has companies like IBM and Google racing to be at the forefront of an emerging industry — and studying computer science will help you be a part of it all.
+
+Quantum Computing refers to computational processes that utilize quantum mechanics. In order to explain quantum computing, it’s important to recall how traditional or “classical” computing works. In classical computing, information is stored in bits. Bits can have one state, on or off, also represented as ones and zeroes. Quantum computing results from the fact that subatomic particles can simultaneously exist in multiple states. Think of it as the difference between a situation being in black or white versus the entire color spectrum. With quantum computing, information is stored in a quantum bit (referred to as a qubit) which can have multiple states, store huge amounts of data, and use much less energy.
+
+Because quantum computing is able to store and process information in a much more sophisticated way, it is able to perform calculations and model phenomena much more quickly than even the fastest supercomputers. Given its capabilities, there are some really interesting applications for quantum computing related to information security, chemistry, finance, and artificial intelligence. However, you might have to wait a bit until we can really use quantum computing. While IBM has allowed people to use its quantum computing resources since 2016, early stages of commercialization will really begin to emerge in 2025 (Information Week, 2018).
+
+
+Review
+As you can see, studying computer science can set you up for a range of different jobs. No matter your interest, there’s probably a way to combine it with programming!
+
+To recap, here are several jobs related to computer science:
+
+DevOps Engineer
+Machine Learning Engineer
+Robotics Engineer
+Quantum Computing Researcher
+Of course, there are so many more applications that we haven’t listed. Take some time to explore other jobs on websites like Indeed.com or Glassdoor. In our modern age, nearly every industry requires software engineers to operate. Whether your passion is art, baseball, illegal dumplings, or space exploration, there are computer science jobs out there for you.
+
+

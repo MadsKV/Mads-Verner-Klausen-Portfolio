@@ -1,0 +1,560 @@
+/*What is Flexbox?*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+img {
+  margin: 10px auto;
+  height: auto;
+  width: auto;
+}
+
+ul {
+  text-align: right;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/*Sizing*/
+.container {
+  margin: 0 auto;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main {
+  background-color: #ffc200;
+}
+
+/*Header Section*/
+.header {
+  padding: 30px 0px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header li a {
+  color: #333;
+  margin: 0;
+  border: 0px;
+}
+
+/*Jumbotron Section*/
+.jumbotron {
+  background-color: #fff;
+  max-width: 1200px;
+  margin-left: 50px;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.jumbotron h2 span {
+  color: #ffc200;
+}
+
+.jumbotron p {
+  text-shadow: 0 0;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/*Banner Section*/
+.banner {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Expertise Section*/
+.cards {
+  background-color: #ffc200;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#expertise {
+  padding: 20px;
+  background-color: #ffc200;
+  margin: 0;
+  text-align: center;
+}
+
+/*Footer Section*/
+.footer {
+  padding: 60px 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+/*Display Flex*/
+
+body {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.container {
+  background-color: whitesmoke;
+}
+
+.box {
+  background-color: dodgerblue;
+  height: 100px;
+  width: 100px;
+  border: 1px solid lightgrey;
+}
+
+#flex {
+  display: flex;
+}
+
+/*Inline flex*/
+
+body {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.container {
+  width: 150px;
+  border: 1px solid grey;
+  display: inline-flex;
+}
+
+.box {
+  background-color: dodgerblue;
+  height: 75px;
+  width: 75px;
+  border: 1px solid turquoise;
+}
+
+/*Justify content*/
+
+body {
+  border: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+
+.container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.box {
+  height: 75px;
+  width: 100px;
+  background-color: dodgerblue;
+  border: 1px solid lightgrey;
+  display: inline-block;
+}
+
+#flexstart {
+  justify-content: flex-start;
+}
+
+#flexend {
+  justify-content: flex-end;
+}
+
+#center {
+  justify-content: center;
+}
+
+#spacearound {
+  justify-content: space-around;
+}
+
+#spacebetween {
+  justify-content: space-between;
+}
+
+/*Align Items*/
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container {
+  height: 150px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+.left,
+.center,
+.right {
+  min-height: 75px;
+  width: 125px;
+  background-color: dodgerblue;
+  border: 2px solid lightgrey;
+}
+
+#baseline .center {
+  height: 100px;
+  width: 100px;
+  border: 5px solid turquoise;
+}
+
+#flexstart {
+  align-items: flex-start;
+}
+
+#flexend {
+  align-items: flex-end;
+}
+
+#center {
+  align-items: center;
+}
+
+#baseline {
+  align-items: baseline;
+}
+
+/*Flex Grow*/
+
+body {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.top,
+.middle,
+.bottom {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border: 2px solid lightgrey;
+  margin: 10px 30px;
+}
+
+.top.side {
+  flex-grow: 1;
+}
+
+.top.center {
+  flex-grow: 1;
+}
+
+.middle.side {
+}
+
+.middle.center {
+  flex-grow: 1;
+}
+
+.bottom.side {
+  flex-grow: 1;
+}
+
+.bottom.center {
+  flex-grow: 2;
+}
+
+#top,
+#middle,
+#bottom {
+  display: flex;
+  background-color: Whitesmoke;
+  justify-content: center;
+  min-height: 200px;
+  align-items: center;
+}
+
+/*Flex Shrink*/
+body {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.top,
+.middle,
+.bottom {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border: 2px solid lightgrey;
+  margin: 10px 30px;
+}
+
+.top.side {
+  flex-shrink: 2;
+}
+
+.top.center {
+}
+
+.middle.side {
+  flex-shrink: 0;
+}
+
+.middle.center {
+}
+
+.bottom.side {
+}
+
+.bottom.center {
+  flex-shrink: 2;
+}
+
+#top,
+#middle,
+#bottom {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+  min-height: 200px;
+  align-items: center;
+}
+
+/*Flex Basis*/
+
+body {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  text-align: center;
+  font-size: 18px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.grow,
+.shrink {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border: 2px solid lightgrey;
+  margin: 10px 30px;
+}
+
+.grow.side {
+  flex-basis: 60px;
+  flex-grow: 1;
+}
+
+.grow.center {
+  flex-grow: 3;
+}
+
+.shrink.side {
+  flex-basis: 300px;
+  flex-shrink: 3;
+}
+
+.shrink.center {
+  flex-shrink: 2;
+  flex-basis: 150px;
+}
+
+#grows,
+#shrinks {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+  min-height: 200px;
+  align-items: center;
+}
+
+/*Flex*/
+
+body {
+  border: 0;
+  margin: 0 15px;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+
+.container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.side,
+.center {
+  height: 75px;
+  background-color: dodgerblue;
+  border: 1px solid lightgrey;
+  display: inline-block;
+}
+
+#top .side {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 100px;
+}
+
+#top .center {
+  flex-grow: 1;
+  flex-shrink: 3;
+  flex-basis: 50px;
+}
+
+#bottom .side {
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 75px;
+}
+
+#bottom .center {
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 100px;
+}
+
+/*Flex*/
+body {
+  border: 0;
+  margin: 0 15px;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+
+.container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.side,
+.center {
+  height: 75px;
+  background-color: dodgerblue;
+  border: 1px solid lightgrey;
+  display: inline-block;
+}
+
+#top .side {
+  flex: 2 2 100px;
+}
+
+#top .center {
+  flex: 1 3 50px;
+}
+
+#bottom .side {
+  flex: 1 2 75px;
+}
+
+#bottom .center {
+  flex: 2 1 100px;
+}
