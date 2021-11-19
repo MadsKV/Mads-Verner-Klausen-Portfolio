@@ -1,0 +1,16 @@
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\bin\Debug\net5.0\XML TechCollage V.2.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\bin\Debug\net5.0\XML TechCollage V.2.deps.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\bin\Debug\net5.0\XML TechCollage V.2.runtimeconfig.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\bin\Debug\net5.0\XML TechCollage V.2.runtimeconfig.dev.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\bin\Debug\net5.0\XML TechCollage V.2.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\bin\Debug\net5.0\ref\XML TechCollage V.2.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\bin\Debug\net5.0\XML TechCollage V.2.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\XML TechCollage V.2.csproj.AssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\XML TechCollage V.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\XML TechCollage V.2.AssemblyInfoInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\XML TechCollage V.2.AssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\XML TechCollage V.2.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\XML TechCollage V.2.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\ref\XML TechCollage V.2.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\XML TechCollage V.2.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML TechCollage V.2\XML TechCollage V.2\obj\Debug\net5.0\XML TechCollage V.2.genruntimeconfig.cache

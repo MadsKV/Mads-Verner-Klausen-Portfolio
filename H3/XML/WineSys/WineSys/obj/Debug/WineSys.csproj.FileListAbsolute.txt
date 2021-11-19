@@ -1,0 +1,7 @@
+C:\Users\henk\source\repos\WineSys\WineSys\bin\Debug\WineSys.exe.config
+C:\Users\henk\source\repos\WineSys\WineSys\bin\Debug\WineSys.exe
+C:\Users\henk\source\repos\WineSys\WineSys\bin\Debug\WineSys.pdb
+C:\Users\henk\source\repos\WineSys\WineSys\obj\Debug\WineSys.csprojAssemblyReference.cache
+C:\Users\henk\source\repos\WineSys\WineSys\obj\Debug\WineSys.csproj.CoreCompileInputs.cache
+C:\Users\henk\source\repos\WineSys\WineSys\obj\Debug\WineSys.exe
+C:\Users\henk\source\repos\WineSys\WineSys\obj\Debug\WineSys.pdb

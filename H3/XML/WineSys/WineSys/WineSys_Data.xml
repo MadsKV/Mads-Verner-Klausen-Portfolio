@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<winesys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <users>
+    <user name="Admin" password="admin1234" />
+    <user name="Henrik" password="asdf1234" />
+    <user name="Rikke" password="rikke123" />
+    <user name="Torben" password="torb1234" />
+  </users>
+  <categories>
+    <category cid="1" name="Rødvin" />
+    <category cid="2" name="Hvidvin" />
+    <category cid="3" name="Rosevin" />
+    <category cid="4" name="Mousserende" />
+    <category cid="5" name="Champagne" />
+  </categories>
+  <products>
+    <product pid="FincaN2014" cid="1" location="A12L" shelf="3">
+      <name>Finca Nueva Crianza 2014</name>
+      <description>Tempranillo 100%</description>
+    </product>
+    <product pid="Koyle2013" cid="1" location="A12L" shelf="4">
+      <name>Koyle, Carmenere Gran Reserva 2013</name>
+      <description>Carmenère 86, Malbec 8%, Petit Verdot 2 5%, Cabernet Franc 3%</description>
+    </product>
+    <product pid="Domaine2019" cid="1" location="A27R" shelf="1">
+      <name>Domaine Andre Brunel, Cotes du Rhone Cuvee Sommelongue</name>
+      <description>Grenache Noir 85%, Mourvèdre 5%, Syrah 5%, Cinsault 5%</description>
+    </product>
+    <product pid="QuintaT2011" cid="1" location="B31L" shelf="5">
+      <name>Quinta Touriga, Puro 2011</name>
+      <description>Touriga Nacional 85%, Touriga Franca 15%</description>
+    </product>
+    <product pid="Banfi2016" cid="2" location="A12L" shelf="5">
+      <name>Banfi, Le Rime 2016</name>
+      <description>Alc. 13%</description>
+    </product>
+    <product pid="PLehmannWC2013" cid="2" location="A12L" shelf="6">
+      <name>Peter Lehmann, Weighbridge Chardonnay 2013</name>
+      <description>Chardonnay 100%, Alc. 12%</description>
+    </product>
+    <product pid="ColumbiaC2016" cid="2" location="A13L" shelf="1">
+      <name>Columbia Crest, Grand Estates Chardonnay 2016</name>
+      <description>Alc. 13,5%</description>
+    </product>
+  </products>
+  <customers>
+    <customer custid="C001" phone="+4512312314">
+      <name>Svend Vind</name>
+      <address1>Alkovej 23</address1>
+      <address2 />
+      <address3>9700 Brønderslev</address3>
+    </customer>
+    <customer custid="C002" phone="+4598765447">
+      <name>Hans Lehmann</name>
+      <address1>Vindvej 1</address1>
+      <address2 />
+      <address3>9000 Aalborg</address3>
+    </customer>
+    <customer custid="C003" phone="+4598653214">
+      <name>Bent Banfi</name>
+      <address1>Vægtbro 4</address1>
+      <address2 />
+      <address3>9900 Frederikshavn</address3>
+    </customer>
+  </customers>
+  <suppliers>
+    <supplier suppid="0001" phone="+4500100111">
+      <name>Green Import</name>
+      <address1>Vinvej 2</address1>
+      <address2 />
+      <address3>9000 Aalborg</address3>
+    </supplier>
+    <supplier suppid="0002" phone="+4500020002">
+      <name>Vinhandelen X</name>
+      <address1>Skelvej 3</address1>
+      <address2 />
+      <address3>9000 Aalborg</address3>
+    </supplier>
+  </suppliers>
+  <orders>
+    <order oid="1" date="2018-01-04" custid="12121245" packedby="Henrik">
+      <orderline olid="1" pid="ColumbiaC2016" quantity="1" />
+      <orderline olid="2" pid="Banfi2016" quantity="1" />
+      <orderline olid="3" pid="Koyle2013" quantity="1" />
+    </order>
+    <order oid="2" date="2018-01-05" custid="12345601" packedby="Rikke">
+      <orderline olid="1" pid="PLehmannWC2013" quantity="1" />
+      <orderline olid="2" pid="ColumbiaC2016" quantity="2" />
+      <orderline olid="3" pid="Banfi2016" quantity="2" />
+    </order>
+    <order oid="3" date="2018-01-05" custid="24545612" packedby="Torben">
+      <orderline olid="1" pid="FincaN2014" quantity="1" />
+      <orderline olid="2" pid="Domaine2019" quantity="2" />
+      <orderline olid="3" pid="QuintaT2011" quantity="2" />
+    </order>
+    <order oid="4" date="2018-01-05" custid="12121245" packedby="Rikke">
+      <orderline olid="1" pid="Koyle2013" quantity="1" />
+      <orderline olid="2" pid="FincaN2014" quantity="2" />
+      <orderline olid="3" pid="Domaine2019" quantity="2" />
+    </order>
+    <order oid="5" date="2018-01-14" custid="12121245" packedby="Henrik">
+      <orderline olid="1" pid="ColumbiaC2016" quantity="1" />
+      <orderline olid="2" pid="Banfi2016" quantity="1" />
+      <orderline olid="3" pid="Koyle2013" quantity="1" />
+    </order>
+    <order oid="6" date="2018-02-05" custid="12345601" packedby="Rikke">
+      <orderline olid="1" pid="PLehmannWC2013" quantity="1" />
+      <orderline olid="2" pid="ColumbiaC2016" quantity="2" />
+      <orderline olid="3" pid="Banfi2016" quantity="2" />
+    </order>
+    <order oid="7" date="2018-03-05" custid="24545612" packedby="Torben">
+      <orderline olid="1" pid="FincaN2014" quantity="1" />
+      <orderline olid="2" pid="Domaine2019" quantity="2" />
+      <orderline olid="3" pid="QuintaT2011" quantity="2" />
+    </order>
+    <order oid="8" date="2018-04-05" custid="12121245" packedby="Rikke">
+      <orderline olid="1" pid="Koyle2013" quantity="1" />
+      <orderline olid="2" pid="FincaN2014" quantity="2" />
+      <orderline olid="3" pid="Domaine2019" quantity="2" />
+    </order>
+  </orders>
+  <deliveries>
+    <delivery did="1" date="2018-01-04" suppid="12121245">
+      <deliveryline dlid="1" pid="Banfi2016" quantity="100" />
+      <deliveryline dlid="2" pid="Koyle2013" quantity="200" />
+      <deliveryline dlid="3" pid="PLehmannWC2013" quantity="30" />
+    </delivery>
+    <delivery did="2" date="2018-02-05" suppid="12345601">
+      <deliveryline dlid="1" pid="FincaN2014" quantity="150" />
+      <deliveryline dlid="2" pid="PLehmannWC2013" quantity="200" />
+      <deliveryline dlid="3" pid="Banfi2016" quantity="120" />
+    </delivery>
+    <delivery did="3" date="2018-03-05" suppid="24545612">
+      <deliveryline dlid="1" pid="FincaN2014" quantity="30" />
+      <deliveryline dlid="2" pid="Domaine2019" quantity="250" />
+      <deliveryline dlid="3" pid="Koyle2013" quantity="100" />
+    </delivery>
+    <delivery did="4" date="2018-04-04" suppid="12121245">
+      <deliveryline dlid="1" pid="Banfi2016" quantity="50" />
+      <deliveryline dlid="2" pid="Koyle2013" quantity="150" />
+      <deliveryline dlid="3" pid="PLehmannWC2013" quantity="130" />
+    </delivery>
+    <delivery did="5" date="2018-05-05" suppid="12345601">
+      <deliveryline dlid="1" pid="FincaN2014" quantity="150" />
+      <deliveryline dlid="2" pid="PLehmannWC2013" quantity="200" />
+      <deliveryline dlid="3" pid="Banfi2016" quantity="120" />
+    </delivery>
+    <delivery did="6" date="2018-06-05" suppid="24545612">
+      <deliveryline dlid="1" pid="FincaN2014" quantity="30" />
+      <deliveryline dlid="2" pid="Domaine2019" quantity="250" />
+      <deliveryline dlid="3" pid="Koyle2013" quantity="100" />
+    </delivery>
+    <delivery did="7" date="2018-07-04" suppid="12121245">
+      <deliveryline dlid="1" pid="Banfi2016" quantity="100" />
+      <deliveryline dlid="2" pid="Koyle2013" quantity="200" />
+      <deliveryline dlid="3" pid="PLehmannWC2013" quantity="30" />
+    </delivery>
+    <delivery did="8" date="2018-08-05" suppid="12345601">
+      <deliveryline dlid="1" pid="FincaN2014" quantity="150" />
+      <deliveryline dlid="2" pid="PLehmannWC2013" quantity="200" />
+      <deliveryline dlid="3" pid="Banfi2016" quantity="120" />
+    </delivery>
+    <delivery did="9" date="2018-09-05" suppid="24545612">
+      <deliveryline dlid="1" pid="FincaN2014" quantity="130" />
+      <deliveryline dlid="2" pid="Domaine2019" quantity="200" />
+      <deliveryline dlid="3" pid="Koyle2013" quantity="110" />
+    </delivery>
+  </deliveries>
+</winesys>

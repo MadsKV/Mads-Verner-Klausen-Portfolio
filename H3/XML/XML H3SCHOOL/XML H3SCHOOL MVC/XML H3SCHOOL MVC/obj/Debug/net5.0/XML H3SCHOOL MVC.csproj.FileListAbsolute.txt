@@ -1,0 +1,39 @@
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\appsettings.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\XML H3SCHOOL MVC.exe
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\XML H3SCHOOL MVC.deps.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\XML H3SCHOOL MVC.runtimeconfig.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\XML H3SCHOOL MVC.runtimeconfig.dev.json
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\XML H3SCHOOL MVC.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\ref\XML H3SCHOOL MVC.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\XML H3SCHOOL MVC.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\XML H3SCHOOL MVC.Views.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\bin\Debug\net5.0\XML H3SCHOOL MVC.Views.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.csproj.AssemblyReference.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.AssemblyInfoInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.AssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.RazorAssemblyInfo.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.RazorAssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\staticwebassets\XML H3SCHOOL MVC.StaticWebAssets.Manifest.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\staticwebassets\XML H3SCHOOL MVC.StaticWebAssets.xml
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\scopedcss\bundle\XML H3SCHOOL MVC.styles.css
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.TagHelpers.input.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.TagHelpers.output.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.RazorCoreGenerate.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.RazorTargetAssemblyInfo.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.RazorTargetAssemblyInfo.cs
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.Views.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\ref\XML H3SCHOOL MVC.dll
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.pdb
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.genruntimeconfig.cache
+C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\H3\XML\XML H3SCHOOL\XML H3SCHOOL MVC\XML H3SCHOOL MVC\obj\Debug\net5.0\XML H3SCHOOL MVC.csproj.CopyComplete

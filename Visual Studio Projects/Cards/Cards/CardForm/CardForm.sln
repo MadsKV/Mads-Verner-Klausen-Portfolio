@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardForm", "CardForm\CardForm.csproj", "{DC52E70C-7233-4408-81E4-DAE623E2CD5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{5F92D13C-5167-4DB7-BBB3-3420ADAD4094}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DC52E70C-7233-4408-81E4-DAE623E2CD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC52E70C-7233-4408-81E4-DAE623E2CD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC52E70C-7233-4408-81E4-DAE623E2CD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F92D13C-5167-4DB7-BBB3-3420ADAD4094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F92D13C-5167-4DB7-BBB3-3420ADAD4094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F92D13C-5167-4DB7-BBB3-3420ADAD4094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F92D13C-5167-4DB7-BBB3-3420ADAD4094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,35 @@
+﻿<?xml version='1.0'?>
+<techCollage>
+  <teachers>
+    <teacher>
+      <firstname>Simon</firstname>
+      <lastname>Hoxer</lastname>
+      <age>34</age>
+    </teacher>
+    <teacher>
+      <firstname>Liselotte</firstname>
+      <lastname>Henriksen</lastname>
+      <age>51</age>
+    </teacher>
+  </teachers>
+  <students>
+    <student>
+      <firstname>Jack</firstname>
+      <lastname>Andersen</lastname>
+      <age>11</age>
+    </student>
+    <student>
+      <firstname>Mads</firstname>
+      <lastname>Klausen</lastname>
+      <age>24</age>
+    </student>
+  </students>
+  <classes>
+    <class name="H3PD10201012131">
+      <classRoom>P103</classRoom>
+    </class>
+    <class name="H2PD1020231">
+      <classRoom>P98</classRoom>
+    </class>
+  </classes>
+</techCollage>

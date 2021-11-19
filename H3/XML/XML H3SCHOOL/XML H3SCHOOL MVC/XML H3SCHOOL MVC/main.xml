@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<school>
+  <teams>
+    <team id="H3PD100121" classroomid="B109">
+      <students>
+        <student id="101010">
+          <firstname>Jack</firstname>
+          <lastname>Andersen</lastname>
+          <age>17</age>
+        </student>
+        <student id="101011">
+          <firstname>Martin</firstname>
+          <lastname>Hejlesen</lastname>
+          <age>23</age>
+        </student>
+        <student id="101012">
+          <firstname>Preben</firstname>
+          <lastname>Johansen</lastname>
+          <age>24</age>
+        </student>
+      </students>
+      <subjects>
+        <subject id="DBP">
+          <name>Databaseprogrammering</name>
+        </subject>
+        <subject id="SSP">
+          <name>Server side programmering</name>
+        </subject>
+        <subject id="XML">
+          <name>XML</name>
+        </subject>
+      </subjects>
+    </team>
+    <team id="H2PD200212" classroomid="B110">
+      <students>
+        <student id="101013">
+          <firstname>Bob</firstname>
+          <lastname>Andersen</lastname>
+          <age>25</age>
+        </student>
+        <student id="101014">
+          <firstname>Carl</firstname>
+          <lastname>Hejlesen</lastname>
+          <age>20</age>
+        </student>
+        <student id="101015">
+          <firstname>Kim</firstname>
+          <lastname>Johansen</lastname>
+          <age>33</age>
+        </student>
+      </students>
+      <subjects>
+        <subject suid="DBP">
+          <name>Databaseprogrammering</name>
+        </subject>
+        <subject suid="SSP">
+          <name>Server side programmering</name>
+        </subject>
+        <subject suid="XML">
+          <name>XML</name>
+        </subject>
+      </subjects>
+    </team>
+  </teams>
+  <classrooms>
+    <classroom id="B109">
+      Lokalet forneden i Hal 1-bygningen
+    </classroom>
+    <classroom id="B110">
+      Lokalet forneden i Hal 2-bygningen
+    </classroom>
+  </classrooms>
+</school>

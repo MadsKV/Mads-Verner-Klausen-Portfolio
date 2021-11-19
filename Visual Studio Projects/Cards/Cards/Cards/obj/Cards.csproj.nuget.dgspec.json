@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj": {}
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj": {
+    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj",
         "projectName": "Cards",
-        "projectPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj",
-        "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Cards\\Cards\\Cards\\obj\\",
+        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj",
+        "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\Cards\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
