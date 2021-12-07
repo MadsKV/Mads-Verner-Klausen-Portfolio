@@ -23,7 +23,11 @@
       class="fill-height"
     >
       <template #item="{ element }">
-        <task :task="element" />
+        <task
+          :task="element"
+          v-on:taskSaved="saveTask"
+          @taskRemoved="removeTask"
+        />
       </template>
     </draggable>
   </div>
@@ -41,6 +45,7 @@ export default {
   },
   props: {
     title: String,
+    nextId: Number,
   },
   data() {
     return {
@@ -54,6 +59,31 @@ export default {
     this.load();
   },
   methods: {
+    removeTask(data) {
+      let new_array = [];
+      for (var _i in this.tasks) {
+        console.log(_i);
+        var task = this.tasks.pop();
+        if (task.id == data.id) {
+          break;
+        } else {
+          new_array.push(task);
+        }
+      }
+      while (new_array.length > 0) {
+        this.task.push(new_array.pop());
+      }
+      this.save();
+    },
+    saveTask(data) {
+      for (var i in this.tasks) {
+        if (this.tasks[i].id == data.id) {
+          this.tasks[i].description = data.new_text;
+          this.save();
+          break;
+        }
+      }
+    },
     add() {
       var new_task = {
         id: 100,
@@ -62,6 +92,7 @@ export default {
       this.tasks.push(new_task);
       this.new_task_desc = "";
       this.save();
+      this.$emit("NewTaskCreated");
     },
     save() {
       var db = new PouchDB("Kanban");
