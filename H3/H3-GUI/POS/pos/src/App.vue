@@ -59,8 +59,8 @@ export default {
 </script>
 
 <style>
-body{
-  background: rgb(68,68,68);
+body {
+  background: rgb(68, 68, 68);
 }
 h2 {
   color: white;
@@ -72,13 +72,12 @@ p {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px 200px;
   grid-auto-rows: 150px;
-  
 }
-.price{
+.price {
   margin-left: 140px;
   margin-top: 50px;
 }
-.price-nine{
+.price-nine {
   margin-left: 140px;
   margin-top: 23px;
 }
@@ -88,9 +87,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(255,68,68) 0%,
-    rgb(255,0,0) 35%,
-    rgb(238,0,0) 100%
+    rgb(255, 68, 68) 0%,
+    rgb(255, 0, 0) 35%,
+    rgb(238, 0, 0) 100%
   );
 }
 .two {
@@ -99,9 +98,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(255,68,68) 0%,
-    rgb(255,0,0) 35%,
-    rgb(238,0,0) 100%
+    rgb(255, 68, 68) 0%,
+    rgb(255, 0, 0) 35%,
+    rgb(238, 0, 0) 100%
   );
 }
 .three {
@@ -110,9 +109,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(68,218,68) 0%,
-    rgb(0,204,0) 35%,
-    rgb(0,190,0) 100%
+    rgb(68, 218, 68) 0%,
+    rgb(0, 204, 0) 35%,
+    rgb(0, 190, 0) 100%
   );
 }
 .four {
@@ -121,9 +120,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(68,218,68) 0%,
-    rgb(0,204,0) 35%,
-    rgb(0,190,0) 100%
+    rgb(68, 218, 68) 0%,
+    rgb(0, 204, 0) 35%,
+    rgb(0, 190, 0) 100%
   );
 }
 .five {
@@ -132,9 +131,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(68,68,255) 0%,
-    rgb(0,0,255) 35%,
-    rgb(0,0,238) 100%
+    rgb(68, 68, 255) 0%,
+    rgb(0, 0, 255) 35%,
+    rgb(0, 0, 238) 100%
   );
 }
 .six {
@@ -143,9 +142,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(255,68,68) 0%,
-    rgb(255,0,0) 35%,
-    rgb(238,0,0) 100%
+    rgb(255, 68, 68) 0%,
+    rgb(255, 0, 0) 35%,
+    rgb(238, 0, 0) 100%
   );
 }
 .seven {
@@ -154,9 +153,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(0,204,204) 0%,
-    rgb(0,170,170) 35%,
-    rgb(0,159,159) 100%
+    rgb(0, 204, 204) 0%,
+    rgb(0, 170, 170) 35%,
+    rgb(0, 159, 159) 100%
   );
 }
 .eight {
@@ -165,9 +164,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(193,193,68) 0%,
-    rgb(170,170,0) 35%,
-    rgb(159,159,0) 100%
+    rgb(193, 193, 68) 0%,
+    rgb(170, 170, 0) 35%,
+    rgb(159, 159, 0) 100%
   );
 }
 .nine {
@@ -176,9 +175,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(193,193,68) 0%,
-    rgb(170,170,0) 35%,
-    rgb(159,159,0) 100%
+    rgb(193, 193, 68) 0%,
+    rgb(170, 170, 0) 35%,
+    rgb(159, 159, 0) 100%
   );
 }
 .ten {
@@ -187,9 +186,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(255,68,68) 0%,
-    rgb(255,0,0) 35%,
-    rgb(238,0,0) 100%
+    rgb(255, 68, 68) 0%,
+    rgb(255, 0, 0) 35%,
+    rgb(238, 0, 0) 100%
   );
 }
 .elleven {
@@ -198,9 +197,9 @@ p {
   margin: 5px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    rgb(68,68,255) 0%,
-    rgb(0,0,255) 35%,
-    rgb(0,0,238) 100%
+    rgb(68, 68, 255) 0%,
+    rgb(0, 0, 255) 35%,
+    rgb(0, 0, 238) 100%
   );
 }
 .twelve {
