@@ -1,1 +1,53 @@
-[{"Title": "Gløgg"}]
+[
+  { "Title": "3 Æbleskiver", "Price": "15", "Category": "Food" },
+  {
+    "Title": "5 Æbleskiver",
+    "Price": "20",
+    "Category": "Food"
+  },
+  {
+    "Title": "Gløgg",
+    "Price": "5",
+    "Category": "Bevrage"
+  },
+  {
+    "Title": "Kaffe",
+    "Price": "5",
+    "Category": "Bevrage"
+  },
+  {
+    "Title": "Cola 33 cl",
+    "Price": "10",
+    "Category": "Bevrage"
+  },
+  {
+    "Title": "Risengrød",
+    "Price": "15",
+    "Category": "Food"
+  },
+  {
+    "Title": "Bestik",
+    "Price": "5",
+    "Category": "Food"
+  },
+  {
+    "Title": "Julegodter",
+    "Price": "25",
+    "Category": "Food"
+  },
+  {
+    "Title": "Brændte Mandler",
+    "Price": "25",
+    "Category": "Food"
+  },
+  {
+    "Title": "Frugt",
+    "Price": "5",
+    "Category": "Food"
+  },
+  {
+    "Title": "Applesin 33 cl",
+    "Price": "10",
+    "Category": "Bevrage"
+  }
+]
