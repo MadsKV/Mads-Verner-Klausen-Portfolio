@@ -49,12 +49,42 @@
       <p class="price">100,-</p>
     </div>
   </div>
+  <div>
+
+  </div>
 </template>
 
 <script>
 export default {
   name: "App",
-  components: {},
+  components: {
+    
+  },
+  props: {
+
+  },
+
+  data() {
+
+  },
+
+  mounted() {
+    const axios = require('axios').default;
+
+    axios.get('/user?ID=12345')
+  .then(function (response) {
+    // handle success
+    console.log(response);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
+  },
+  
 };
 </script>
 
