@@ -1,13 +1,17 @@
 <template>
-  <div class="home"></div>
+  <div class="home"> <ProductGrid/></div>
 </template>
 
 <script>
 // @ is an alias to /src
 
+import ProductGrid from "@/components/ProductGrid.vue";
+
 export default {
   name: "Home",
-  components: {},
+  components: {
+    ProductGrid,
+  },
   data() {
     return { Products: [] };
   },

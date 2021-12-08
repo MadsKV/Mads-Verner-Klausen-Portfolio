@@ -1,4 +1,8 @@
-<template></template>
+<template>
+  <div>
+    <button v-on="click"> Add </button>
+  </div>
+</template>
 
 <script>
 export default {
