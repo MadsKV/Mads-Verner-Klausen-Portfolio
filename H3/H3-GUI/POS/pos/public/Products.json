@@ -1,5 +1,7 @@
 [
-  { "Title": "3 Æbleskiver", "Price": "15", "Category": "Food" },
+  { "Title": "3 Æbleskiver", 
+    "Price": "15", 
+    "Category": "Food" },
   {
     "Title": "5 Æbleskiver",
     "Price": "20",

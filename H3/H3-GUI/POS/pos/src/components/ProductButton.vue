@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button v-on="click"> Add </button>
+    <button v-on:click ="$emit('Bought' ,Title, Price)"> {{Title}} {{Price}} </button>
   </div>
 </template>
 

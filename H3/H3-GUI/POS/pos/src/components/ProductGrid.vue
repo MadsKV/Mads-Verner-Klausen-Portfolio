@@ -1,17 +1,8 @@
 <template>
   <div class="wrapper">
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
-    <div><ProductButton/></div>
+    <div v-for="p in Products" v-bind:key = "p.Title"><ProductButton v-on:Bought="onbought" v-bind:Title="p.Title" v-bind:Price="p.Price" /></div>
+  </div>
+  <div>
   </div>
 </template>
 
@@ -23,8 +14,14 @@ export default {
   components: {
     ProductButton,
   },
-  data(){
-
+  props: [
+    "Products"
+  ],
+  data() {},
+  methods:{
+    onbought(Title, Price){
+      this.$emit('Bought', Title, Price)
+    }
   },
 };
 </script>
@@ -33,6 +30,6 @@ export default {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200px;
+  grid-auto-rows: 100px;
 }
 </style>

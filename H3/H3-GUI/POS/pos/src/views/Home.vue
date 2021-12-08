@@ -1,5 +1,6 @@
 <template>
-  <div class="home"> <ProductGrid/></div>
+  <div class="home"> <ProductGrid v-bind:Products="Products" v-on:Bought='onbought'/></div>
+  {{sum}}
 </template>
 
 <script>
@@ -13,12 +14,17 @@ export default {
     ProductGrid,
   },
   data() {
-    return { Products: [] };
+    return { Products: [], sum:0};
   },
   mounted() {
     const axios = require("axios").default;
 
-    axios.get("/Products.json").then((Products) => (this.Products = Products));
+    axios.get("/Products.json").then((response) => (this.Products = response.data));
+  },
+  methods:{
+    onbought(Title, Price){
+      this.sum += parseInt(Price)
+    }
   },
 };
 </script>
