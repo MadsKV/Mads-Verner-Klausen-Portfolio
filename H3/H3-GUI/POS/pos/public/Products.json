@@ -20,7 +20,7 @@
   {
     "Title": "Cola 33 cl",
     "Price": "10",
-    "Category": "Bevrage"
+    "Category": "Soda"
   },
   {
     "Title": "Risengrød",
@@ -30,17 +30,17 @@
   {
     "Title": "Bestik",
     "Price": "5",
-    "Category": "Food"
+    "Category": "Misc"
   },
   {
     "Title": "Julegodter",
     "Price": "25",
-    "Category": "Food"
+    "Category": "Godter"
   },
   {
     "Title": "Brændte Mandler",
     "Price": "25",
-    "Category": "Food"
+    "Category": "Godter"
   },
   {
     "Title": "Frugt",
@@ -50,6 +50,6 @@
   {
     "Title": "Applesin 33 cl",
     "Price": "10",
-    "Category": "Bevrage"
+    "Category": "Soda"
   }
 ]

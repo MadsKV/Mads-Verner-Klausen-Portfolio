@@ -1,6 +1,10 @@
 <template>
   <div class="wrapper">
-    <div v-for="p in Products" v-bind:key = "p.Title"><ProductButton v-on:Bought="onbought" v-bind:Title="p.Title" v-bind:Price="p.Price" /></div>
+
+    <div class="posbutton"> 
+      
+    </div>
+    <div v-for="p in Products" v-bind:key = "p.Title"><ProductButton v-on:Bought="onbought" v-bind:Title="p.Title" v-bind:Price="p.Price" v-bind:Category="p.Category" /></div>
   </div>
   <div>
   </div>
@@ -27,6 +31,9 @@ export default {
 </script>
 
 <style>
+body{
+  background: rgb(75, 75, 75);
+}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
