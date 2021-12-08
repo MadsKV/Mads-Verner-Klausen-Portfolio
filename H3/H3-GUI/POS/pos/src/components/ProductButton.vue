@@ -1,5 +1,5 @@
 <template>
-  <div class="posbutton" v-bind:class="color">
+  <div v-bind:class="color">
     <button v-on:click="$emit('Bought', Title, Price)">
       {{ Title }} {{ Price }}
     </button>
@@ -31,22 +31,6 @@ export default {
 </script>
 
 <style>
-div.posbutton{
-  display:inline-block;
-  margin-left: auto;
-  vertical-align: top;
-  margin: 0.5%;
-
-  border: 0px;
-  height: 20vh;
-  cursor: pointer;
-  position: relative;
-
-  width: 19%;
-  color: white;
-  border-radius: 5px 5px 5px 5px;
-}
-
 .red {
   height: 70px;
   border-radius: 15px;

@@ -1,6 +1,6 @@
 <template>
   <div class="home"> <ProductGrid v-bind:Products="Products" v-on:Bought='onbought'/></div>
-  {{sum}}
+  <div class="sum">{{sum}}</div>
 </template>
 
 <script>
@@ -28,3 +28,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.sum{
+  color: white;
+}
+</style>
