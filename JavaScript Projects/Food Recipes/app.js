@@ -47,6 +47,9 @@ function generateHTML(results) {
                     <p class="item-data">Type:  ${
                       result.recipe.mealType
                     }</p>
+                    <p class="item-data">Ingredients:  ${
+                      result.recipe.ingredientsLines
+                    }</p>
                     </p>
                     <p class="item-data">Time to make:  ${
                       result.recipe.totalTime > 0 ? result.recipe.totalTime : " "
