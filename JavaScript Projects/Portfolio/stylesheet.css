@@ -453,6 +453,9 @@ p{
 #about .col-right p{
     margin-bottom: 20px;
 }
+#about .col-right p span{
+    color: crimson;
+}
 #about .col-right .cta{
     color: black;
     margin-bottom: 50px;
