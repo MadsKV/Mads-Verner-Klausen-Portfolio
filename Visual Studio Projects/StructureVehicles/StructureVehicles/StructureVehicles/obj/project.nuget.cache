@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jufUq/N11be/HfQv9myzbv/3Wmvv6wgpJS/dH2GaHiQ6E50LZQ00EPiX1LWyin7mo4rHuRmG1MOI+p0cNxvRCg==",
+  "dgSpecHash": "u0Vs3YdvfWuMsOMYsw5Achr20VlffMQuy/aNxCCO7bx/v9BNt7xA7Z5OjuuxgsAB238T58+wr1rNpMqlHnXQsw==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\StructureVehicles\\StructureVehicles\\StructureVehicles\\StructureVehicles.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\StructureVehicles\\StructureVehicles\\StructureVehicles\\StructureVehicles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

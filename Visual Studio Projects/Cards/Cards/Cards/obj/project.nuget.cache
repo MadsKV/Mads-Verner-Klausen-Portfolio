@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dUf213YLQ+vkoxuiiSVkiKrHgC8GAw+XJEGHm07hbA3GZ+TKxrinz2/sL0T2FyVg6yUuOme3S+tdZf0lfCAypw==",
+  "dgSpecHash": "jfYucQqW25jucn58nrc6SaQd0zuWZNH+qFjgYEfM1Y95HLduiQtpJ9zYA6Bw6rNnNaxuQeJARLIfaK7DuRAjuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\Cards\\Cards.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

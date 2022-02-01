@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj": {}
+    "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj": {
+    "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj",
         "projectName": "Thread_Example",
-        "projectPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj",
-        "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\obj\\",
+        "projectPath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj",
+        "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -57,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Mads\\.nuget\\packages\\": {}
+    "C:\\Users\\MadsV\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\StructureVehicles\\StructureVehicles\\StructureVehicles\\StructureVehicles.csproj",
+      "projectUniqueName": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\StructureVehicles\\StructureVehicles\\StructureVehicles\\StructureVehicles.csproj",
       "projectName": "StructureVehicles",
-      "projectPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\StructureVehicles\\StructureVehicles\\StructureVehicles\\StructureVehicles.csproj",
-      "packagesPath": "C:\\Users\\Mads\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\StructureVehicles\\StructureVehicles\\StructureVehicles\\obj\\",
+      "projectPath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\StructureVehicles\\StructureVehicles\\StructureVehicles\\StructureVehicles.csproj",
+      "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\StructureVehicles\\StructureVehicles\\StructureVehicles\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mads\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,12 +55,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

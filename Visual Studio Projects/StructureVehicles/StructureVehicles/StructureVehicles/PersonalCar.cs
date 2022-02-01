@@ -151,12 +151,10 @@ namespace StructureVehicles
             /// SafetyBar Struct Field and proberty
             /// </summary>
             public bool safetyBar;
-            private bool safetyBar;
             /// <summary>
             /// EngineSize Struct Field and proberty
             /// </summary>
             public double loadCapacity;
-            private double loadCapacity;
 
             /// <summary>
             /// ToString (String.Format)

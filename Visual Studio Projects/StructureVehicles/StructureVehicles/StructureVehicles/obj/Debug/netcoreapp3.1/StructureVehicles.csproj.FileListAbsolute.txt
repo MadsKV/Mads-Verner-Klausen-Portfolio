@@ -24,3 +24,10 @@ D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\StructureVehicles\Str
 D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.dll
 D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.pdb
 D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.genruntimeconfig.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.csproj.AssemblyReference.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.AssemblyInfoInputs.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.AssemblyInfo.cs
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.dll
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\StructureVehicles\StructureVehicles\StructureVehicles\obj\Debug\netcoreapp3.1\StructureVehicles.pdb

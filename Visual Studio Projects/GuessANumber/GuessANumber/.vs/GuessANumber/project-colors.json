@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "35192581-ebb4-4ec8-a338-e09d869bdf98": {
+      "ProjectGuid": "35192581-ebb4-4ec8-a338-e09d869bdf98",
+      "DisplayName": "GuessANumber",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

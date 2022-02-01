@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ygGdATdZpAXZuDObQfUoNUxPifUIota3HVCNz7y2o+l41aCBxJYsjdKrC5UsYUmSye2VYArlHtp82z6xRhNFqw==",
+  "dgSpecHash": "xv3GRwQ59QKtkXIagncWLe1DQYn9qNQt3ebSCSk1X3j57GfpYdLZFMpreQMSlRltLdfAdiRmkXx9z+Rv0byHcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\GuessANumber\\GuessANumber\\GuessANumber\\GuessANumber.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\GuessANumber\\GuessANumber\\GuessANumber\\GuessANumber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

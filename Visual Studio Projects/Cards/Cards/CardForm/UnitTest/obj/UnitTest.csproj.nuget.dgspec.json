@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\UnitTest.csproj": {}
+    "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj": {
+    "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj",
         "projectName": "CardForm",
-        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj",
+        "projectPath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\UnitTest.csproj": {
+    "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\UnitTest.csproj",
+        "projectPath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\MadsV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MadsV\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,8 +43,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj": {
-                "projectPath": "C:\\Users\\MadsV\\OneDrive\\Dokumenter\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj"
+              "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj": {
+                "projectPath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Cards\\Cards\\CardForm\\CardForm\\CardForm.csproj"
               }
             }
           }
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

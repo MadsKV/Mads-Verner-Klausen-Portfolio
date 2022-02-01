@@ -63,8 +63,8 @@ namespace StructureVehicles
             taxiSize.length = 18.00;
 
 
-            Bus School = new Bus("SchoolBus", 1800, "IC34O5S", 1994, 31000, true, 18, 21, Vehicle.fuelTypeEnum.Diesel, schoolSize, 18, 4, true);
-            Bus Taxi = new Bus("Taxi", 2100, "AK11S8P", 2004, 56000, true, 23, 19, Vehicle.fuelTypeEnum.Diesel, taxiSize, 6, 0, true);
+            Bus School = new Bus("SchoolBus", 1800, "IC34O5S", 1994, 31000, true, 18, 21, Vehicle.fuelTypeEnum.Diesel, schoolSize, 18, 4);
+            Bus Taxi = new Bus("Taxi", 2100, "AK11S8P", 2004, 56000, true, 23, 19, Vehicle.fuelTypeEnum.Diesel, taxiSize, 6, 0);
             #endregion
 
             #region ColorCoding

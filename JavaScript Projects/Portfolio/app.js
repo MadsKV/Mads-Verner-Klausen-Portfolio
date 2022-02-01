@@ -3,6 +3,15 @@ const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const header = document.querySelector('.header.container');
 
+
+const banner = document.getElementsByClassName('banner')[0];
+const blocks = document.getElementsByClassName('blocks');
+
+for(var i = 1; i < 400; i++){
+    banner.innerHTML += "<div class='blocks'></div>";
+    blocks[i].style.animationdelay = `${i * 0.05}'s`;
+}
+
 hamburger.addEventListener('click',()=>{
     hamburger.classList.toggle('active');
     mobile_menu.classList.toggle('active');

@@ -18,3 +18,14 @@ D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\
 D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\bin\Debug\CardForm.exe
 D:\GitHub\Mads-Verner-Klausen---Rep\Visual Studio Projects\Cards\Cards\CardForm\CardForm\bin\Debug\CardForm.pdb
 C:\Users\MadsV\OneDrive\Dokumenter\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.csproj.AssemblyReference.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\bin\Debug\CardForm.exe.config
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\bin\Debug\CardForm.exe
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\bin\Debug\CardForm.pdb
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.csproj.AssemblyReference.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.CardGeneratorIndex.resources
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.Properties.Resources.resources
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.csproj.GenerateResource.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.csproj.CoreCompileInputs.cache
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.exe
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Visual Studio Projects\Cards\Cards\CardForm\CardForm\obj\Debug\CardForm.pdb

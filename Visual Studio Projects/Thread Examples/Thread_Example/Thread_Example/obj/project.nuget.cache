@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hK04FkRv2jwE3f9WT88CjP3ZoM3yN5ehtO5pojuDQ6XhPZdeSvjYYaTKu0rs5UIDxuXqDKmamrRhVGYgGXpaZw==",
+  "dgSpecHash": "Alp9bsc+k498uw+JE6mjGZxD8jMV8bmQAh2tS4hzfV5xdUytKEHtvwE5l1dL8FdPiKe8Ie+1gBa6rZWiEpBi6g==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Mads-Verner-Klausen---Rep\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MadsV\\Documents\\GitHub\\Mads-Verner-Klausen-Portfolio\\Visual Studio Projects\\Thread Examples\\Thread_Example\\Thread_Example\\Thread_Example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\MadsV\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
