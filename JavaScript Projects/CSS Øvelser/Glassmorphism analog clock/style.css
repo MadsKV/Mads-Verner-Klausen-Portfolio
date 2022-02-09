@@ -158,7 +158,7 @@ body::after
     content: '';
     position: absolute;
     width: 2px;
-    height: 150;
+    height: 150px;
     background: #ff105e;
     z-index: 11;
     border-radius: 6px;

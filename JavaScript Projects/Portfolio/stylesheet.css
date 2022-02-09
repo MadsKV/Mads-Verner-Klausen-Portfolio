@@ -439,6 +439,7 @@ p{
 #projects .project-img img{
     transition: .3s ease transform;
 }
+
 #projects .project-item:hover .project-img img{
     transform: scale(1.1);
 }
@@ -768,3 +769,22 @@ p{
 }
 
 /* End Of Media Query For Desktop */
+
+
+
+#videosList {
+    max-width: 600px; 
+     overflow: hidden;
+   }
+   
+   .video {
+     background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
+     height: 330px;
+     width: 600px;
+     margin-bottom: 50px;
+   }
+   
+   /* Hide Play button + controls on iOS */
+   video::-webkit-media-controls {
+       display:none !important;
+   }
