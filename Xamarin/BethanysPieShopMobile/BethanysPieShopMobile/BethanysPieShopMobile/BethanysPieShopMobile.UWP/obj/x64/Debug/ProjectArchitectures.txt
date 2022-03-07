@@ -1,0 +1,1 @@
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Xamarin\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile.UWP\BethanysPieShopMobile.UWP.csproj;x64

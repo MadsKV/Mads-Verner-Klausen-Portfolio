@@ -1,0 +1,4 @@
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Xamarin\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile.Android\obj\Debug\120\MonoAndroid,Version=v12.0.AssemblyAttributes.cs
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Xamarin\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile.Android\obj\Debug\120\build.props
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Xamarin\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile.Android\obj\Debug\120\adb.props
+C:\Users\MadsV\Documents\GitHub\Mads-Verner-Klausen-Portfolio\Xamarin\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile\BethanysPieShopMobile.Android\obj\Debug\120\BethanysPieShopMobile.Android.csproj.AssemblyReference.cache
