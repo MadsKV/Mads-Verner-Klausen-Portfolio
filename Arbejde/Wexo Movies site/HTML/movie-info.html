@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/CSS/stylesheet.css" />
+
+    <!--Fav Icon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!--Title-->
+    <title>Movie Name - WXM</title>
+  </head>
+
+
+
+
+
+  <body>
+
+    <!--Scroll progress bar-->
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+
+
+    <!--Navigation-->
+    <nav class="navigation">
+      <!--Menu btn-->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+
+      <!--Logo-->
+      <a href="index.html" class="logo"> Movies<span>.hd</span> </a>
+
+      <!--Menu-->
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Genre</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Series</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <!--Search Box-->
+      <form action="" class="search-box">
+        <!--Input-->
+        <input
+          type="text"
+          name="search"
+          placeholder="Search Movie"
+          class="search-input"
+          required
+        />
+        <!--Btn-->
+        <button type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </nav>
+    <!--Navigation End-->
+
+
+    <!--Movie Banner-->
+    <section class="movie-banner">
+
+        <!--img-->
+        <div class="m-banner-img">
+            <img src="/img/m-b-1.jpg" alt="">
+        </div>
+
+        <!--Content-->
+        <div class="banner-container">
+
+            <!--Title container-->
+            <div class="title-container">
+
+                <!--Title-->
+                <div class="movie-title">
+                    <h1>Deadpool: Bad ass, Smart ass, Great ass</h1>
+                </div>
+            </div>
+
+                <!--play btn-->
+                <div class="play-btn-container"></div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--JQuery-->
+<script src="/JS/Jquery.js"></script>
+
+<script>
+    /*Progress bar*/
+    let scrollPrecentage = () =>{
+        let scrollProgress = document.getElementById("progress");
+        let progressValue = document.getElementById("progress-value");
+        let pos = document.documentElement.scrollTop;
+        let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let scrollValue = Math.round(pos * 100 / calcHeight);
+        scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+
+    }
+    window.onscroll = scrollPrecentage;
+    window.onload = scrollPrecentage;
+
+  /*Menu btn fixed when scroll*/
+  $(window).scroll(function(){
+      if($(document).scrollTop() > 20){
+          $('.navigation').addClass('fix-icon');
+      }
+      else{
+          $('.navigation').removeClass('fix-icon');
+      }
+  })
+</script>
+
+  </body>
