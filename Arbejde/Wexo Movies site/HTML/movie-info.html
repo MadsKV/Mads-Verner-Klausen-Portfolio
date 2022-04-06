@@ -28,17 +28,11 @@
     <title>Movie Name - WXM</title>
   </head>
 
-
-
-
-
   <body>
-
     <!--Scroll progress bar-->
     <div id="progress">
-        <span id="progress-value"></span>
+      <span id="progress-value"></span>
     </div>
-
 
     <!--Navigation-->
     <nav class="navigation">
@@ -78,91 +72,130 @@
     </nav>
     <!--Navigation End-->
 
-
     <!--Movie Banner-->
     <section class="movie-banner">
+      <!--img-->
+      <div class="m-banner-img">
+        <img src="/img/m-b-1.jpg" alt="" />
+      </div>
 
-        <!--img-->
-        <div class="m-banner-img">
-            <img src="/img/m-b-1.jpg" alt="">
-        </div>
-
-        <!--Content-->
-        <div class="banner-container">
-
-            <!--Title container-->
-            <div class="title-container">
-
-                <!--Title-->
-                <div class="movie-title">
-                    <h1>Deadpool: Bad ass, Smart ass, Great ass</h1>
-                </div>
+      <!--Content-->
+      <div class="banner-container">
+        <!--Title container-->
+        <div class="title-container">
+          <!--Title top-->
+          <div class="title-top">
+            <!--Title-->
+            <div class="movie-title">
+              <h1>Deadpool: Bad ass, Smart ass, Great ass</h1>
             </div>
+            <!--More about movie-->
+            <div class="more-about-movie">
+              <span class="quality">Full HD</span>
+              <div class="rating">
+                8.2 <img src="/img/imdb-removebg-preview.png" alt="imbd" />
+              </div>
+              <span>28 August 2017</span>
+              <span>87 Minutes</span>
+            </div>
+            <!--Language-->
+            <div class="language">
+              <span>English</span>
+            </div>
+          </div>
 
-                <!--play btn-->
-                <div class="play-btn-container"></div>
+          <!--Title Bottom-->
+          <div class="title-bottom">
+              <!--Category-->
+              <div class="category">
+                  <strong>Category</strong><br/>
+                  <a href="#">Comedy</a>,<a href="#">Action</a>,<a href="#">Drama</a>
+              </div>
+              <!--Trailer button-->
+              <a href="#" class="watch-btn">Watch Trailer</a>
+          </div>
 
         </div>
 
+        <!--play btn-->
+        <div class="play-btn-container">
+            <div class="play-btn">
+                <a href="javascript:void">
+                    <i class="fas fa-play"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--Video/Full Movie-->
+        <div id="play" class="play">
+            <!--Close Button-->
+            <a href="javascript:void" class="close-movie">
+                <i class="fas fa-times"></i>
+            </a>
+            <!--Movie-->
+            <div class="play-movie">
+                <video id="m-video" controls>
+                    <source src="" type="video/mp4">
+                </video>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--Banner End-->
 
 
-
-
-
-
-
-
-
+    <!--Details-->
+    <section class="movie-details">
+        <strong>Deadpool: Bad ass, Smart ass, Great ass</strong>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veniam? Quisquam fuga placeat debitis quod qui. Praesentium mollitia, maiores repellat labore dolores culpa nihil tenetur quaerat reprehenderit facilis unde error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio veniam veritatis tenetur quas minima recusandae consequuntur eum, corrupti delectus obcaecati ipsam illum incidunt? Iure ipsam ipsum architecto perferendis consequatur excepturi?</p>
     </section>
 
 
 
 
+    <!--JQuery-->
+    <script src="/JS/Jquery.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--JQuery-->
-<script src="/JS/Jquery.js"></script>
-
-<script>
-    /*Progress bar*/
-    let scrollPrecentage = () =>{
+    <script>
+      /*Progress bar*/
+      let scrollPrecentage = () => {
         let scrollProgress = document.getElementById("progress");
         let progressValue = document.getElementById("progress-value");
         let pos = document.documentElement.scrollTop;
-        let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        let scrollValue = Math.round(pos * 100 / calcHeight);
+        let calcHeight =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        let scrollValue = Math.round((pos * 100) / calcHeight);
         scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+      };
+      window.onscroll = scrollPrecentage;
+      window.onload = scrollPrecentage;
 
-    }
-    window.onscroll = scrollPrecentage;
-    window.onload = scrollPrecentage;
+      /*Menu btn fixed when scroll*/
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 20) {
+          $(".navigation").addClass("fix-icon");
+        } else {
+          $(".navigation").removeClass("fix-icon");
+        }
+      });
 
-  /*Menu btn fixed when scroll*/
-  $(window).scroll(function(){
-      if($(document).scrollTop() > 20){
-          $('.navigation').addClass('fix-icon');
-      }
-      else{
-          $('.navigation').removeClass('fix-icon');
-      }
-  })
-</script>
-
+      /*Popup open*/
+      $(document).on('click','.play-btn a', function(){
+          $('.play').addClass('active-popup');
+      });
+      /*Popup close*/
+      $(document).on('click','.close-movie', function(){
+          $('.play').removeClass('active-popup');
+      });
+      /*Autoplay when popup opens*/
+      $('.play-btn a').click(function(){
+          $('#m-video')[0].play();
+      });
+      /*Close video when popup close*/
+      $('.close-movie').click(function(){
+          $('#m-video')[0].pause();
+      });
+    </script>
   </body>
+</html>
